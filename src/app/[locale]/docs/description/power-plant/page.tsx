@@ -36,8 +36,8 @@ export default async function PowerPlantPage({
             {dict.power_plant.apu_title}
           </h2>
           <ContentCard 
-            title={dict.power_plant.apu_card_title}
-            description={dict.power_plant.apu_card_description}
+            title={dict.power_plant.card_title}
+            description={dict.power_plant.card_description}
           >
             <DiagramViewer 
               src="/img/p133_vector_Diagram_Page_133.png" 
