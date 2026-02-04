@@ -1,0 +1,85 @@
+[
+  {
+    "metadata": {
+      "Source Page": "67",
+      "Document Section": "/docs/description/ground-clearances"
+    },
+    "tables": [
+      {
+        "title": "FLAPS EXTENDED",
+        "headers": [
+          "DESCRIPTION",
+          "ID",
+          "A/C IN MAINTENANCE CONFIGURATION MID CG (m)",
+          "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)",
+          "MAXIMUM RAMP WEIGHT FWD CG (m)",
+          "MAXIMUM RAMP WEIGHT FWD CG (ft)",
+          "MAXIMUM RAMP WEIGHT AFT CG (m)",
+          "MAXIMUM RAMP WEIGHT AFT CG (ft)"
+        ],
+        "rows": [
+          {
+            "DESCRIPTION": "FLAP 1 INBD",
+            "ID": "A",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (m)": "2.49 m",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)": "8.17 ft",
+            "MAXIMUM RAMP WEIGHT FWD CG (m)": "2.37 m",
+            "MAXIMUM RAMP WEIGHT FWD CG (ft)": "7.78 ft",
+            "MAXIMUM RAMP WEIGHT AFT CG (m)": "2.34 m",
+            "MAXIMUM RAMP WEIGHT AFT CG (ft)": "7.68 ft"
+          },
+          {
+            "DESCRIPTION": "FLAP 1 TAB INBD",
+            "ID": "B",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (m)": "1.95 m",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)": "6.40 ft",
+            "MAXIMUM RAMP WEIGHT FWD CG (m)": "1.83 m",
+            "MAXIMUM RAMP WEIGHT FWD CG (ft)": "6.00 ft",
+            "MAXIMUM RAMP WEIGHT AFT CG (m)": "1.80 m",
+            "MAXIMUM RAMP WEIGHT AFT CG (ft)": "5.91 ft"
+          },
+          {
+            "DESCRIPTION": "FLAP 1 OUTBD",
+            "ID": "C",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (m)": "2.71 m",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)": "8.89 ft",
+            "MAXIMUM RAMP WEIGHT FWD CG (m)": "2.60 m",
+            "MAXIMUM RAMP WEIGHT FWD CG (ft)": "8.53 ft",
+            "MAXIMUM RAMP WEIGHT AFT CG (m)": "2.57 m",
+            "MAXIMUM RAMP WEIGHT AFT CG (ft)": "8.43 ft"
+          },
+          {
+            "DESCRIPTION": "FLAP 2 INBD",
+            "ID": "D",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (m)": "2.84 m",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)": "9.32 ft",
+            "MAXIMUM RAMP WEIGHT FWD CG (m)": "2.73 m",
+            "MAXIMUM RAMP WEIGHT FWD CG (ft)": "8.96 ft",
+            "MAXIMUM RAMP WEIGHT AFT CG (m)": "2.70 m",
+            "MAXIMUM RAMP WEIGHT AFT CG (ft)": "8.86 ft"
+          },
+          {
+            "DESCRIPTION": "FLAP 2 TAB OUTBD",
+            "ID": "E",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (m)": "3.53 m",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)": "11.58 ft",
+            "MAXIMUM RAMP WEIGHT FWD CG (m)": "3.41 m",
+            "MAXIMUM RAMP WEIGHT FWD CG (ft)": "11.19 ft",
+            "MAXIMUM RAMP WEIGHT AFT CG (m)": "3.37 m",
+            "MAXIMUM RAMP WEIGHT AFT CG (ft)": "11.06 ft"
+          },
+          {
+            "DESCRIPTION": "FLAP 2 OUTBD",
+            "ID": "F",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (m)": "3.74 m",
+            "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)": "12.27 ft",
+            "MAXIMUM RAMP WEIGHT FWD CG (m)": "3.62 m",
+            "MAXIMUM RAMP WEIGHT FWD CG (ft)": "11.88 ft",
+            "MAXIMUM RAMP WEIGHT AFT CG (m)": "3.58 m",
+            "MAXIMUM RAMP WEIGHT AFT CG (ft)": "11.75 ft"
+          }
+        ]
+      }
+    ]
+  }
+]

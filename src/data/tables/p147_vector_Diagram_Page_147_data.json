@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "147",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Engine Dimensions",
+      "headers": [
+        "Measurement Description",
+        "Metric (mm)",
+        "Imperial (in)"
+      ],
+      "rows": [
+        [
+          "Total Length (Overall)",
+          "3548 mm",
+          "139.68 in"
+        ],
+        [
+          "Length (Fan tip to Turbine Frame end)",
+          "3327 mm",
+          "130.98 in"
+        ],
+        [
+          "Fan and Booster Length",
+          "1352 mm",
+          "53.23 in"
+        ],
+        [
+          "Turbine Frame Diameter",
+          "1084 mm",
+          "42.68 in"
+        ],
+        [
+          "Overall Width (View B)",
+          "2487 mm",
+          "97.91 in"
+        ],
+        [
+          "Fan Case Width (View B)",
+          "2152 mm",
+          "84.72 in"
+        ],
+        [
+          "Overall Height (View B)",
+          "2242 mm",
+          "88.27 in"
+        ],
+        [
+          "Centerline to Bottom (View B)",
+          "1165 mm",
+          "45.87 in"
+        ],
+        [
+          "Centerline to Left Edge (View B)",
+          "1236 mm",
+          "48.66 in"
+        ]
+      ]
+    }
+  ]
+}

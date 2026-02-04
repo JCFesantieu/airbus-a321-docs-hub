@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "Source Page": "181",
+    "Document Section": "/docs/performance/take-off-weight"
+  },
+  "tables": [
+    {
+      "title": "Take-off Weight vs Runway Length for various Airport Pressure Altitudes",
+      "headers": [
+        "Runway Length (1000 ft)",
+        "Airport Pressure Altitude: 0 (1000 ft)",
+        "Airport Pressure Altitude: 2 (1000 ft)",
+        "Airport Pressure Altitude: 4 (1000 ft)",
+        "Airport Pressure Altitude: 6 (1000 ft)",
+        "Airport Pressure Altitude: 8 (1000 ft)"
+      ],
+      "rows": [
+        {
+          "Runway Length (1000 ft)": "4 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "155 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "145 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "135 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "125 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "115 1000 lb"
+        },
+        {
+          "Runway Length (1000 ft)": "6 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "185 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "175 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "165 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "155 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "145 1000 lb"
+        },
+        {
+          "Runway Length (1000 ft)": "8 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "205 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "195 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "185 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "175 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "165 1000 lb"
+        },
+        {
+          "Runway Length (1000 ft)": "10 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "215 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "205 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "195 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "185 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "175 1000 lb"
+        },
+        {
+          "Runway Length (1000 ft)": "12 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "220 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "210 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "200 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "190 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "180 1000 lb"
+        },
+        {
+          "Runway Length (1000 ft)": "14 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "222 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "212 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "202 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "192 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "182 1000 lb"
+        },
+        {
+          "Runway Length (1000 ft)": "16 1000 ft",
+          "Airport Pressure Altitude: 0 (1000 ft)": "224 1000 lb",
+          "Airport Pressure Altitude: 2 (1000 ft)": "214 1000 lb",
+          "Airport Pressure Altitude: 4 (1000 ft)": "204 1000 lb",
+          "Airport Pressure Altitude: 6 (1000 ft)": "194 1000 lb",
+          "Airport Pressure Altitude: 8 (1000 ft)": "184 1000 lb"
+        }
+      ]
+    }
+  ]
+}

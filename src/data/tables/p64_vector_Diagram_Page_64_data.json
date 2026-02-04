@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "Source Page": "64",
+    "Document Section": "/docs/description/ground-clearances"
+  },
+  "tables": [
+    {
+      "title": "Ground Clearances",
+      "headers": [
+        "Category",
+        "A/C CONFIGURATION",
+        "ID",
+        "MRW (WV0) 101 400 kg (223 549 lb) - FWD CG (17.5%) - m",
+        "MRW (WV0) 101 400 kg (223 549 lb) - FWD CG (17.5%) - ft",
+        "MRW (WV0) 101 400 kg (223 549 lb) - AFT CG (38%) - m",
+        "MRW (WV0) 101 400 kg (223 549 lb) - AFT CG (38%) - ft",
+        "OEW 52 000 kg (114 640 lb) - CG (25%) - m",
+        "OEW 52 000 kg (114 640 lb) - CG (25%) - ft",
+        "A/C JACKED FDL = 4.60 m (15.09 ft) - m",
+        "A/C JACKED FDL = 4.60 m (15.09 ft) - ft"
+      ],
+      "rows": [
+        ["PASSENGER DOORS", "DOOR 1", "D1", "3.375 m", "11.073 ft", "3.462 m", "11.358 ft", "3.487 m", "11.440 ft", "4.132 m", "13.556 ft"],
+        ["PASSENGER DOORS", "EMERGENCY HATCH 1", "D2", "3.869 m", "12.693 ft", "3.880 m", "12.730 ft", "3.949 m", "12.956 ft", "4.535 m", "14.878 ft"],
+        ["PASSENGER DOORS", "EMERGENCY HATCH 2", "D3", "3.875 m", "12.713 ft", "3.881 m", "12.733 ft", "3.953 m", "12.969 ft", "4.535 m", "14.878 ft"],
+        ["PASSENGER DOORS", "DOOR 2", "D4", "3.955 m", "12.976 ft", "3.961 m", "12.995 ft", "4.033 m", "13.232 ft", "4.615 m", "15.141 ft"],
+        ["PASSENGER DOORS", "DOOR 3", "D5", "3.585 m", "11.762 ft", "3.497 m", "11.473 ft", "3.624 m", "11.890 ft", "4.132 m", "13.556 ft"],
+        ["CARGO DOORS", "FWD CARGO DOOR", "C1", "1.796 m", "5.892 ft", "1.866 m", "6.122 ft", "1.901 m", "6.237 ft", "2.532 m", "8.307 ft"],
+        ["CARGO DOORS", "AFT CARGO DOOR", "C2", "1.939 m", "6.361 ft", "1.890 m", "6.201 ft", "1.994 m", "6.542 ft", "2.532 m", "8.307 ft"],
+        ["CARGO DOORS", "BULK CARGO DOOR", "C3", "2.180 m", "7.152 ft", "2.111 m", "6.926 ft", "2.227 m", "7.306 ft", "2.749 m", "9.019 ft"],
+        ["REFERENCE POINT", "PILOT VIEW", "CP1", "4.177 m", "13.704 ft", "4.285 m", "14.058 ft", "4.298 m", "14.101 ft", "4.959 m", "16.269 ft"],
+        ["FUSELAGE", "BOTTOM FWD", "F1", "1.708 m", "5.604 ft", "1.769 m", "5.804 ft", "1.809 m", "5.935 ft", "2.434 m", "7.985 ft"],
+        ["FUSELAGE", "BOTTOM AFT", "F2", "1.844 m", "6.050 ft", "1.792 m", "5.879 ft", "1.898 m", "6.227 ft", "2.434 m", "7.985 ft"],
+        ["FUSELAGE", "TOP FWD", "F3", "5.852 m", "19.199 ft", "5.911 m", "19.393 ft", "5.952 m", "19.527 ft", "6.575 m", "21.571 ft"],
+        ["FUSELAGE", "TOP AFT", "F4", "5.988 m", "19.645 ft", "5.934 m", "19.468 ft", "6.041 m", "19.819 ft", "6.575 m", "21.571 ft"],
+        ["WING", "BELLY FAIRING", "BF1", "1.616 m", "5.302 ft", "1.606 m", "5.269 ft", "1.687 m", "5.535 ft", "2.256 m", "7.401 ft"],
+        ["WING", "FLAP TRACK 2", "T2", "2.609 m", "8.560 ft", "2.598 m", "8.524 ft", "2.680 m", "8.793 ft", "3.248 m", "10.656 ft"],
+        ["WING", "FLAP TRACK 3", "T3", "3.042 m", "9.980 ft", "3.027 m", "9.931 ft", "3.112 m", "10.210 ft", "3.677 m", "12.064 ft"],
+        ["WING", "FLAP TRACK 4", "T4", "3.378 m", "11.083 ft", "3.357 m", "11.014 ft", "3.445 m", "11.302 ft", "4.005 m", "13.140 ft"],
+        ["WING", "SHARKLET TOP", "W1", "6.718 m", "22.040 ft", "6.679 m", "21.912 ft", "6.777 m", "22.234 ft", "7.324 m", "24.029 ft"],
+        ["WING", "SHARKLET BOTTOM", "W2", "4.078 m", "13.379 ft", "4.039 m", "13.251 ft", "4.137 m", "13.573 ft", "4.684 m", "15.367 ft"],
+        ["TAILPLANE", "HORIZONTAL TAIL PLANE", "HT", "5.425 m", "17.798 ft", "5.302 m", "17.395 ft", "5.450 m", "17.880 ft", "5.93 m", "19.455 ft"],
+        ["TAILPLANE", "APU EXHAUST", "AP", "4.709 m", "15.449 ft", "4.577 m", "15.016 ft", "4.730 m", "15.518 ft", "5.203 m", "17.070 ft"],
+        ["TAILPLANE", "VERTICAL TAIL PLANE", "VT", "11.946 m", "39.192 ft", "11.818 m", "38.772 ft", "11.968 m", "39.265 ft", "12.445 m", "40.830 ft"],
+        ["ENGINE/NACELLE", "PW NACELLE FRONT LOW POINT", "N1", "0.653 m", "2.142 ft", "0.682 m", "2.238 ft", "0.741 m", "2.431 ft", "1.340 m", "4.396 ft"],
+        ["ENGINE/NACELLE", "PW 1100 NACELLE LOW POINT", "N1", "0.450 m", "1.476 ft", "0.465 m", "1.526 ft", "0.532 m", "1.745 ft", "1.120 m", "3.674 ft"],
+        ["ENGINE/NACELLE", "CFM NACELLE FRONT LOW POINT", "N1", "0.618 m", "2.028 ft", "0.647 m", "2.123 ft", "0.706 m", "2.316 ft", "1.305 m", "4.281 ft"],
+        ["ENGINE/NACELLE", "CFM LEAP NACELLE LOW POINT", "N1", "0.450 m", "1.476 ft", "0.465 m", "1.526 ft", "0.532 m", "1.745 ft", "1.120 m", "3.674 ft"]
+      ]
+    }
+  ]
+}

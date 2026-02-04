@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "Source Page": "69",
+    "Document Section": "/docs/description/ground-clearances"
+  },
+  "tables": [
+    {
+      "title": "FLAP TRACKS RETRACTED",
+      "headers": [
+        "DESCRIPTION",
+        "ID",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (m)",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)",
+        "MAXIMUM RAMP WEIGHT FWD CG (m)",
+        "MAXIMUM RAMP WEIGHT FWD CG (ft)",
+        "MAXIMUM RAMP WEIGHT AFT CG (m)",
+        "MAXIMUM RAMP WEIGHT AFT CG (ft)"
+      ],
+      "rows": [
+        [
+          "FLAP TRACK 2",
+          "A",
+          "2.70 m",
+          "8.86 ft",
+          "2.60 m",
+          "8.53 ft",
+          "2.58 m",
+          "8.46 ft"
+        ],
+        [
+          "FLAP TRACK 3",
+          "B",
+          "3.10 m",
+          "10.17 ft",
+          "3.00 m",
+          "9.84 ft",
+          "2.97 m",
+          "9.74 ft"
+        ],
+        [
+          "FLAP TRACK 4",
+          "C",
+          "3.50 m",
+          "11.48 ft",
+          "3.39 m",
+          "11.12 ft",
+          "3.36 m",
+          "11.02 ft"
+        ]
+      ]
+    }
+  ]
+}

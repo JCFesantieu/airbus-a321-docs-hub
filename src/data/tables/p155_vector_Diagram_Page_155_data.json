@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "Source Page": "155",
+    "Document Section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "Jacking Point Coordinates and Maximum Load Eligible",
+      "headers": [
+        "Point Description",
+        "X (m)",
+        "X (ft)",
+        "Y (m)",
+        "Y (ft)",
+        "MAXIMUM LOAD ELIGIBLE (daN)"
+      ],
+      "rows": [
+        [
+          "FORWARD FUSELAGE JACKING POINT A",
+          "2.74 m",
+          "8.99 ft",
+          "0 m",
+          "0 ft",
+          "6 800 daN"
+        ],
+        [
+          "WING JACKING POINT B",
+          "21.83 m",
+          "71.62 ft",
+          "6.50 m",
+          "21.33 ft",
+          "33 400 daN"
+        ],
+        [
+          "WING JACKING POINT B'",
+          "21.83 m",
+          "71.62 ft",
+          "-6.50 m",
+          "-21.33 ft",
+          "33 400 daN"
+        ],
+        [
+          "SAFETY STAY C",
+          "39.5 m",
+          "129.59 ft",
+          "0 m",
+          "0 ft",
+          "2 000 daN"
+        ]
+      ]
+    }
+  ]
+}

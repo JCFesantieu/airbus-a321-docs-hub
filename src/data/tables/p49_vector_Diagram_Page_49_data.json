@@ -1,0 +1,95 @@
+[
+  {
+    "metadata": {
+      "Source Page": "49",
+      "Document Section": "/docs/description/dimensions"
+    },
+    "tables": [
+      {
+        "title": "Aircraft Dimensions - Top View",
+        "headers": [
+          "Dimension Description",
+          "Metric (m)",
+          "Imperial (ft)"
+        ],
+        "rows": [
+          [
+            "Total Length",
+            "44.51 m",
+            "146.03 ft"
+          ],
+          [
+            "Distance from nose to CFM56 engine center",
+            "15.46 m",
+            "50.72 ft"
+          ],
+          [
+            "Distance from nose to V2500 engine center",
+            "15.39 m",
+            "50.49 ft"
+          ],
+          [
+            "Distance from nose to main landing gear center",
+            "26.72 m",
+            "87.67 ft"
+          ],
+          [
+            "Distance from centerline to engine center",
+            "5.75 m",
+            "18.86 ft"
+          ],
+          [
+            "Distance from centerline to engine pylon (outer)",
+            "6.07 m",
+            "19.91 ft"
+          ],
+          [
+            "Fuselage width",
+            "3.95 m",
+            "12.96 ft"
+          ],
+          [
+            "Distance from centerline to main landing gear",
+            "4.87 m",
+            "15.98 ft"
+          ],
+          [
+            "Distance from centerline to horizontal stabilizer tip",
+            "8.30 m",
+            "27.23 ft"
+          ],
+          [
+            "Distance from centerline to wingtip",
+            "11.91 m",
+            "39.07 ft"
+          ],
+          [
+            "Distance from tail tip to vertical stabilizer trailing edge",
+            "1.24 m",
+            "4.07 ft"
+          ],
+          [
+            "Vertical stabilizer width at tip",
+            "3.31 m",
+            "10.86 ft"
+          ],
+          [
+            "Wingtip detail dimension 1",
+            "1.50 m",
+            "4.92 ft"
+          ],
+          [
+            "Wingtip detail dimension 2",
+            "1.82 m",
+            "5.97 ft"
+          ],
+          [
+            "Wingtip detail dimension 3",
+            "0.76 m",
+            "2.49 ft"
+          ]
+        ]
+      }
+    ]
+  }
+]

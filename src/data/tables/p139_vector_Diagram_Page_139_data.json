@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "Source Page": "139",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Approximate Dimensions by Cowl Position",
+      "headers": [
+        "Cowl Position (Angle)",
+        "Max Width (m)",
+        "Max Width (ft)",
+        "Horizontal Distance from Centerline to Tip (m)",
+        "Horizontal Distance from Centerline to Tip (ft)",
+        "Vertical Distance from Ground to Tip (m)",
+        "Vertical Distance from Ground to Tip (ft)"
+      ],
+      "rows": [
+        [
+          "45°",
+          "3.7 m",
+          "12.1 ft",
+          "1 m",
+          "3.3 ft",
+          "1 m",
+          "3.3 ft"
+        ],
+        [
+          "35°",
+          "3.3 m",
+          "10.8 ft",
+          "0.9 m",
+          "3 ft",
+          "0.7 m",
+          "2.3 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Caution: Slat Actuation Restrictions",
+      "headers": [
+        "Restriction",
+        "Thrust Reverser Cowl Position",
+        "Blocker Doors Status"
+      ],
+      "rows": [
+        [
+          "DO NOT ACTUATE SLATS",
+          "45° OPEN POSITION",
+          "N/A"
+        ],
+        [
+          "DO NOT ACTUATE SLATS",
+          "35° AND 45° OPEN POSITION",
+          "OPEN"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "Source Page": "51",
+    "Document Section": "/docs/description/dimensions"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Overall Length",
+          "44.51 m",
+          "146.03 ft"
+        ],
+        [
+          "Distance from nose to CFM56 engine front",
+          "15.46 m",
+          "50.72 ft"
+        ],
+        [
+          "Distance from nose to V2500 engine front",
+          "15.39 m",
+          "50.49 ft"
+        ],
+        [
+          "Distance from nose to main landing gear",
+          "27.72 m",
+          "90.94 ft"
+        ],
+        [
+          "Distance from centerline to engine centerline",
+          "5.75 m",
+          "18.86 ft"
+        ],
+        [
+          "Distance from centerline to wing tip",
+          "16.29 m",
+          "53.44 ft"
+        ],
+        [
+          "Distance from centerline to horizontal stabilizer tip (leading edge)",
+          "8.30 m",
+          "27.23 ft"
+        ],
+        [
+          "Distance from centerline to horizontal stabilizer tip (trailing edge)",
+          "11.91 m",
+          "39.07 ft"
+        ],
+        [
+          "Distance from centerline to inner wing point",
+          "3.95 m",
+          "12.96 ft"
+        ],
+        [
+          "Distance from centerline to outer wing point",
+          "4.87 m",
+          "15.98 ft"
+        ],
+        [
+          "Distance from engine front to wing leading edge",
+          "6.07 m",
+          "19.91 ft"
+        ],
+        [
+          "Horizontal stabilizer width (outer section)",
+          "3.31 m",
+          "10.86 ft"
+        ],
+        [
+          "Horizontal stabilizer width (inner section)",
+          "1.24 m",
+          "4.07 ft"
+        ],
+        [
+          "Winglet longitudinal dimension 1",
+          "1.64 m",
+          "5.38 ft"
+        ],
+        [
+          "Winglet longitudinal dimension 2",
+          "3.22 m",
+          "10.56 ft"
+        ],
+        [
+          "Winglet lateral dimension",
+          "1.61 m",
+          "5.28 ft"
+        ]
+      ]
+    }
+  ]
+}

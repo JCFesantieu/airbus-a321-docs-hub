@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "Source Page": "91",
+    "Document Section": "/docs/description/cargo"
+  },
+  "tables": [
+    {
+      "title": "A321 NEO-XLR Cargo Compartment Configurations",
+      "headers": [
+        "Configuration",
+        "Compartment",
+        "Standard Capacity",
+        "Additional Equipment / Features"
+      ],
+      "rows": [
+        [
+          "Left Diagram",
+          "Forward",
+          "3 ULDs",
+          "RCT (Rear Center Tank) located between FR50 and FR47"
+        ],
+        [
+          "Left Diagram",
+          "Aft",
+          "5 ULDs",
+          "None"
+        ],
+        [
+          "Right Diagram",
+          "Forward",
+          "3 ULDs",
+          "RCT (Rear Center Tank) located between FR50 and FR47"
+        ],
+        [
+          "Right Diagram",
+          "Aft",
+          "3 ULDs",
+          "ACT (Optional)"
+        ]
+      ]
+    },
+    {
+      "title": "Forward Cargo Compartment Frame References",
+      "headers": [
+        "Frame Reference",
+        "Description"
+      ],
+      "rows": [
+        [
+          "FR64",
+          "Forward boundary of the compartment"
+        ],
+        [
+          "FR59",
+          "Intermediate frame reference"
+        ],
+        [
+          "FR50",
+          "Boundary between ULD section and RCT"
+        ],
+        [
+          "FR47",
+          "Aft boundary of the forward compartment"
+        ]
+      ]
+    }
+  ]
+}

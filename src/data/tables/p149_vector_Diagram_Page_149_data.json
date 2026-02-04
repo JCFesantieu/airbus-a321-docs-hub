@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "Source Page": "149",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Engine Cowl Opening Dimensions",
+      "headers": [
+        "Description",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Width of open cowls",
+          "4.90 m",
+          "16.08 ft"
+        ],
+        [
+          "Ground clearance to open cowl",
+          "0.81 m",
+          "2.66 ft"
+        ],
+        [
+          "Full open position angle",
+          "53.5°",
+          "53.5°"
+        ]
+      ]
+    }
+  ]
+}

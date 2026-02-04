@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "Source Page": "90",
+    "Document Section": "/docs/description/cargo"
+  },
+  "tables": [
+    {
+      "title": "Cargo Compartment Dimensions for A321 NEO-XLR",
+      "headers": [
+        "Dimension Description",
+        "WITH REGULAR WASTE TANK",
+        "WITH OPTION INCREASED WASTE TANK"
+      ],
+      "rows": [
+        [
+          "Rear Cargo Compartment Length",
+          "8 m (314.96 in)",
+          "7.47 m (294.09 in)"
+        ],
+        [
+          "Front Cargo Compartment Length",
+          "8.15 m (320.87 in)",
+          "8.15 m (320.87 in)"
+        ],
+        [
+          "Rear Door Width",
+          "1.81 m (71.26 in)",
+          "1.81 m (71.26 in)"
+        ],
+        [
+          "Front Door Width",
+          "1.81 m (71.26 in)",
+          "1.81 m (71.26 in)"
+        ],
+        [
+          "Rear Door Secondary Dimension",
+          "0.86 m (33.86 in)",
+          "0.86 m (33.86 in)"
+        ]
+      ]
+    }
+  ]
+}

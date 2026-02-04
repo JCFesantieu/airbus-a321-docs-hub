@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "Source Page": "143",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Thrust Reverser Dimensions",
+      "headers": [
+        "Condition",
+        "Parameter",
+        "Metric Value",
+        "Imperial Value"
+      ],
+      "rows": [
+        [
+          "Closed",
+          "Total Width",
+          "2 m",
+          "6.6 ft"
+        ],
+        [
+          "Open 45°",
+          "Total Width",
+          "3.6 m",
+          "11.8 ft"
+        ],
+        [
+          "Open 45°",
+          "Distance from Centerline to Inner Edge",
+          "0.9 m",
+          "3 ft"
+        ],
+        [
+          "Open 45°",
+          "Distance from Centerline to Outer Edge",
+          "1.1 m",
+          "3.6 ft"
+        ],
+        [
+          "Open 45°",
+          "Height from Ground",
+          "1 m",
+          "3.3 ft"
+        ]
+      ]
+    }
+  ]
+}

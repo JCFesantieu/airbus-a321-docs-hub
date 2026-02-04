@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "Source Page": "161",
+    "Document Section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Jacking and Ground Clearance Heights",
+      "headers": [
+        "CONFIGURATION",
+        "CG POSITION (% MAC)",
+        "HEIGHT L (m)",
+        "HEIGHT L (ft)",
+        "HEIGHT M (m)",
+        "HEIGHT M (ft)",
+        "HEIGHT N (m)",
+        "HEIGHT N (ft)"
+      ],
+      "rows": [
+        {
+          "CONFIGURATION": "AIRCRAFT ON WHEELS, SHOCK-ABSORBER DEFLATED, TIRES DEFLATED (RH)",
+          "CG POSITION (% MAC)": "12",
+          "HEIGHT L (m)": "1.92 m",
+          "HEIGHT L (ft)": "6.30 ft",
+          "HEIGHT M (m)": "3.27 LH / 2.78 RH",
+          "HEIGHT M (ft)": "10.73 LH / 9.12 RH",
+          "HEIGHT N (m)": "3.07 m",
+          "HEIGHT N (ft)": "10.07 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON WHEELS, SHOCK-ABSORBER DEFLATED, TIRES DEFLATED (RH)",
+          "CG POSITION (% MAC)": "41",
+          "HEIGHT L (m)": "2.11 m",
+          "HEIGHT L (ft)": "6.92 ft",
+          "HEIGHT M (m)": "3.26 LH / 2.78 RH",
+          "HEIGHT M (ft)": "10.70 LH / 9.12 RH",
+          "HEIGHT N (m)": "2.89 m",
+          "HEIGHT N (ft)": "9.48 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON JACKS, FDL AT 5.26 m (17.26 ft), AIRCRAFT FUSELAGE PARALLEL TO THE GROUND, SHOCK-ABSORBER RELAXED, CLEARANCE OF MAIN GEAR WHEELS = 0.70 m (2.30 ft) (STANDARD TIRES 01), CLEARANCE OF NOSE GEAR WHEELS = 1 m (3.28 ft) (STANDARD TIRES 01)",
+          "CG POSITION (% MAC)": "12",
+          "HEIGHT L (m)": "3.28 m",
+          "HEIGHT L (ft)": "10.76 ft",
+          "HEIGHT M (m)": "4.43 m",
+          "HEIGHT M (ft)": "14.53 ft",
+          "HEIGHT N (m)": "4.52 m",
+          "HEIGHT N (ft)": "14.83 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON JACKS, FDL AT 5.26 m (17.26 ft), AIRCRAFT FUSELAGE PARALLEL TO THE GROUND, SHOCK-ABSORBER RELAXED, CLEARANCE OF MAIN GEAR WHEELS = 0.70 m (2.30 ft) (STANDARD TIRES 01), CLEARANCE OF NOSE GEAR WHEELS = 1 m (3.28 ft) (STANDARD TIRES 01)",
+          "CG POSITION (% MAC)": "41",
+          "HEIGHT L (m)": "3.28 m",
+          "HEIGHT L (ft)": "10.76 ft",
+          "HEIGHT M (m)": "4.43 m",
+          "HEIGHT M (ft)": "14.53 ft",
+          "HEIGHT N (m)": "4.52 m",
+          "HEIGHT N (ft)": "14.83 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON WHEELS (STANDARD TIRES 01) MAXIMUM JACKING WEIGHT = 69 000 kg (152 119 lb)",
+          "CG POSITION (% MAC)": "12",
+          "HEIGHT L (m)": "1.88 m",
+          "HEIGHT L (ft)": "6.17 ft",
+          "HEIGHT M (m)": "3.17 m",
+          "HEIGHT M (ft)": "10.40 ft",
+          "HEIGHT N (m)": "3.39 m",
+          "HEIGHT N (ft)": "11.12 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON WHEELS (STANDARD TIRES 01) MAXIMUM JACKING WEIGHT = 69 000 kg (152 119 lb)",
+          "CG POSITION (% MAC)": "41",
+          "HEIGHT L (m)": "2.06 m",
+          "HEIGHT L (ft)": "6.76 ft",
+          "HEIGHT M (m)": "3.17 m",
+          "HEIGHT M (ft)": "10.40 ft",
+          "HEIGHT N (m)": "3.21 m",
+          "HEIGHT N (ft)": "10.53 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON WHEELS (STANDARD TIRES 01) OEW = 49 208 kg (108 485 lb)",
+          "CG POSITION (% MAC)": "12",
+          "HEIGHT L (m)": "1.93 m",
+          "HEIGHT L (ft)": "6.33 ft",
+          "HEIGHT M (m)": "3.21 m",
+          "HEIGHT M (ft)": "10.53 ft",
+          "HEIGHT N (m)": "3.42 m",
+          "HEIGHT N (ft)": "11.22 ft"
+        },
+        {
+          "CONFIGURATION": "AIRCRAFT ON WHEELS (STANDARD TIRES 01) OEW = 49 208 kg (108 485 lb)",
+          "CG POSITION (% MAC)": "41",
+          "HEIGHT L (m)": "2.16 m",
+          "HEIGHT L (ft)": "7.09 ft",
+          "HEIGHT M (m)": "3.20 m",
+          "HEIGHT M (ft)": "10.50 ft",
+          "HEIGHT N (m)": "3.19 m",
+          "HEIGHT N (ft)": "10.47 ft"
+        }
+      ]
+    }
+  ]
+}

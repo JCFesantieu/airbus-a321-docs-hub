@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "Source Page": "169",
+    "Document Section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "A321 NEO WV052 AND WV053",
+      "headers": [
+        "Description",
+        "Value"
+      ],
+      "rows": [
+        [
+          "MAXIMUM DESIGN TAXI WEIGHT (MTW)",
+          "93 900 kg (207 014 lb)"
+        ],
+        [
+          "MAXIMUM DESIGN TAKE-OFF WEIGHT (MTOW)",
+          "93 500 kg (206 132 lb)"
+        ],
+        [
+          "MAXIMUM LOAD VALUE TO BE APPLIED ON NLG JACKING POINT",
+          "12 207 kg (26 912 lb)"
+        ],
+        [
+          "NUMBER OF JACKING POINTS ON ONE MLG",
+          "1"
+        ],
+        [
+          "MAXIMUM LOAD VALUE TO BE APPLIED ON MLG JACKING POINT (LEFT OR RIGHT)",
+          "59 103 kg (130 300 lb)"
+        ]
+      ]
+    }
+  ]
+}

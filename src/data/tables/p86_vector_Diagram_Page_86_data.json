@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "Source Page": "86",
+    "Document Section": "/docs/description/cargo"
+  },
+  "tables": [
+    {
+      "title": "Cargo Compartment Data for A321 NEO-ACF",
+      "headers": [
+        "Compartment",
+        "Capacity",
+        "Frame Range",
+        "Door Width (m)",
+        "Door Width (in)",
+        "Compartment Length (m)",
+        "Compartment Length (in)"
+      ],
+      "rows": [
+        [
+          "FWD CARGO COMPARTMENT",
+          "5 CONTAINERS",
+          "FR24A to FR35.5",
+          "1.81 m",
+          "71.26 in",
+          "8.15 m",
+          "320.87 in"
+        ],
+        [
+          "AFT CARGO COMPARTMENT",
+          "5 CONTAINERS",
+          "FR47.2 to FR59",
+          "1.81 m",
+          "71.26 in",
+          "11.4 m (Total Aft + Bulk)",
+          "448.82 in (Total Aft + Bulk)"
+        ],
+        [
+          "BULK CARGO COMPARTMENT",
+          "N/A",
+          "FR59 to FR65",
+          "0.86 m",
+          "33.86 in",
+          "11.4 m (Total Aft + Bulk)",
+          "448.82 in (Total Aft + Bulk)"
+        ]
+      ]
+    }
+  ]
+}

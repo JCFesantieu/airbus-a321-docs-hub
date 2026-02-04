@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "Source Page": "105",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Dimensions",
+      "headers": [
+        "Description",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Nose to Main Landing Gear",
+          "20.62 m",
+          "67.65 ft"
+        ],
+        [
+          "Main Landing Gear to Point A",
+          "1.83 m",
+          "6.00 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Door Detail A Dimensions",
+      "headers": [
+        "Description",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Aircraft Centerline to Door Hinge",
+          "1.94 m",
+          "6.36 ft"
+        ],
+        [
+          "Aircraft Centerline to Door Edge (Open)",
+          "0.49 m",
+          "1.61 ft"
+        ],
+        [
+          "Aircraft Centerline to Door Edge (Closed)",
+          "0.21 m",
+          "0.69 ft"
+        ],
+        [
+          "Aircraft Centerline to Door Bottom Edge (Open)",
+          "1.23 m",
+          "4.04 ft"
+        ],
+        [
+          "Door Radius",
+          "1.76 m",
+          "5.77 ft"
+        ],
+        [
+          "Ground Clearance",
+          "0.14 m",
+          "0.46 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Additional Information",
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Door Opening Angle",
+          "84°"
+        ],
+        [
+          "Value of CG",
+          "25% RC"
+        ]
+      ]
+    }
+  ]
+}

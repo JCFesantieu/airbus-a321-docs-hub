@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "Source Page": "106",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Radome Opening Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric Value",
+        "Imperial Value"
+      ],
+      "rows": [
+        [
+          "Horizontal distance from hinge line to nose tip",
+          "0.63 m",
+          "2.07 ft"
+        ],
+        [
+          "Vertical distance from center line to top of radome",
+          "1.54 m",
+          "5.05 ft"
+        ],
+        [
+          "Radome opening angle",
+          "65°",
+          "65°"
+        ]
+      ]
+    }
+  ]
+}

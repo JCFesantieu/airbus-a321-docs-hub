@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "Source Page": "77",
+    "Document Section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "PASSENGER SEATS (185 TOTAL)",
+      "headers": [
+        "Category",
+        "Quantity",
+        "Configuration"
+      ],
+      "rows": [
+        [
+          "FIRST CLASS",
+          "16 SEATS",
+          "4 ABREAST - 36 in PITCH"
+        ],
+        [
+          "ECONOMY CLASS",
+          "169 SEATS",
+          "6 ABREAST - 32 in PITCH"
+        ],
+        [
+          "ATTENDANT SEATS",
+          "6",
+          null
+        ],
+        [
+          "GALLEYS",
+          "3",
+          null
+        ],
+        [
+          "LAVATORIES",
+          "4",
+          null
+        ]
+      ]
+    }
+  ]
+}

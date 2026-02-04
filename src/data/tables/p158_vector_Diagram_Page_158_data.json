@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "Source Page": "158",
+    "Document Section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "Jacking Point Detail A Specifications",
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Frame Reference",
+          "FR73, FR74"
+        ],
+        [
+          "X Coordinate",
+          "42 040"
+        ],
+        [
+          "Z Coordinate (Upper)",
+          "-729.441"
+        ],
+        [
+          "Z Coordinate (Lower)",
+          "-744.932"
+        ],
+        [
+          "Spherical Radius",
+          "19 mm (0.75 in)"
+        ],
+        [
+          "Reference Part Number",
+          "19 D535-71 595"
+        ],
+        [
+          "Width Dimension",
+          "126.15 mm (4.97 in)"
+        ]
+      ]
+    }
+  ]
+}

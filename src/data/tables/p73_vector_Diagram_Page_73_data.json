@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "Source Page": "73",
+    "Document Section": "/docs/description/ground-clearances"
+  },
+  "tables": [
+    {
+      "title": "SPOILERS EXTENDED",
+      "headers": [
+        "DESCRIPTION",
+        "REF",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (m)",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)",
+        "MAXIMUM RAMP WEIGHT FWD CG (m)",
+        "MAXIMUM RAMP WEIGHT FWD CG (ft)",
+        "MAXIMUM RAMP WEIGHT AFT CG (m)",
+        "MAXIMUM RAMP WEIGHT AFT CG (ft)"
+      ],
+      "rows": [
+        [
+          "SPOILER 1 INBD",
+          "A",
+          "3.74 m",
+          "12.27 ft",
+          "3.63 m",
+          "11.91 ft",
+          "3.61 m",
+          "11.84 ft"
+        ],
+        [
+          "SPOILER 1 OUTBD",
+          "B",
+          "4.04 m",
+          "13.25 ft",
+          "3.94 m",
+          "12.93 ft",
+          "3.92 m",
+          "12.86 ft"
+        ],
+        [
+          "SPOILER 2 INBD",
+          "C",
+          "4.08 m",
+          "13.39 ft",
+          "3.97 m",
+          "13.02 ft",
+          "3.95 m",
+          "12.96 ft"
+        ],
+        [
+          "SPOILER 2/3",
+          "D",
+          "4.20 m",
+          "13.78 ft",
+          "4.10 m",
+          "13.45 ft",
+          "4.07 m",
+          "13.35 ft"
+        ],
+        [
+          "SPOILER 3/4",
+          "E",
+          "4.34 m",
+          "14.24 ft",
+          "4.23 m",
+          "13.88 ft",
+          "4.20 m",
+          "13.78 ft"
+        ],
+        [
+          "SPOILER 4/5",
+          "F",
+          "4.46 m",
+          "14.63 ft",
+          "4.35 m",
+          "14.27 ft",
+          "4.32 m",
+          "14.17 ft"
+        ],
+        [
+          "SPOILER 5 OUTBD",
+          "G",
+          "4.59 m",
+          "15.06 ft",
+          "4.48 m",
+          "14.70 ft",
+          "4.45 m",
+          "14.60 ft"
+        ]
+      ]
+    }
+  ]
+}

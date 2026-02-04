@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "Source Page": "87",
+    "Document Section": "/docs/description/cargo"
+  },
+  "tables": [
+    {
+      "title": "Standard Cargo Compartment Capacity",
+      "headers": [
+        "Compartment",
+        "Standard Capacity"
+      ],
+      "rows": [
+        [
+          "Forward Compartment",
+          "5 ULDs"
+        ],
+        [
+          "Aft Compartment",
+          "5 ULDs"
+        ]
+      ]
+    },
+    {
+      "title": "Applicability",
+      "headers": [
+        "Aircraft Models"
+      ],
+      "rows": [
+        [
+          "A321-100, A321-200, A321 NEO AND A321 NEO-ACF"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "Source Page": "100",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Door Dimensions and Clearances",
+      "headers": [
+        "Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Door Opening Length (Top View)",
+          "1.79 m",
+          "5.87 ft"
+        ],
+        [
+          "Door Panel Width (Top View)",
+          "0.81 m",
+          "2.66 ft"
+        ],
+        [
+          "Critical Clearance Limit (Top View)",
+          "0.58 m",
+          "1.90 ft"
+        ],
+        [
+          "Distance from Nose (Side View)",
+          "36.58 m",
+          "120.01 ft"
+        ],
+        [
+          "Vertical Offset (Side View)",
+          "0.03 m",
+          "0.10 ft"
+        ],
+        [
+          "Horizontal Distance from Centerline (Section A-A)",
+          "2.44 m",
+          "8.01 ft"
+        ],
+        [
+          "Vertical Height of Opening (Section A-A)",
+          "1.85 m",
+          "6.07 ft"
+        ],
+        [
+          "Door Structure Width (Section A-A)",
+          "0.60 m",
+          "1.97 ft"
+        ]
+      ]
+    }
+  ]
+}

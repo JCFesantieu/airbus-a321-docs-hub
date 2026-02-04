@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "Source Page": "123",
+    "Document Section": "/docs/description/landing-gear"
+  },
+  "tables": [
+    {
+      "title": "Jacking Dome Clearance Dimensions",
+      "headers": [
+        "Description",
+        "A (m)",
+        "A (ft)",
+        "B (m)",
+        "B (ft)"
+      ],
+      "rows": [
+        [
+          "DIM QUOTED IS WITH WHEELS REMOVED AND 153 mm (6.02 in) CLEARANCE AT JACKING DOME",
+          "0.52 m",
+          "1.71 ft",
+          "1.17 m",
+          "3.84 ft"
+        ]
+      ]
+    }
+  ]
+}

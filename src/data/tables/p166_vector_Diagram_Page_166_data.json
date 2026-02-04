@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "166",
+    "Document Section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "MLG Jacking and Ground Clearance Dimensions",
+      "headers": [
+        "Description",
+        "Metric Value",
+        "Imperial Value"
+      ],
+      "rows": [
+        [
+          "Horizontal distance to cantilever arm pivot",
+          "655 mm",
+          "25.79 in"
+        ],
+        [
+          "Vertical distance to cantilever arm pivot",
+          "563 mm",
+          "22.17 in"
+        ],
+        [
+          "Ground clearance (side view)",
+          "25 mm",
+          "1 in"
+        ],
+        [
+          "Twin wheel track",
+          "927 mm",
+          "36.5 in"
+        ],
+        [
+          "Fork width",
+          "409 mm",
+          "16.1 in"
+        ],
+        [
+          "Vertical distance to fork",
+          "205 mm",
+          "8.07 in"
+        ],
+        [
+          "Vertical distance to fork (on rim)",
+          "186 mm",
+          "7.32 in"
+        ],
+        [
+          "Contour of tires on ground (approximate)",
+          "1 620 mm",
+          "63.78 in"
+        ],
+        [
+          "Minimum side clearance",
+          "25 mm",
+          "1 in"
+        ]
+      ]
+    }
+  ]
+}

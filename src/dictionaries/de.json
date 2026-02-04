@@ -1,0 +1,302 @@
+{
+  "common": {
+    "maintain": "Wartung",
+    "glossary": "Glossar",
+    "documentation": "Dokumentation",
+    "search": "Dokumentation durchsuchen...",
+    "technical_data": "Technische Daten",
+    "description": "Beschreibung",
+    "source_page": "Quelle: Seite"
+  },
+  "nav": {
+    "scope": "Kapitel 1: Geltungsbereich",
+    "description": "Kapitel 2: Flugzeugbeschreibung",
+    "performance": "Kapitel 3: Flugleistung",
+    "maneuvering": "Kapitel 4: Bodenmanöver",
+    "servicing": "Kapitel 5: Terminal-Wartung",
+    "operating": "Kapitel 6: Betriebsbedingungen",
+    "pavement": "Kapitel 7: Fahrbahndaten",
+    "rescue": "Kapitel 10: Rettung und Brandschutz"
+  },
+  "intro": {
+    "title": "Einführung",
+    "subtitle": "Allgemeine Informationen und Zweck des A321-Handbuchs für die Flughafenplanung und Wartung.",
+    "general": "1. Allgemeines"
+  },
+  "characteristics": {
+    "title": "Allgemeine Flugzeugmerkmale",
+    "subtitle": "Betriebsgewichte und technische Spezifikationen für die Varianten der A321-100.",
+    "description": "Dieser Abschnitt enthält die allgemeinen Flugzeugmerkmale für verschiedene A321-100-Modelle. Er umfasst technische Daten wie das maximale Rampengewicht, das maximale Startgewicht und andere spezifische Konstruktionsgewichtsbeschränkungen für jede Variante.",
+    "technical_data": "Technische Daten",
+    "no_data": "Noch keine dynamischen Daten extrahiert. Führen Sie das Vision-Extraktionsskript aus, um diesen Abschnitt zu füllen."
+  },
+  "power_plant": {
+    "title": "Triebwerk",
+    "subtitle": "Triebwerksspezifikationen und technisches Layout des Hilfstriebwerks (APU).",
+    "description": "Die A321-Familie ist mit Mantelstromtriebwerken ausgestattet. Je nach Modell verfügt sie entweder über die Serien CFM56, IAE V2500, PW1100G oder CFM LEAP-1A. Jede Konfiguration ist für spezifische Reichweiten- und Effizienzanforderungen optimiert.",
+    "apu_title": "Hilfstriebwerk (APU)",
+    "apu_card_title": "Allgemeines Layout",
+    "apu_card_description": "APU-Installation in der Heckkonussektion des hinteren Rumpfes.",
+    "engine_options": "Triebwerksoptionen"
+  },
+  "payload_range": {
+    "title": "Nutzlast / Reichweite",
+    "subtitle": "Betriebliche Leistungsumschläge unter Standard-Tagesbedingungen (ISA).",
+    "description": "Diese Kurven dienen nur der Planung und Information. Die tatsächliche Leistung variiert erheblich je nach spezifischen Flugzeuggewichtsvarianten, Triebwerkstypen und Umweltfaktoren am Flughafen.",
+    "chart_title": "Nutzlast/Reichweite-Diagramm",
+    "card_title": "Leistungsumschlag",
+    "card_description": "ISA-Bedingungen - Typische Konfiguration.",
+    "table_title": "Reichweitendatentabellen"
+  },
+  "dimensions": {
+    "title": "Allgemeine Flugzeugabmessungen",
+    "subtitle": "Gesamtabmessungen und Geometrie für die Modelle der A321-Familie.",
+    "main_dimensions": "Hauptabmessungen",
+    "wingspan": "Spannweite",
+    "length": "Gesamtlänge",
+    "height": "Höhe (Seitenleitwerk oben)",
+    "diameter": "Rumpfdurchmesser",
+    "tech_note_title": "Technischer Hinweis",
+    "tech_note_desc": "Detaillierte Diagramme für Versionen mit Wing-Tip Fence und Sharklets sind im Abschnitt Maßstäbliche Zeichnungen dieses Handbuchs verfügbar.",
+    "table_title": "Abmessungsspezifikationen"
+  },
+  "ground_clearances": {
+    "title": "Bodenfreiheiten",
+    "subtitle": "Höhe verschiedener Punkte des Flugzeugs über dem Boden für unterschiedliche Konfigurationen.",
+    "description": "Die Maße in den Tabellen sind Richtwerte und variieren je nach Reifentyp, Gewicht, Schwerpunktlage und anderen besonderen Bedingungen.",
+    "configs_title": "Bereitgestellte Konfigurationen",
+    "configs_desc": "Standard-Betriebszustände",
+    "configs_list": [
+      "Leichtgewicht für ein Flugzeug in Wartungskonfiguration mit mittlerem Schwerpunkt.",
+      "Flugzeug bei maximalem Rampengewicht (MRW) mit vorderem und hinterem Schwerpunkt.",
+      "Flugzeug auf Böcken, FDL bei 4,60 m (15,09 ft)."
+    ],
+    "note": "Die Bodenfreiheiten von Passagier- und Frachttüren werden ab der Mitte der Türschwelle und ab Bodenniveau gemessen.",
+    "diagram_title": "Technisches Diagramm",
+    "diagram_card_title": "Flugzeugprofil mit Bodenfreiheitsmarkierungen",
+    "diagram_card_desc": "Abbildung 2-3-0-991-005-A01 - Wing Tip Fence",
+    "table_title": "Bodenfreiheits-Datentabellen"
+  },
+  "cargo": {
+    "title": "Frachträume",
+    "subtitle": "Standorte, Abmessungen und Ladekombinationen für Frachtsysteme.",
+    "description": "Dieser Abschnitt enthält detaillierte Informationen zu den Frachträumen des A321, einschließlich ihrer physischen Standorte, Abmessungen und verschiedener Ladekombinationen für Unit Load Devices (ULDs) und Schüttgut.",
+    "loc_dim_title": "Standorte und Abmessungen",
+    "loc_dim_card_title": "Allgemeines Layout",
+    "loc_dim_card_desc": "Typische Frachtkonfiguration für A321-Varianten.",
+    "loading_title": "Ladekombinationen",
+    "loading_card_title": "Konfigurationen für Unit Load Devices (ULD)",
+    "loading_card_desc": "Standard-Lademuster für vordere und hintere Kompartimente.",
+    "table_title": "Frachtkapazitätsdaten"
+  },
+  "doors": {
+    "title": "Tür-Bodenfreiheiten und Standorte",
+    "subtitle": "Identifizierung und räumliche Anforderungen für alle Flugzeugzugangspunkte.",
+    "description": "Dieser Abschnitt enthält die Identifizierung und Standorte von Passagier-/Besatzungstüren, Notausstiegen und Frachtraumtüren. Die Bodenfreiheiten sind Richtwerte und variieren je nach Flugzeuggewicht und Konfiguration.",
+    "ident_title": "Tür-Identifizierung",
+    "ident_card_title": "Layout der Zugangspunkte",
+    "ident_card_desc": "Identifizierung von Passagier-, Besatzungs- und Frachttüren.",
+    "table_title": "Tabellen für Türabmessungen und Bodenfreiheiten"
+  },
+  "escape_slides": {
+    "title": "Notrutschen",
+    "subtitle": "Standort von Rutschen-/Floßanlagen und zugehörige Entfaltungs-Bodenfreiheiten.",
+    "description": "Dieser Abschnitt enthält den Standort von Rutschen- und Floßanlagen sowie die zugehörigen Entfaltungs-Bodenfreiheiten. Er deckt die Standard-A321-Konfigurationen sowie die spezialisierten Modelle A321neo-ACF und A321neo-XLR ab.",
+    "loc_title": "Rutschstandorte",
+    "loc_intro": "Rutschen-/Floßanlagen sind an folgenden Stellen vorhanden:",
+    "loc_std": "Eine ein- oder zweispurige Rutsche an jeder Tür 1 und 4 (insgesamt 04)",
+    "loc_std_2": "Eine einspurige Rutsche an jeder Tür 2 und 3 (insgesamt 04)",
+    "loc_neo_intro": "Für A321neo-ACF und A321neo-XLR:",
+    "loc_neo_1": "Eine ein- oder zweispurige Rutsche an jeder Tür 1 und 4 (insgesamt 04)",
+    "loc_neo_2": "Eine einspurige Rutsche an jeder Tür 3 (insgesamt 02)",
+    "loc_neo_3": "Eine zweispurige Overwing-Rutsche an jedem Flügel (insgesamt 2)",
+    "loc_card_title": "Standardkonfiguration",
+    "loc_card_desc": "Layout der Notrutschenplatzierung.",
+    "dim_title": "Technische Abmessungen",
+    "dim_card_title": "Entfaltungs-Bodenfreiheiten",
+    "dim_card_desc": "Abbildung: Notrutschen - Abmessungen"
+  },
+  "landing_gear": {
+    "title": "Fahrwerk",
+    "subtitle": "Technische Architektur und Abmessungen des einziehbaren A321-Bugradfahrwerks.",
+    "description": "Das Fahrwerk ist ein herkömmliches einziehbares Bugradfahrwerk, bestehend aus zwei Hauptfahrwerken mit Zwillingsrädern und einem Zwillingsrad-Bugfahrwerk. Die Lenkung erfolgt über Handräder im Cockpit und kann für das Schleppen deaktiviert werden.",
+    "main_gear_title": "Hauptfahrwerk",
+    "main_gear_card_title": "Zwillingsradsystem",
+    "main_gear_card_desc": "Struktureller Aufbau von Hauptbeschlag, Stoßdämpfer und Seitenstrebe.",
+    "table_title": "Fahrwerksspezifikationen"
+  },
+  "jacking": {
+    "title": "Aufbocken zur Wartung",
+    "subtitle": "Kritische Aufbockpunkte und Sicherheitsanforderungen für die Bodenwartung.",
+    "description": "Dieser Abschnitt definiert die genauen Koordinaten zum Aufbocken des Flugzeugs. Spezialausrüstung und die strikte Einhaltung von Sicherheitsprotokollen sind zwingend erforderlich, um die strukturelle Integrität und die Sicherheit des Personals während des Hebevorgangs zu gewährleisten.",
+    "points_title": "Aufbockpunkte",
+    "points_card_title": "Strukturelle Hebepunkte",
+    "points_card_desc": "Standorte für Hebevorgänge am vorderen Rumpf und an den Flügeln."
+  },
+  "take_off_weight": {
+    "title": "Startgewichtsbeschränkung",
+    "subtitle": "Maximal zulässige Gewichte für Startvorgänge unter ISA-Bedingungen.",
+    "description": "Diese Kurven dienen nur zur Information. Die genehmigten Werte sind in den für die jeweilige Fluggesellschaft spezifischen 'Betriebshandbüchern' aufgeführt.",
+    "chart_title": "Startgewichts-Diagramm",
+    "card_title": "Betriebliche Einschränkungen",
+    "notice_title": "Nur zur Information",
+    "table_title": "Gewichtsbeschränkungsdaten"
+  },
+  "landing_length": {
+    "title": "Landefeldlänge",
+    "subtitle": "Erforderliche Landestrecken für verschiedene Gewichte und Höhen unter ISA-Bedingungen.",
+    "description": "Dieser Abschnitt enthält die erforderliche Landefeldlänge für verschiedene Flugzeuggewichte und Flughafenhöhen unter Standard-Tagesbedingungen (ISA). Diese Werte sind wesentlich für die Bestimmung der Landebahneignung an Ziel- und Ausweichflughäfen.",
+    "chart_title": "Landefeldlängen-Diagramm",
+    "card_title": "Erforderliche Distanz",
+    "table_title": "Landeperformance-Daten"
+  },
+  "approach_speed": {
+    "title": "Endanfluggeschwindigkeit",
+    "subtitle": "Angezeigte Fluggeschwindigkeit an der Schwelle in Landekonfiguration.",
+    "description": "Die Endanfluggeschwindigkeit ist die angezeigte Fluggeschwindigkeit an der Schwelle in der Landekonfiguration bei der zertifizierten maximalen Klappenstellung und dem maximalen Landegewicht (MLW) unter Standard-Atmosphärenbedingungen.",
+    "card_title": "Flugzeug-Anflugkategorie",
+    "card_desc": "Zertifizierungskennzahlen.",
+    "category_prefix": "Klassifiziert das Flugzeug in die",
+    "category_name": "Flugzeug-Anflugkategorie C",
+    "note": "Hinweis: Dieser Wert dient nur zur Information."
+  },
+  "turning_radii": {
+    "title": "Kurvenradien",
+    "subtitle": "Geometrie von Flugzeugkurven während der Bodenmanöver.",
+    "description": "Die Kurvenradien werden für verschiedene Bedingungen berechnet und sind für die Flughafenplanung und den Bodenbetrieb von wesentlicher Bedeutung. Diese Diagramme zeigen den minimalen Platzbedarf des Flugzeugs für Kurven.",
+    "chart_title": "Kurvenradien-Diagramm",
+    "card_title": "Geometrie ohne Schiebewinkel",
+    "card_desc": "Berechnung von Kurvenbögen für die Planung.",
+    "table_title": "Kurvenradius-Daten"
+  },
+  "minimum_radii": {
+    "title": "Minimale Kurvenradien",
+    "subtitle": "Kleinstmögliche Kurvenbögen basierend auf dem maximalen Bugradlenkwinkel.",
+    "description": "Die minimalen Kurvenradien werden durch den maximalen Bugradlenkwinkel bestimmt. Diese Daten sind entscheidend für die Bestimmung der minimal erforderlichen Landebahnbreite für eine 180-Grad-Kurve und für die Gestaltung von Rollbahnkreuzungen.",
+    "chart_title": "Minimale Kurvenradien-Diagramm",
+    "card_title": "Maximaler Lenkwinkel-Pfad",
+    "card_desc": "Minimale Platzanforderungen für enge Manöver.",
+    "table_title": "Spezifikationen für minimale Radien"
+  },
+  "turn_paths": {
+    "title": "Kurvenbahnen auf Start- und Rollbahnen",
+    "subtitle": "Betriebliche Radspurmuster für Standard-Flughafenmanöver.",
+    "description": "Kurvenbahnen werden für gängige Flughafenmanöver wie 90°-, 135°- und 180°-Kurven bereitgestellt. Die Diagramme zeigen die Bahn des Bugrads und des Hauptfahrwerks und stellen sicher, dass das Flugzeug unter Verwendung von Standard-Lenktechniken innerhalb der befestigten Flächen bleibt.",
+    "chart_title": "Kurvenbahn-Diagramm",
+    "card_title": "135°-Kurvengeometrie",
+    "card_desc": "Abbildung: 135°-Kurve - Startbahn zu Rollbahn (Cockpit über Mittellinie-Methode)",
+    "table_title": "Manövrierbahn-Daten"
+  },
+  "visibility": {
+    "title": "Sicht aus dem Cockpit",
+    "subtitle": "Sichtfeld des Kapitäns und Bodensichtwinkel in statischer Position.",
+    "description": "Dieser Abschnitt enthält Informationen über die binokulare Sicht durch die Cockpitfenster aus der Augenposition des Kapitäns. Er umfasst vertikale und horizontale Sichtwinkel und definiert die für die Flugbesatzung sichtbaren Bodenbereiche.",
+    "diagram_title": "Sichtdiagramm",
+    "card_title": "Cockpit-Sichtbereich",
+    "card_desc": "Abbildung: Sicht aus dem Cockpit in statischer Position"
+  },
+  "ramp_layouts": {
+    "title": "Typische Rampen-Layouts",
+    "subtitle": "Positionierung der Bodenabfertigungsgeräte (GSE) und Anforderungen an den Arbeitsraum.",
+    "description": "Dieser Abschnitt zeigt die typische Positionierung der Bodenabfertigungsgeräte (GSE) um den A321 während der Turnaround-Operationen. Er umfasst Layouts sowohl für offene Vorfeld- als auch für Gate-Positionen und identifiziert den Platzbedarf für Lader, Lastwagen und andere Servicefahrzeuge.",
+    "layout_title": "Offenes Vorfeld-Layout",
+    "layout_card_title": "Positionierung von Servicefahrzeugen",
+    "layout_card_desc": "Typische Anordnung für Schüttgut- und ULD-Ladevorgänge."
+  },
+  "connections": {
+    "title": "Bodenservice-Anschlüsse",
+    "subtitle": "Standorte und technische Spezifikationen für Flugzeug-Serviceschnittstellen.",
+    "description": "Dieser Abschnitt zeigt die Standorte verschiedener Bodenservice-Anschlüsse, einschließlich Betankung, Stromversorgung, Pneumatikluft und Wasserversorgung. Eine präzise Positionierung ist für effiziente Vorfeldoperationen unerlässlich.",
+    "layout_title": "Anschluss-Layout",
+    "layout_card_title": "Schnittstellen-Zugangspunkte",
+    "layout_card_desc": "Identifizierung von Betankungs-, Pneumatik- und Elektroanschlusspunkten."
+  },
+  "turn_round": {
+    "title": "Turnaround-Zeitdiagramme",
+    "subtitle": "Betriebliche Zeitpläne für Vorfeldaktivitäten während des Flugzeug-Turnarounds.",
+    "description": "Die Turnaround-Zeitdiagramme basieren auf typischen Passagier- und Frachtlasten unter Verwendung von Standardausrüstung und -verfahren. Faktoren wie Betankungsraten, Boarding-Raten der Passagiere und Frachtwechselvolumina werden berücksichtigt, um den kritischen Pfad für den Turnaround zu bestimmen.",
+    "chart_title": "Turnaround-Zeitdiagramm",
+    "chart_card_title": "Vollständiger Service-Zeitplan",
+    "chart_card_desc": "Typische Abfolge von Ereignissen für einen Standard-Turnaround."
+  },
+  "towing": {
+    "title": "Schleppen am Boden",
+    "subtitle": "Betriebliche Anforderungen und strukturelle Einschränkungen für das Schleppen und Zurücksetzen von Flugzeugen.",
+    "description": "Dieser Abschnitt definiert die Anforderungen für das Schleppen des Flugzeugs, einschließlich der maximalen Zug- und Druckkräfte der Schleppstange. Er spezifiziert auch die Trennung der Bugradlenkung, um Schäden während der Bodenabfertigung zu vermeiden.",
+    "req_title": "Schleppanforderungen",
+    "req_card_title": "Standard-Schleppkonfiguration",
+    "req_card_desc": "Abbildung: Bodenschleppanforderungen und -verfahren."
+  },
+  "exhaust_velocities": {
+    "title": "Triebwerksabgasgeschwindigkeiten",
+    "subtitle": "Betriebliche Geschwindigkeitskonturen für Sicherheitszonen für Personal und Ausrüstung.",
+    "description": "Abgasgeschwindigkeitskonturen definieren den Bereich hinter dem Flugzeug, in dem während des Triebwerksbetriebs Hochgasgeschwindigkeiten auftreten. Diese Diagramme werden verwendet, um Sicherheitszonen für Personal und Bodenausrüstung während Leerlauf-, Breakaway- und Startleistungseinstellungen festzulegen.",
+    "contours_title": "Abgasgeschwindigkeitskonturen",
+    "contours_card_title": "Bodenleerlaufleistung",
+    "contours_card_desc": "Abbildung: Triebwerksabgasgeschwindigkeiten - CFM56-Triebwerksserie"
+  },
+  "exhaust_temperatures": {
+    "title": "Triebwerksabgastemperaturen",
+    "subtitle": "Thermische Einflusszonen für verschiedene Triebwerksleistungseinstellungen.",
+    "description": "Abgastemperaturkonturen zeigen die thermischen Zonen hinter den Flugzeugtriebwerken an. Diese Daten sind wesentlich für den Schutz von Flugplatzflächen, unterirdischen Versorgungsleitungen und Bodenausrüstung vor Hitzeschäden während verschiedener Triebwerksleistungsstufen.",
+    "contours_title": "Abgastemperaturkonturen",
+    "contours_card_title": "Bodenleerlaufleistung",
+    "contours_card_desc": "Thermische Kartierung für die Sicherheit im Bodenbetrieb."
+  },
+  "danger_areas": {
+    "title": "Gefahrenbereiche von Triebwerken",
+    "subtitle": "Kritische Ansaug- und Abgas-Sicherheitszonen für das Bodenpersonal.",
+    "description": "Dieser Abschnitt definiert den Gefahrenbereich für die Triebwerksansaugung sowie die Gefahrenzonen für Abgasgeschwindigkeit und -temperatur. Die strikte Einhaltung dieser Zonen ist erforderlich, um die Sicherheit des Bodenpersonals und der Ausrüstung bei laufenden Triebwerken zu gewährleisten.",
+    "diagram_title": "Gefahrenbereichs-Diagramm",
+    "diagram_card_title": "Betriebliche Gefahrenzonen",
+    "diagram_card_desc": "Abbildung: Gefahrenbereiche der Triebwerke - Bodenleerlaufleistung"
+  },
+  "footprint": {
+    "title": "Fahrwerk-Standfläche",
+    "subtitle": "Strukturelle Gewichtsverteilung und Reifenkontaktfläche für die Flugplatzflächenanalyse.",
+    "description": "Dieser Abschnitt enthält die notwendigen Daten zum Verständnis des Drucks und der Standfläche des A321-Fahrwerks auf verschiedenen Belagstypen, was für die Kompatibilität der Flughafeninfrastruktur und die Bewertung der strukturellen Integrität entscheidend ist.",
+    "diagram_title": "Standflächen-Diagramm",
+    "diagram_card_title": "Reifenkontaktgeometrie",
+    "diagram_card_desc": "Abbildung: Spezifikationen der Fahrwerk-Standfläche.",
+    "table_title": "Standflächen- & Drucktabellen"
+  },
+  "pavement_loads": {
+    "title": "Maximale Fahrbahnbelastungen",
+    "subtitle": "Strukturelle Gewicht übertragen auf Start- und Rollbahnen während verschiedener Betriebszustände.",
+    "description": "Dieser Abschnitt enthält die maximalen Lasten, die über das Fahrwerk auf die Flughafenpiste übertragen werden. Diese Werte werden für verschiedene Schwerpunktpositionen und maximale Rampengewichte berechnet, damit Flughafeningenieure die strukturelle Kapazität von Start- und Rollbahnen beurteilen können.",
+    "chart_title": "Fahrbahnbelastungsdiagramm",
+    "card_title": "Strukturelle Impaktdaten",
+    "card_desc": "Abbildung: Maximale Fahrbahnbelastungen für die A321-100-Serie.",
+    "table_title": "Maximale Lasttabellen"
+  },
+  "acn_pcn": {
+    "title": "ACN/PCN-Meldesystem",
+    "subtitle": "Standardisierte ICAO-Methodik zur Meldung und Bewertung der Kompatibilität der Fahrbahnfestigkeit.",
+    "description": "Das ACN/PCN-System ist das Standard-ICAO-Verfahren zur Meldung der Fahrbahnfestigkeit. Die ACN (Aircraft Classification Number) drückt die Wirkung des Flugzeugs auf die Fahrbahn aus, während die PCN (Pavement Classification Number) die Festigkeit der Fahrbahn ausdrückt. Damit ein Flugzeug ohne Einschränkung operieren kann, muss seine ACN kleiner oder gleich der PCN sein.",
+    "table_title": "ACN-Tabellen",
+    "card_title": "Klassifizierungsdaten",
+    "card_desc": "Abbildung: ACN-Tabelle für A321-100 (flexible und starre Fahrbahnen)",
+    "dynamic_table_title": "Flugzeug-Klassifizierungsdaten"
+  },
+  "rescue_general": {
+    "title": "Rettung & Brandschutz",
+    "subtitle": "Kritische Notzugangspunkte und Standorte für Gefahrgut für Ersthelfer.",
+    "description": "Dieser Abschnitt enthält wesentliche Daten für Rettungs- und Feuerwehrpersonal, einschließlich Notzugangspunkten, Standorten von Treibstofftanks und Lagerbereichen für Gefahrgut.",
+    "chart_title": "Rettungskarte",
+    "card_title": "ARFF-Übersicht",
+    "card_desc": "Abbildung: Rettungs- und Brandschutzkarte (ARFF) des Flugzeugs"
+  },
+  "evacuation": {
+    "title": "Notévakuierung",
+    "subtitle": "Einsatzverfahren und technische Spezifikationen für Evakuierungsgeräte.",
+    "description": "Dieser Abschnitt beschreibt detailliert den Standort und die Bedienung von Notévakuierungsgeräten, einschließlich Rutschen, Flößen und Notausstiegen. Er enthält auch Informationen über die strukturellen Einbruchstellen des Flugzeugs für Rettungspersonal.",
+    "devices_title": "Evakuierungsgeräte",
+    "card_title": "Rutschen- und Ausstiegs-Einsatz",
+    "card_desc": "Identifizierung von Rutschen, Flößen und Notzugangswegen."
+  },
+  "glossary_page": {
+    "title": "Glossar",
+    "subtitle": "Technische Abkürzungen und Konstruktionsterminologie, die in der gesamten technischen Dokumentation verwendet werden.",
+    "list_title": "1. Liste der Abkürzungen"
+  }
+}

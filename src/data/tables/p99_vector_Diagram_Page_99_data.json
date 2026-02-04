@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "Source Page": "99",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "General and Longitudinal Dimensions",
+      "headers": [
+        "Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Center of Free Aisle from Aircraft Nose",
+          "26.82 m",
+          "87.99 ft"
+        ],
+        [
+          "Reference Point from Aircraft Nose",
+          "18.70 m",
+          "61.35 ft"
+        ],
+        [
+          "Critical Clearance Limit",
+          "0.56 m",
+          "1.84 ft"
+        ],
+        [
+          "Clearance Dimension 1",
+          "0.84 m",
+          "2.76 ft"
+        ],
+        [
+          "Clearance Dimension 2",
+          "0.83 m",
+          "2.72 ft"
+        ],
+        [
+          "Clearance Dimension 3",
+          "1.73 m",
+          "5.68 ft"
+        ],
+        [
+          "Free Aisle (Forward)",
+          "0.57 m",
+          "1.87 ft"
+        ],
+        [
+          "Free Aisle (Aft)",
+          "0.76 m",
+          "2.49 ft"
+        ],
+        [
+          "Vertical Offset 1",
+          "0.20 m",
+          "0.66 ft"
+        ],
+        [
+          "Vertical Offset 2",
+          "0.04 m",
+          "0.13 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Section A-A Dimensions",
+      "headers": [
+        "Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Upper Height",
+          "1.04 m",
+          "3.41 ft"
+        ],
+        [
+          "Lower Height (Top of Floor)",
+          "0.36 m",
+          "1.17 ft"
+        ],
+        [
+          "Total Height",
+          "1.93 m",
+          "6.33 ft"
+        ],
+        [
+          "Intermediate Height",
+          "0.60 m",
+          "1.97 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Section B-B Dimensions (Frame 47)",
+      "headers": [
+        "Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Horizontal Dimension",
+          "1.23 m",
+          "4.04 ft"
+        ],
+        [
+          "Vertical Dimension",
+          "0.47 m",
+          "1.54 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Section C-C Dimensions",
+      "headers": [
+        "Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Internal Width",
+          "1.52 m",
+          "4.99 ft"
+        ],
+        [
+          "External Width",
+          "2.36 m",
+          "7.74 ft"
+        ],
+        [
+          "Floor Offset (Top of Floor)",
+          "0.39 m",
+          "1.28 ft"
+        ]
+      ]
+    }
+  ]
+}

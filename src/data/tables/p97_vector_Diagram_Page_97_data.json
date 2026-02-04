@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "97",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Nose Section and Door Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Door width",
+          "1.80 m",
+          "5.91 ft"
+        ],
+        [
+          "Door opening width",
+          "0.81 m",
+          "2.66 ft"
+        ],
+        [
+          "Nose tip to door start offset",
+          "0.48 m",
+          "1.57 ft"
+        ],
+        [
+          "Nose tip to door centerline",
+          "5.02 m",
+          "16.47 ft"
+        ],
+        [
+          "Centerline to door outer edge (top view)",
+          "2.54 m",
+          "8.33 ft"
+        ],
+        [
+          "Critical clearance limit",
+          "0.61 m",
+          "2.00 ft"
+        ],
+        [
+          "Door height",
+          "1.85 m",
+          "6.07 ft"
+        ],
+        [
+          "Door sill height above floor",
+          "0.03 m",
+          "0.10 ft"
+        ],
+        [
+          "Centerline to door outer edge (front view)",
+          "2.38 m",
+          "7.81 ft"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "Source Page": "68",
+    "Document Section": "/docs/description/ground-clearances"
+  },
+  "tables": [
+    {
+      "title": "FLAP TRACKS EXTENDED",
+      "headers": [
+        "DESCRIPTION",
+        "REF",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (m)",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)",
+        "MAXIMUM RAMP WEIGHT FWD CG (m)",
+        "MAXIMUM RAMP WEIGHT FWD CG (ft)",
+        "MAXIMUM RAMP WEIGHT AFT CG (m)",
+        "MAXIMUM RAMP WEIGHT AFT CG (ft)"
+      ],
+      "rows": [
+        [
+          "FLAP TRACK 2",
+          "A",
+          "1.91 m",
+          "6.27 ft",
+          "1.79 m",
+          "5.87 ft",
+          "1.76 m",
+          "5.77 ft"
+        ],
+        [
+          "FLAP TRACK 3",
+          "B",
+          "2.31 m",
+          "7.58 ft",
+          "2.19 m",
+          "7.19 ft",
+          "2.15 m",
+          "7.05 ft"
+        ],
+        [
+          "FLAP TRACK 4",
+          "C",
+          "2.96 m",
+          "9.71 ft",
+          "2.84 m",
+          "9.32 ft",
+          "2.79 m",
+          "9.15 ft"
+        ]
+      ]
+    }
+  ]
+}

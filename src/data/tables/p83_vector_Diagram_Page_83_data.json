@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "Source Page": "83",
+    "Document Section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "4 ABREAST-FIRST CLASS Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (in)"
+      ],
+      "rows": [
+        [
+          "Seat Width",
+          "0.57 m",
+          "22.6 in"
+        ],
+        [
+          "Pair of Seats Width",
+          "1.45 m",
+          "57 in"
+        ],
+        [
+          "Aisle Width",
+          "0.69 m",
+          "27 in"
+        ],
+        [
+          "Total Cabin Width",
+          "3.58 m",
+          "141 in"
+        ]
+      ]
+    }
+  ]
+}

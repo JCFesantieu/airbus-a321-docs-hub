@@ -1,0 +1,32 @@
+{
+  "docs": [
+    { "href": "/docs/scope/introduction", "page": 39 },
+    { "href": "/docs/scope/glossary", "page": 40 },
+    { "href": "/docs/description/characteristics", "page": 42 },
+    { "href": "/docs/description/dimensions", "page": 47 },
+    { "href": "/docs/description/ground-clearances", "page": 56 },
+    { "href": "/docs/description/interior", "page": 75 },
+    { "href": "/docs/description/cargo", "page": 84 },
+    { "href": "/docs/description/doors", "page": 92 },
+    { "href": "/docs/description/escape-slides", "page": 108 },
+    { "href": "/docs/description/landing-gear", "page": 113 },
+    { "href": "/docs/description/power-plant", "page": 131 },
+    { "href": "/docs/description/jacking", "page": 153 },
+    { "href": "/docs/performance/payload-range", "page": 171 },
+    { "href": "/docs/performance/take-off-weight", "page": 175 },
+    { "href": "/docs/performance/landing-length", "page": 186 },
+    { "href": "/docs/performance/approach-speed", "page": 191 },
+    { "href": "/docs/maneuvering/turning-radii", "page": 193 },
+    { "href": "/docs/maneuvering/minimum-radii", "page": 196 },
+    { "href": "/docs/maneuvering/turn-paths", "page": 201 },
+    { "href": "/docs/maneuvering/visibility", "page": 198 },
+    { "href": "/docs/servicing/connections", "page": 251 },
+    { "href": "/docs/servicing/ramp-layouts", "page": 226 },
+    { "href": "/docs/servicing/turn-round", "page": 232 },
+    { "href": "/docs/servicing/towing", "page": 314 },
+    { "href": "/docs/pavement/footprint", "page": 379 },
+    { "href": "/docs/pavement/loads", "page": 385 },
+    { "href": "/docs/pavement/acn-pcn", "page": 397 },
+    { "href": "/docs/rescue/general", "page": 413 }
+  ]
+}

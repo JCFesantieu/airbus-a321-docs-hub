@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "94",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Passenger Door Longitudinal Locations",
+      "headers": [
+        "Door",
+        "Distance from Nose (m)",
+        "Distance from Nose (ft)"
+      ],
+      "rows": [
+        [
+          "Door 1",
+          "5.02 m",
+          "16.47 ft"
+        ],
+        [
+          "Door 2",
+          "13.84 m",
+          "45.41 ft"
+        ],
+        [
+          "Door 3",
+          "24.79 m",
+          "81.33 ft"
+        ],
+        [
+          "Door 4",
+          "36.58 m",
+          "120.01 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Cargo Door Longitudinal Locations",
+      "headers": [
+        "Door",
+        "Distance from Nose (m)",
+        "Distance from Nose (ft)"
+      ],
+      "rows": [
+        [
+          "Forward Cargo Door",
+          "8.16 m",
+          "26.77 ft"
+        ],
+        [
+          "Aft Cargo Door",
+          "29.62 m",
+          "97.18 ft"
+        ],
+        [
+          "Bulk Cargo Door",
+          "33.22 m",
+          "108.99 ft"
+        ]
+      ]
+    }
+  ]
+}

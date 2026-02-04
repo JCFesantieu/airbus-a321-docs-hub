@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "Source Page": "104",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Fuselage and Door Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Forward door width",
+          "0.95 m",
+          "3.12 ft"
+        ],
+        [
+          "Section A-A upper vertical dimension",
+          "0.89 m",
+          "2.92 ft"
+        ],
+        [
+          "Section A-A lower vertical dimension",
+          "0.77 m",
+          "2.53 ft"
+        ],
+        [
+          "Distance between forward and mid door openings",
+          "2.19 m",
+          "7.19 ft"
+        ],
+        [
+          "Distance from forward door to wing leading edge",
+          "8.76 m",
+          "28.74 ft"
+        ]
+      ]
+    }
+  ]
+}

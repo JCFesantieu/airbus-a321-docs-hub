@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "Source Page": "173",
+    "Document Section": "/docs/performance/payload-range"
+  },
+  "tables": [
+    {
+      "title": "MTOW Configurations Legend",
+      "headers": [
+        "Line Color",
+        "MTOW Configuration"
+      ],
+      "rows": [
+        [
+          "Magenta",
+          "MTOW - 89 000 kg (196 211 lb)"
+        ],
+        [
+          "Green",
+          "MTOW - 93 500 kg (206 132 lb)"
+        ],
+        [
+          "Brown",
+          "MTOW - 93 500 kg (206 132 lb); 2 ACT"
+        ]
+      ]
+    },
+    {
+      "title": "Payload-Range Performance Data Points",
+      "headers": [
+        "MTOW Variant",
+        "Range (nm)",
+        "Range (km)",
+        "Payload (1 000 kg)",
+        "Payload (1 000 lb)"
+      ],
+      "rows": [
+        [
+          "MTOW - 89 000 kg (196 211 lb)",
+          "0 nm",
+          "0 km",
+          "22.5 (1 000 kg)",
+          "49.6 (1 000 lb)"
+        ],
+        [
+          "MTOW - 89 000 kg (196 211 lb)",
+          "2 100 nm",
+          "3 889 km",
+          "22.5 (1 000 kg)",
+          "49.6 (1 000 lb)"
+        ],
+        [
+          "MTOW - 89 000 kg (196 211 lb)",
+          "3 000 nm",
+          "5 556 km",
+          "0 (1 000 kg)",
+          "0 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb)",
+          "0 nm",
+          "0 km",
+          "24.5 (1 000 kg)",
+          "54.0 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb)",
+          "1 800 nm",
+          "3 334 km",
+          "24.5 (1 000 kg)",
+          "54.0 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb)",
+          "4 000 nm",
+          "7 408 km",
+          "0 (1 000 kg)",
+          "0 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb); 2 ACT",
+          "0 nm",
+          "0 km",
+          "24.5 (1 000 kg)",
+          "54.0 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb); 2 ACT",
+          "1 800 nm",
+          "3 334 km",
+          "24.5 (1 000 kg)",
+          "54.0 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb); 2 ACT",
+          "2 500 nm",
+          "4 630 km",
+          "21.0 (1 000 kg)",
+          "46.3 (1 000 lb)"
+        ],
+        [
+          "MTOW - 93 500 kg (206 132 lb); 2 ACT",
+          "4 500 nm",
+          "8 334 km",
+          "0 (1 000 kg)",
+          "0 (1 000 lb)"
+        ]
+      ]
+    }
+  ]
+}

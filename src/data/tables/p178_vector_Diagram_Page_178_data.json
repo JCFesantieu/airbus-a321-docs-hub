@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "Source Page": "178",
+    "Document Section": "/docs/performance/take-off-weight"
+  },
+  "tables": [
+    {
+      "title": "Take-off Weight (1000 lb) vs Runway Length (1000 ft) and Airport Pressure Altitude (1000 ft)",
+      "headers": [
+        "Runway Length (1000 ft)",
+        "Airport Pressure Altitude: 0 (1000 ft)",
+        "Airport Pressure Altitude: 2 (1000 ft)",
+        "Airport Pressure Altitude: 4 (1000 ft)",
+        "Airport Pressure Altitude: 6 (1000 ft)",
+        "Airport Pressure Altitude: 8 (1000 ft)"
+      ],
+      "rows": [
+        [
+          "4 1000 ft",
+          "160 1000 lb",
+          "150 1000 lb",
+          "140 1000 lb",
+          "130 1000 lb",
+          "120 1000 lb"
+        ],
+        [
+          "6 1000 ft",
+          "185 1000 lb",
+          "175 1000 lb",
+          "165 1000 lb",
+          "155 1000 lb",
+          "145 1000 lb"
+        ],
+        [
+          "8 1000 ft",
+          "210 1000 lb",
+          "200 1000 lb",
+          "188 1000 lb",
+          "178 1000 lb",
+          "165 1000 lb"
+        ],
+        [
+          "10 1000 ft",
+          "220 1000 lb",
+          "210 1000 lb",
+          "200 1000 lb",
+          "188 1000 lb",
+          "178 1000 lb"
+        ],
+        [
+          "12 1000 ft",
+          "225 1000 lb",
+          "215 1000 lb",
+          "205 1000 lb",
+          "195 1000 lb",
+          "185 1000 lb"
+        ],
+        [
+          "14 1000 ft",
+          "228 1000 lb",
+          "218 1000 lb",
+          "208 1000 lb",
+          "198 1000 lb",
+          "188 1000 lb"
+        ]
+      ]
+    },
+    {
+      "title": "Take-off Weight (1000 kg) vs Runway Length (1000 m) and Airport Pressure Altitude (1000 ft)",
+      "headers": [
+        "Runway Length (1000 m)",
+        "Airport Pressure Altitude: 0 (1000 ft)",
+        "Airport Pressure Altitude: 2 (1000 ft)",
+        "Airport Pressure Altitude: 4 (1000 ft)",
+        "Airport Pressure Altitude: 6 (1000 ft)",
+        "Airport Pressure Altitude: 8 (1000 ft)"
+      ],
+      "rows": [
+        [
+          "2 1000 m",
+          "87 1000 kg",
+          "82 1000 kg",
+          "77 1000 kg",
+          "73 1000 kg",
+          "68 1000 kg"
+        ],
+        [
+          "3 1000 m",
+          "99 1000 kg",
+          "95 1000 kg",
+          "90 1000 kg",
+          "85 1000 kg",
+          "80 1000 kg"
+        ],
+        [
+          "4 1000 m",
+          "103 1000 kg",
+          "98 1000 kg",
+          "94 1000 kg",
+          "89 1000 kg",
+          "85 1000 kg"
+        ],
+        [
+          "5 1000 m",
+          "104 1000 kg",
+          "100 1000 kg",
+          "95 1000 kg",
+          "91 1000 kg",
+          "86 1000 kg"
+        ]
+      ]
+    }
+  ]
+}

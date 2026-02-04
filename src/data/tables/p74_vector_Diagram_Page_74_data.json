@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "Source Page": "74",
+    "Document Section": "/docs/description/ground-clearances"
+  },
+  "tables": [
+    {
+      "title": "LEADING EDGE SLATS EXTENDED",
+      "headers": [
+        "DESCRIPTION",
+        "ID",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (m)",
+        "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)",
+        "MAXIMUM RAMP WEIGHT FWD CG (m)",
+        "MAXIMUM RAMP WEIGHT FWD CG (ft)",
+        "MAXIMUM RAMP WEIGHT AFT CG (m)",
+        "MAXIMUM RAMP WEIGHT AFT CG (ft)"
+      ],
+      "rows": [
+        [
+          "SLAT 1 INBD",
+          "A",
+          "2.58 m",
+          "8.46 ft",
+          "2.47 m",
+          "8.10 ft",
+          "2.50 m",
+          "8.20 ft"
+        ],
+        [
+          "SLAT 1 OUTBD",
+          "B",
+          "2.98 m",
+          "9.78 ft",
+          "2.88 m",
+          "9.45 ft",
+          "2.89 m",
+          "9.48 ft"
+        ],
+        [
+          "SLAT 2 INBD",
+          "C",
+          "3.07 m",
+          "10.07 ft",
+          "2.96 m",
+          "9.71 ft",
+          "2.97 m",
+          "9.74 ft"
+        ],
+        [
+          "SLAT 2/3",
+          "D",
+          "3.36 m",
+          "11.02 ft",
+          "3.25 m",
+          "10.66 ft",
+          "3.25 m",
+          "10.66 ft"
+        ],
+        [
+          "SLAT 3/4",
+          "E",
+          "3.61 m",
+          "11.84 ft",
+          "3.50 m",
+          "11.48 ft",
+          "3.49 m",
+          "11.45 ft"
+        ],
+        [
+          "SLAT 4/5",
+          "F",
+          "3.85 m",
+          "12.63 ft",
+          "3.74 m",
+          "12.27 ft",
+          "3.72 m",
+          "12.20 ft"
+        ],
+        [
+          "SLAT 5 OUTBD",
+          "G",
+          "4.08 m",
+          "13.39 ft",
+          "3.96 m",
+          "12.99 ft",
+          "3.94 m",
+          "12.93 ft"
+        ]
+      ]
+    }
+  ]
+}

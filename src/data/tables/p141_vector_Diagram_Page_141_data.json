@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "Source Page": "141",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Power Plant Dimensions",
+      "headers": [
+        "Section",
+        "W (m)",
+        "W (ft)",
+        "U (m)",
+        "U (ft)",
+        "V (m)",
+        "V (ft)",
+        "PPS (m)",
+        "PPS (ft)",
+        "AT COMPONENT"
+      ],
+      "rows": [
+        [
+          "A-A",
+          "2.01 m",
+          "6.58 ft",
+          "0.99 m",
+          "3.25 ft",
+          "1.10 m",
+          "3.63 ft",
+          "1.41 m",
+          "4.62 ft",
+          "INLET ATTACH FLG"
+        ],
+        [
+          "B-B",
+          "2.01 m",
+          "6.58 ft",
+          "1.00 m",
+          "3.29 ft",
+          "1.11 m",
+          "3.64 ft",
+          "2.59 m",
+          "8.50 ft",
+          "TORQUE BOX \"V\" BLADE"
+        ],
+        [
+          "C-C",
+          "1.98 m",
+          "6.50 ft",
+          "0.97 m",
+          "3.19 ft",
+          "1.07 m",
+          "3.52 ft",
+          "3.26 m",
+          "10.70 ft",
+          "COMB. CHAMBER ENTRY FLG"
+        ],
+        [
+          "D-D",
+          "1.93 m",
+          "6.32 ft",
+          "0.93 m",
+          "3.06 ft",
+          "1.03 m",
+          "3.39 ft",
+          "3.63 m",
+          "11.90 ft",
+          "COMB. CHAMBER EXIT FLG"
+        ],
+        [
+          "E-E",
+          "1.64 m",
+          "5.38 ft",
+          "0.78 m",
+          "2.57 ft",
+          "0.86 m",
+          "2.83 ft",
+          "4.60 m",
+          "15.10 ft",
+          "TCH FLG TURB. EXIT CASE"
+        ],
+        [
+          "F-F",
+          "1.24 m",
+          "4.07 ft",
+          "0.60 m",
+          "1.96 ft",
+          "0.64 m",
+          "2.11 ft",
+          "----",
+          "----",
+          "AFT END CNA"
+        ]
+      ]
+    }
+  ]
+}

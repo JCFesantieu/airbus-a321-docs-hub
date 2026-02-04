@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "Source Page": "82",
+    "Document Section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "6 ABREAST-WIDER SEAT Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (in)"
+      ],
+      "rows": [
+        [
+          "Seat width",
+          "0.46 m",
+          "18 in"
+        ],
+        [
+          "Triple seat unit width",
+          "1.58 m",
+          "62 in"
+        ],
+        [
+          "Aisle width",
+          "0.48 m",
+          "19 in"
+        ],
+        [
+          "Total cabin width at seat level",
+          "3.63 m",
+          "143 in"
+        ]
+      ]
+    }
+  ]
+}

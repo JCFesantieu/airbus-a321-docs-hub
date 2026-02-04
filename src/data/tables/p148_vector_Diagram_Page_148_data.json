@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "Source Page": "148",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Engine Component Longitudinal Dimensions",
+      "headers": [
+        "Component",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Nose Cowl",
+          "0.67 m",
+          "2.20 ft"
+        ],
+        [
+          "Fan Cowl",
+          "1.58 m",
+          "5.18 ft"
+        ],
+        [
+          "Thrust Reverser",
+          "1.98 m",
+          "6.50 ft"
+        ],
+        [
+          "Primary Nozzle",
+          "0.23 m",
+          "0.75 ft"
+        ],
+        [
+          "Plug",
+          "0.98 m",
+          "3.22 ft"
+        ],
+        [
+          "Fan Cowl (partial dimension)",
+          "0.49 m",
+          "1.61 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Engine Front View Dimensions",
+      "headers": [
+        "Dimension",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Height",
+          "2.52 m",
+          "8.27 ft"
+        ],
+        [
+          "Width",
+          "2.60 m",
+          "8.53 ft"
+        ]
+      ]
+    }
+  ]
+}

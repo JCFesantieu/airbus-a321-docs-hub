@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "Source Page": "174",
+    "Document Section": "/docs/performance/payload-range"
+  },
+  "tables": [
+    {
+      "title": "MTOW and ACT Configurations",
+      "headers": [
+        "MTOW (kg)",
+        "MTOW (lb)",
+        "ACT Configuration"
+      ],
+      "rows": [
+        [
+          "89 000 kg",
+          "196 211 lb",
+          "None"
+        ],
+        [
+          "93 500 kg",
+          "206 132 lb",
+          "None"
+        ],
+        [
+          "93 500 kg",
+          "206 132 lb",
+          "1 ACT"
+        ],
+        [
+          "97 000 kg",
+          "213 848 lb",
+          "2 ACT"
+        ],
+        [
+          "97 000 kg",
+          "213 848 lb",
+          "3 ACT"
+        ]
+      ]
+    }
+  ]
+}

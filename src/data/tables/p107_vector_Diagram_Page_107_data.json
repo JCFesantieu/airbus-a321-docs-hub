@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "Source Page": "107",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Ground Clearance Measurements",
+      "headers": [
+        "Reference Point",
+        "Height (m)",
+        "Height (ft)"
+      ],
+      "rows": [
+        [
+          "FR80",
+          "3.42 m",
+          "11.22 ft"
+        ],
+        [
+          "FR84",
+          "4.05 m",
+          "13.29 ft"
+        ],
+        [
+          "Tail Bumper Area (Forward)",
+          "1.50 m",
+          "4.92 ft"
+        ],
+        [
+          "Tail Bumper Area (Aft)",
+          "1.40 m",
+          "4.59 ft"
+        ]
+      ]
+    },
+    {
+      "title": "Center of Gravity Information",
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "VALUE OF CG",
+          "25% RC."
+        ]
+      ]
+    }
+  ]
+}

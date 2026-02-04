@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "Source Page": "187",
+    "Document Section": "/docs/performance/landing-length"
+  },
+  "tables": [
+    {
+      "title": "Landing Field Length - ISA Conditions, Slats 27 Deg, Flaps 40 Deg",
+      "headers": [
+        "Airfield Elevation",
+        "Gross Weight (lb)",
+        "Gross Weight (kg)",
+        "Landing Field Length (ft)",
+        "Landing Field Length (m)"
+      ],
+      "rows": [
+        [
+          "SEA LEVEL",
+          "140 000 lb",
+          "63 500 kg",
+          "4 800 ft",
+          "1 460 m"
+        ],
+        [
+          "2 000 ft",
+          "140 000 lb",
+          "63 500 kg",
+          "5 000 ft",
+          "1 520 m"
+        ],
+        [
+          "4 000 ft",
+          "140 000 lb",
+          "63 500 kg",
+          "5 150 ft",
+          "1 570 m"
+        ],
+        [
+          "6 000 ft",
+          "140 000 lb",
+          "63 500 kg",
+          "5 350 ft",
+          "1 630 m"
+        ],
+        [
+          "8 000 ft",
+          "140 000 lb",
+          "63 500 kg",
+          "5 800 ft",
+          "1 770 m"
+        ],
+        [
+          "10 000 ft",
+          "140 000 lb",
+          "63 500 kg",
+          "6 400 ft",
+          "1 950 m"
+        ]
+      ]
+    }
+  ]
+}

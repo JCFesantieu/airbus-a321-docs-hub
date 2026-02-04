@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "source_page": 78,
+    "document_section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "PASSENGER SEATS (244 TOTAL)",
+      "headers": [
+        "Item",
+        "Quantity",
+        "Configuration"
+      ],
+      "rows": [
+        [
+          "ECONOMY CLASS SEATS",
+          "244",
+          "6 ABREAST - 28 in PITCH"
+        ],
+        [
+          "ATTENDANT SEATS",
+          "6",
+          null
+        ],
+        [
+          "GALLEYS",
+          "2",
+          null
+        ],
+        [
+          "LAVATORIES",
+          "3",
+          null
+        ]
+      ]
+    }
+  ]
+}

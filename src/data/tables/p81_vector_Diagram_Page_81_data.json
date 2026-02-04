@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "source_page": 81,
+    "document_section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "6 ABREAST-WIDER AISLE",
+      "headers": [
+        "Description",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Seat Width",
+          "0.43 m",
+          "17 in"
+        ],
+        [
+          "Triple Seat Unit Width",
+          "1.50 m",
+          "59 in"
+        ],
+        [
+          "Aisle Width",
+          "0.64 m",
+          "25 in"
+        ],
+        [
+          "Total Interior Width",
+          "3.63 m",
+          "143 in"
+        ]
+      ]
+    }
+  ]
+}

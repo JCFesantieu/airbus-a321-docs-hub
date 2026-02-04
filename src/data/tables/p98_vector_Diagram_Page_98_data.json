@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "Source Page": "98",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Door and Aisle Dimensions",
+      "headers": [
+        "Parameter",
+        "Location A (Forward)",
+        "Location B (Aft)"
+      ],
+      "rows": [
+        [
+          "Center of Free Aisle from Aircraft Nose",
+          "13.84 m (45.41 ft)",
+          "24.79 m (81.33 ft)"
+        ],
+        [
+          "Critical Clearance Limit",
+          "0.56 m (1.84 ft)",
+          "0.56 m (1.84 ft)"
+        ],
+        [
+          "Upper Opening Width",
+          "1.73 m (5.68 ft)",
+          "1.73 m (5.68 ft)"
+        ],
+        [
+          "Lower Opening Width",
+          "0.83 m (2.72 ft)",
+          "0.83 m (2.72 ft)"
+        ],
+        [
+          "Free Aisle Width",
+          "0.76 m (2.49 ft)",
+          "0.76 m (2.49 ft)"
+        ],
+        [
+          "Gap Clearance",
+          "0.04 m (0.13 ft)",
+          "0.04 m (0.13 ft)"
+        ],
+        [
+          "Door Opening Width",
+          "2.36 m (7.74 ft)",
+          "2.36 m (7.74 ft)"
+        ],
+        [
+          "Door Opening Height",
+          "1.52 m (4.99 ft)",
+          "1.52 m (4.99 ft)"
+        ],
+        [
+          "Side Clearance",
+          "0.39 m (1.28 ft)",
+          "0.39 m (1.28 ft)"
+        ],
+        [
+          "Floor to Ceiling Height",
+          "1.85 m (6.07 ft)",
+          "1.85 m (6.07 ft)"
+        ]
+      ]
+    }
+  ]
+}

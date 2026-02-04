@@ -1,0 +1,82 @@
+[
+  {
+    "class": "weight_variant",
+    "text": "WV000",
+    "attributes": {
+      "mrw": "83 400 kg (183 865 lb)",
+      "mtow": "83 000 kg (182 984 lb)",
+      "mlw": "73 500 kg (162 040 lb)",
+      "mzfw": "69 500 kg (153 221 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "WV002",
+    "attributes": {
+      "mrw": "83 400 kg (183 865 lb)",
+      "mtow": "83 000 kg (182 984 lb)",
+      "mlw": "74 500 kg (164 244 lb)",
+      "mzfw": "70 500 kg (155 426 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "WV003",
+    "attributes": {
+      "mrw": "85 400 kg (188 275 lb)",
+      "mtow": "85 000 kg (187 393 lb)",
+      "mlw": "74 500 kg (164 244 lb)",
+      "mzfw": "70 500 kg (155 426 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "WV004",
+    "attributes": {
+      "mrw": "78 400 kg (172 842 lb)",
+      "mtow": "78 000 kg (171 961 lb)",
+      "mlw": "73 500 kg (162 040 lb)",
+      "mzfw": "69 500 kg (153 221 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "Variant 1",
+    "attributes": {
+      "mrw": "83 400 kg (183 865 lb)",
+      "mtow": "83 000 kg (182 984 lb)",
+      "mlw": "75 000 kg (165 347 lb)",
+      "mzfw": "71 000 kg (156 528 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "Variant 2",
+    "attributes": {
+      "mrw": "78 400 kg (172 842 lb)",
+      "mtow": "78 000 kg (171 961 lb)",
+      "mlw": "74 500 kg (164 244 lb)",
+      "mzfw": "70 500 kg (155 426 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "Variant 3",
+    "attributes": {
+      "mrw": "80 400 kg (177 252 lb)",
+      "mtow": "80 000 kg (176 370 lb)",
+      "mlw": "73 500 kg (162 040 lb)",
+      "mzfw": "69 500 kg (153 221 lb)"
+    }
+  },
+  {
+    "class": "weight_variant",
+    "text": "Variant 4",
+    "attributes": {
+      "mrw": "89 400 kg (197 093 lb)",
+      "mtow": "89 000 kg (196 211 lb)",
+      "mlw": "75 500 kg (166 449 lb)",
+      "mzfw": "71 500 kg (157 630 lb)"
+    }
+  }
+]

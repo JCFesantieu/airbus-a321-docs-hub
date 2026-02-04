@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "Source Page": "142",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Fan Cowl Dimensions",
+      "headers": [
+        "Condition",
+        "Dimension Description",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Closed",
+          "Width",
+          "2 m",
+          "6.6 ft"
+        ],
+        [
+          "Open 50°",
+          "Total Width",
+          "3.9 m",
+          "12.8 ft"
+        ],
+        [
+          "Open 50°",
+          "Width from Centerline to Cowl Edge",
+          "1.6 m",
+          "5.2 ft"
+        ],
+        [
+          "Open 50°",
+          "Height from Ground to Cowl Edge",
+          "1.2 m",
+          "3.9 ft"
+        ]
+      ]
+    }
+  ]
+}

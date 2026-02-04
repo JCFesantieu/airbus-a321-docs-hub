@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "Source Page": "96",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Door and Exit Longitudinal Locations",
+      "headers": [
+        "Door/Exit Description",
+        "Distance from Nose (m)",
+        "Distance from Nose (ft)"
+      ],
+      "rows": [
+        [
+          "Forward Passenger Door",
+          "5.04 m",
+          "16.54 ft"
+        ],
+        [
+          "Forward Overwing Exit",
+          "18.70 m",
+          "61.35 ft"
+        ],
+        [
+          "Aft Overwing Exit",
+          "19.54 m",
+          "64.11 ft"
+        ],
+        [
+          "Aft Passenger Door",
+          "26.82 m",
+          "87.99 ft"
+        ],
+        [
+          "Tail Reference Point",
+          "36.47 m",
+          "119.65 ft"
+        ],
+        [
+          "Forward Cargo Door",
+          "8.56 m",
+          "28.08 ft"
+        ],
+        [
+          "Aft Cargo Door",
+          "30.02 m",
+          "98.49 ft"
+        ],
+        [
+          "Bulk Cargo Door",
+          "33.22 m",
+          "108.99 ft"
+        ]
+      ]
+    }
+  ]
+}

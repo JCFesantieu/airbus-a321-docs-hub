@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "189",
+    "Document Section": "/docs/performance/landing-length"
+  },
+  "tables": [
+    {
+      "title": "Landing Field Length vs Gross Weight and Airfield Elevation",
+      "headers": [
+        "Gross Weight (lb)",
+        "Gross Weight (kg)",
+        "Sea Level Elevation (ft)",
+        "2 000 ft Elevation (ft)",
+        "4 000 ft Elevation (ft)",
+        "6 000 ft Elevation (ft)",
+        "8 000 ft Elevation (ft)",
+        "10 000 ft Elevation (ft)"
+      ],
+      "rows": [
+        [
+          "120 000 lb",
+          "54 431 kg",
+          "4 400 ft",
+          "4 500 ft",
+          "4 700 ft",
+          "4 900 ft",
+          "5 100 ft",
+          "5 300 ft"
+        ],
+        [
+          "140 000 lb",
+          "63 503 kg",
+          "4 800 ft",
+          "4 900 ft",
+          "5 100 ft",
+          "5 400 ft",
+          "5 600 ft",
+          "5 900 ft"
+        ],
+        [
+          "160 000 lb",
+          "72 575 kg",
+          "5 200 ft",
+          "5 400 ft",
+          "5 600 ft",
+          "5 900 ft",
+          "6 200 ft",
+          "6 500 ft"
+        ],
+        [
+          "180 000 lb",
+          "81 647 kg",
+          "5 600 ft",
+          "5 800 ft",
+          "6 100 ft",
+          "6 400 ft",
+          "6 800 ft",
+          null
+        ]
+      ]
+    }
+  ]
+}

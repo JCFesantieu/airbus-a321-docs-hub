@@ -1,0 +1,80 @@
+[
+  {
+    "metadata": {
+      "Source Page": "89",
+      "Document Section": "/docs/description/cargo"
+    },
+    "tables": [
+      {
+        "title": "Cargo Compartment Frame Ranges - With Regular Waste Tank",
+        "headers": [
+          "Compartment",
+          "Start Frame",
+          "End Frame",
+          "Capacity"
+        ],
+        "rows": [
+          [
+            "FWD CARGO COMPARTMENT",
+            "FR24A",
+            "FR35.5",
+            "5 CONTAINERS"
+          ],
+          [
+            "RCT (Rear Center Tank)",
+            "FR47",
+            "FR49",
+            "N/A"
+          ],
+          [
+            "AFT CARGO COMPARTMENT",
+            "FR49",
+            "FR59",
+            "3 CONTAINERS"
+          ],
+          [
+            "BULK CARGO COMPARTMENT",
+            "FR59",
+            "FR65",
+            "N/A"
+          ]
+        ]
+      },
+      {
+        "title": "Cargo Compartment Frame Ranges - With Option Increased Waste Tank",
+        "headers": [
+          "Compartment",
+          "Start Frame",
+          "End Frame",
+          "Capacity"
+        ],
+        "rows": [
+          [
+            "FWD CARGO COMPARTMENT",
+            "FR24A",
+            "FR35.5",
+            "5 CONTAINERS"
+          ],
+          [
+            "RCT (Rear Center Tank)",
+            "FR47",
+            "FR49",
+            "N/A"
+          ],
+          [
+            "AFT CARGO COMPARTMENT",
+            "FR49",
+            "FR59",
+            "3 CONTAINERS"
+          ],
+          [
+            "BULK CARGO COMPARTMENT",
+            "FR59",
+            "FR64",
+            "N/A"
+          ]
+        ]
+      }
+    ]
+  }
+]

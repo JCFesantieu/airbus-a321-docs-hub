@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "102",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Engine Installation Dimensions",
+      "headers": [
+        "Engine Type",
+        "Vertical Dimension (from Centerline)",
+        "Horizontal Dimension"
+      ],
+      "rows": [
+        [
+          "CFM",
+          "2.47 m (8.10 ft)",
+          "6.32 m (20.74 ft)"
+        ],
+        [
+          "PW",
+          "2.43 m (7.97 ft)",
+          "6.32 m (20.74 ft)"
+        ]
+      ]
+    },
+    {
+      "title": "Door Dimensions and Location",
+      "headers": [
+        "Parameter",
+        "Metric",
+        "Imperial"
+      ],
+      "rows": [
+        [
+          "Distance from Nose to Door Centerline",
+          "8.16 m",
+          "26.77 ft"
+        ],
+        [
+          "Door Width",
+          "1.82 m",
+          "5.97 ft"
+        ],
+        [
+          "Lateral Distance from Centerline (Section A-A)",
+          "3.95 m",
+          "12.96 ft"
+        ],
+        [
+          "Vertical Dimension 1 (Section A-A)",
+          "1.24 m",
+          "4.07 ft"
+        ],
+        [
+          "Vertical Dimension 2 (Section A-A)",
+          "1.50 m",
+          "4.92 ft"
+        ]
+      ]
+    }
+  ]
+}

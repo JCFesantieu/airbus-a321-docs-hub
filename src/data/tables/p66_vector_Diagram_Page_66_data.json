@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "Source Page": "66",
+    "Document Section": "/docs/description/ground-clearances"
+  },
+  "tables": [
+    {
+      "title": "CONNECTION HEIGHTS",
+      "headers": [
+        "CONNECTION HEIGHTS",
+        "ID",
+        "MRW (WV0) 101 400 kg (223 549 lb) - FWD CG (17.5%) (m)",
+        "MRW (WV0) 101 400 kg (223 549 lb) - FWD CG (17.5%) (ft)",
+        "MRW (WV0) 101 400 kg (223 549 lb) - AFT CG (38%) (m)",
+        "MRW (WV0) 101 400 kg (223 549 lb) - AFT CG (38%) (ft)",
+        "OEW 52 000 kg (114 640 lb) - CG (25%) (m)",
+        "OEW 52 000 kg (114 640 lb) - CG (25%) (ft)",
+        "A/C JACKED FDL = 4.60 m (15.09 ft) (m)",
+        "A/C JACKED FDL = 4.60 m (15.09 ft) (ft)"
+      ],
+      "rows": [
+        [
+          "OXYGEN SYSTEMS",
+          "OS",
+          "2.185 m",
+          "7.169 ft",
+          "2.279 m",
+          "7.477 ft",
+          "2.300 m",
+          "7.546 ft",
+          "2.950 m",
+          "9.678 ft"
+        ],
+        [
+          "PRE CONDITIONED AIR",
+          "PC1",
+          "1.665 m",
+          "5.463 ft",
+          "1.684 m",
+          "5.525 ft",
+          "1.748 m",
+          "5.735 ft",
+          "2.340 m",
+          "7.677 ft"
+        ],
+        [
+          "PRE CONDITIONED AIR",
+          "PC2",
+          "1.731 m",
+          "5.679 ft",
+          "1.753 m",
+          "5.751 ft",
+          "1.816 m",
+          "5.958 ft",
+          "2.410 m",
+          "7.907 ft"
+        ],
+        [
+          "REFUEL COUPLING RH",
+          "RF1",
+          "3.505 m",
+          "11.499 ft",
+          "3.499 m",
+          "11.480 ft",
+          "3.578 m",
+          "11.739 ft",
+          "4.150 m",
+          "13.615 ft"
+        ],
+        [
+          "REFUEL COUPLING LH - OPTIONAL",
+          "RF2",
+          "3.505 m",
+          "11.499 ft",
+          "3.499 m",
+          "11.480 ft",
+          "3.578 m",
+          "11.739 ft",
+          "4.150 m",
+          "13.615 ft"
+        ],
+        [
+          "REFUEL PANEL",
+          "RF3",
+          "1.934 m",
+          "6.345 ft",
+          "1.945 m",
+          "6.381 ft",
+          "2.014 m",
+          "6.608 ft",
+          "2.600 m",
+          "8.530 ft"
+        ],
+        [
+          "GROUND ELECTRICAL POWER RECEPTACLE",
+          "GP1",
+          "1.877 m",
+          "6.158 ft",
+          "1.977 m",
+          "6.486 ft",
+          "1.994 m",
+          "6.542 ft",
+          "2.650 m",
+          "8.694 ft"
+        ],
+        [
+          "TOILET SERVICING",
+          "TO1",
+          "2.527 m",
+          "8.291 ft",
+          "2.444 m",
+          "8.018 ft",
+          "2.568 m",
+          "8.425 ft",
+          "3.080 m",
+          "10.105 ft"
+        ],
+        [
+          "WATER FILLING",
+          "WA1",
+          "2.617 m",
+          "8.586 ft",
+          "2.534 m",
+          "8.314 ft",
+          "2.658 m",
+          "8.720 ft",
+          "3.170 m",
+          "10.400 ft"
+        ],
+        [
+          "WATER DRAINAGE",
+          "WD",
+          "1.911 m",
+          "6.270 ft",
+          "1.808 m",
+          "5.932 ft",
+          "1.944 m",
+          "6.378 ft",
+          "2.440 m",
+          "8.005 ft"
+        ],
+        [
+          "FWD CARGO DOOR CONTROL",
+          "CD1",
+          "1.814 m",
+          "5.951 ft",
+          "1.884 m",
+          "6.181 ft",
+          "1.918 m",
+          "6.293 ft",
+          "2.550 m",
+          "8.366 ft"
+        ],
+        [
+          "FWD CLS CONTROL",
+          "CC1",
+          "1.716 m",
+          "5.630 ft",
+          "1.776 m",
+          "5.827 ft",
+          "1.816 m",
+          "5.958 ft",
+          "2.440 m",
+          "8.005 ft"
+        ],
+        [
+          "AFT CARGO DOOR CONTROL",
+          "CD2",
+          "1.937 m",
+          "6.355 ft",
+          "1.888 m",
+          "6.194 ft",
+          "1.992 m",
+          "6.535 ft",
+          "2.530 m",
+          "8.300 ft"
+        ],
+        [
+          "AFT CLS CONTROL",
+          "CC2",
+          "1.855 m",
+          "6.086 ft",
+          "1.799 m",
+          "5.902 ft",
+          "1.907 m",
+          "6.256 ft",
+          "2.440 m",
+          "8.005 ft"
+        ]
+      ]
+    }
+  ]
+}

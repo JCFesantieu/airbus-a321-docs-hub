@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "Source Page": "120",
+    "Document Section": "/docs/description/landing-gear"
+  },
+  "tables": [
+    {
+      "title": "Landing Gear Dimensional Data",
+      "headers": [
+        "Parameter",
+        "Metric Value",
+        "Imperial Value"
+      ],
+      "rows": [
+        [
+          "Retraction Angle",
+          "92°",
+          "92°"
+        ],
+        [
+          "Extended Length",
+          "2 338 mm",
+          "92.05 in"
+        ],
+        [
+          "Compressed Length",
+          "1 957.03 mm",
+          "77.05 in"
+        ],
+        [
+          "Stroke",
+          "430 mm",
+          "16.93 in"
+        ],
+        [
+          "Rake Angle",
+          "9°",
+          "9°"
+        ],
+        [
+          "X-Coordinate",
+          "7 561 mm",
+          "297.68 in"
+        ],
+        [
+          "Wheel Track",
+          "500 mm",
+          "19.69 in"
+        ]
+      ]
+    }
+  ]
+}

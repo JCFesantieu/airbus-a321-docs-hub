@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "Source Page": "130",
+    "Document Section": "/docs/description/landing-gear"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Antennas and Probes Identification",
+      "headers": [
+        "Component",
+        "Identifier/Location"
+      ],
+      "rows": [
+        ["WEATHER RADAR", "N/A"],
+        ["EMERGENCY STATIC PROBE", "N/A"],
+        ["AOA SENSOR", "(1), (2), (3) STBY"],
+        ["GPS", "(1), (2)"],
+        ["VHF", "(1), (2), (3)"],
+        ["ATC", "(1), (2), (3), (4)"],
+        ["TCAS", "TOP, BOTTOM"],
+        ["ELT", "N/A"],
+        ["HF", "N/A"],
+        ["LOC", "N/A"],
+        ["GLIDE", "N/A"],
+        ["DME", "(1), (2)"],
+        ["TAT PROBE", "N/A"],
+        ["PITOT PROBE", "(1), (2), (3)"],
+        ["STATIC PROBE", "(1), (2)"],
+        ["MARKER", "N/A"],
+        ["RADIO ALTIMETER", "(1), (2)"],
+        ["VOR", "N/A"],
+        ["ADF", "(1)"]
+      ]
+    }
+  ]
+}

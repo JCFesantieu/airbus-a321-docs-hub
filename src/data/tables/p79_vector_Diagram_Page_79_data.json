@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "Source Page": "79",
+    "Document Section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "PASSENGER SEATS (206 TOTAL)",
+      "headers": [
+        "Class",
+        "Seats",
+        "Configuration"
+      ],
+      "rows": [
+        [
+          "BUSINESS CLASS",
+          "16 SEATS",
+          "4 ABREAST - 36 in PITCH"
+        ],
+        [
+          "ECONOMY CLASS",
+          "190 SEATS",
+          "6 ABREAST - 29/30 in PITCH"
+        ]
+      ]
+    },
+    {
+      "title": "CABIN AMENITIES",
+      "headers": [
+        "Item",
+        "Quantity"
+      ],
+      "rows": [
+        [
+          "ATTENDANT SEATS",
+          "6"
+        ],
+        [
+          "GALLEYS",
+          "4"
+        ],
+        [
+          "LAVATORIES",
+          "4"
+        ],
+        [
+          "STOWAGE",
+          "1"
+        ]
+      ]
+    }
+  ]
+}

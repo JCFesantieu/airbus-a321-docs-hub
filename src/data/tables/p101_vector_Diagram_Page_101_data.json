@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "Source Page": "101",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Engine Specific Horizontal Distances",
+      "headers": [
+        "Engine Type",
+        "Distance (m)",
+        "Distance (ft)"
+      ],
+      "rows": [
+        [
+          "CFM56",
+          "6.45 m",
+          "21.16 ft"
+        ],
+        [
+          "IAE V2500",
+          "6.38 m",
+          "20.93 ft"
+        ]
+      ]
+    },
+    {
+      "title": "General Aircraft Dimensions",
+      "headers": [
+        "Description",
+        "Value (m)",
+        "Value (ft)"
+      ],
+      "rows": [
+        [
+          "Distance from Nose to Door Centerline",
+          "8.16 m",
+          "26.77 ft"
+        ],
+        [
+          "Door Width",
+          "1.82 m",
+          "5.97 ft"
+        ],
+        [
+          "Door Height",
+          "1.24 m",
+          "4.07 ft"
+        ],
+        [
+          "Distance from Floor to Ground",
+          "1.50 m",
+          "4.92 ft"
+        ],
+        [
+          "Horizontal Distance from Centerline to Door Edge",
+          "3.95 m",
+          "12.96 ft"
+        ],
+        [
+          "Vertical Distance from Floor to Fuselage Bottom",
+          "2.71 m",
+          "8.89 ft"
+        ]
+      ]
+    }
+  ]
+}

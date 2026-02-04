@@ -1,0 +1,45 @@
+[
+  {
+    "metadata": {
+      "source_page": 72,
+      "document_section": "/docs/description/ground-clearances"
+    },
+    "tables": [
+      {
+        "title": "AILERON UP",
+        "headers": [
+          "DESCRIPTION",
+          "",
+          "A/C IN MAINTENANCE CONFIGURATION MID CG (m)",
+          "A/C IN MAINTENANCE CONFIGURATION MID CG (ft)",
+          "MAXIMUM RAMP WEIGHT FWD CG (m)",
+          "MAXIMUM RAMP WEIGHT FWD CG (ft)",
+          "MAXIMUM RAMP WEIGHT AFT CG (m)",
+          "MAXIMUM RAMP WEIGHT AFT CG (ft)"
+        ],
+        "rows": [
+          [
+            "AILERON INBD",
+            "A",
+            "4.33 m",
+            "14.21 ft",
+            "4.22 m",
+            "13.85 ft",
+            "4.19 m",
+            "13.75 ft"
+          ],
+          [
+            "AILERON OUTBD",
+            "B",
+            "4.53 m",
+            "14.86 ft",
+            "4.42 m",
+            "14.50 ft",
+            "4.37 m",
+            "14.34 ft"
+          ]
+        ]
+      }
+    ]
+  }
+]

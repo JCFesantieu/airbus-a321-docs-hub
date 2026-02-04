@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "Source Page": "54",
+    "Document Section": "/docs/description/dimensions"
+  },
+  "tables": [
+    {
+      "title": "Aircraft External Dimensions",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Fuselage Height/Diameter",
+          "4.14 m",
+          "13.58 ft"
+        ],
+        [
+          "Vertical Stabilizer Height (above fuselage)",
+          "5.87 m",
+          "19.26 ft"
+        ],
+        [
+          "Nose to Nose Gear Distance",
+          "5.07 m",
+          "16.63 ft"
+        ],
+        [
+          "Wheelbase (Nose Gear to Main Gear)",
+          "16.90 m",
+          "55.45 ft"
+        ],
+        [
+          "Wingspan",
+          "35.80 m",
+          "117.45 ft"
+        ],
+        [
+          "Horizontal Stabilizer Span",
+          "12.45 m",
+          "40.85 ft"
+        ],
+        [
+          "Wing Root Height from Ground",
+          "3.79 m",
+          "12.43 ft"
+        ],
+        [
+          "Wingtip Height (above wing root)",
+          "2.43 m",
+          "7.97 ft"
+        ],
+        [
+          "Nose Gear Wheel Track",
+          "0.50 m",
+          "1.64 ft"
+        ],
+        [
+          "Main Gear Wheel Track (Inner)",
+          "7.59 m",
+          "24.90 ft"
+        ],
+        [
+          "Main Gear Wheel Track (Outer)",
+          "8.97 m",
+          "29.43 ft"
+        ],
+        [
+          "Main Gear Assembly Width",
+          "0.93 m",
+          "3.05 ft"
+        ]
+      ]
+    }
+  ]
+}

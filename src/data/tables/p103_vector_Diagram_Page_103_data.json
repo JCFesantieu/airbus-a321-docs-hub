@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "Source Page": "103",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Door Dimensions and Locations",
+      "headers": [
+        "Parameter",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Distance from Nose to Door Centerline",
+          "29.62 m",
+          "97.18 ft"
+        ],
+        [
+          "Door Width",
+          "1.82 m",
+          "5.97 ft"
+        ],
+        [
+          "Door Height",
+          "1.23 m",
+          "4.04 ft"
+        ],
+        [
+          "Floor to Top of Door",
+          "1.43 m",
+          "4.69 ft"
+        ],
+        [
+          "Distance from Centerline to Door Outer Edge",
+          "3.95 m",
+          "12.96 ft"
+        ],
+        [
+          "Distance from Door Aft Edge to Wing Leading Edge",
+          "4.69 m",
+          "15.39 ft"
+        ]
+      ]
+    }
+  ]
+}

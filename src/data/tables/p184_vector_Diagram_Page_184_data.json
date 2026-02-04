@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "Source Page": "184",
+    "Document Section": "/docs/performance/take-off-weight"
+  },
+  "tables": [
+    {
+      "title": "Take-off Weight vs Runway Length and Airport Pressure Altitude",
+      "headers": [
+        "Airport Pressure Altitude",
+        "Runway Length",
+        "Take-off Weight (lb)",
+        "Take-off Weight (kg)"
+      ],
+      "rows": [
+        ["0 ft", "4 500 ft", "160 000 lb", "72 500 kg"],
+        ["0 ft", "6 000 ft", "195 000 lb", "88 500 kg"],
+        ["0 ft", "8 000 ft", "215 000 lb", "97 500 kg"],
+        ["0 ft", "8 500 ft", "218 000 lb", "99 000 kg"],
+        ["2 000 ft", "4 500 ft", "150 000 lb", "68 000 kg"],
+        ["2 000 ft", "6 000 ft", "185 000 lb", "84 000 kg"],
+        ["2 000 ft", "8 000 ft", "205 000 lb", "93 000 kg"],
+        ["2 000 ft", "10 000 ft", "215 000 lb", "97 500 kg"],
+        ["2 000 ft", "10 500 ft", "218 000 lb", "99 000 kg"],
+        ["4 000 ft", "4 500 ft", "140 000 lb", "63 500 kg"],
+        ["4 000 ft", "6 000 ft", "175 000 lb", "79 500 kg"],
+        ["4 000 ft", "8 000 ft", "192 000 lb", "87 000 kg"],
+        ["4 000 ft", "10 000 ft", "202 000 lb", "91 500 kg"],
+        ["4 000 ft", "13 000 ft", "208 000 lb", "94 500 kg"],
+        ["6 000 ft", "4 500 ft", "130 000 lb", "59 000 kg"],
+        ["6 000 ft", "6 000 ft", "165 000 lb", "74 800 kg"],
+        ["6 000 ft", "8 000 ft", "182 000 lb", "82 500 kg"],
+        ["6 000 ft", "10 000 ft", "192 000 lb", "87 000 kg"],
+        ["6 000 ft", "13 000 ft", "198 000 lb", "90 000 kg"],
+        ["8 000 ft", "4 500 ft", "120 000 lb", "54 500 kg"],
+        ["8 000 ft", "6 000 ft", "155 000 lb", "70 500 kg"],
+        ["8 000 ft", "8 000 ft", "172 000 lb", "78 000 kg"],
+        ["8 000 ft", "10 000 ft", "182 000 lb", "82 500 kg"],
+        ["8 000 ft", "13 000 ft", "188 000 lb", "85 500 kg"]
+      ]
+    }
+  ]
+}

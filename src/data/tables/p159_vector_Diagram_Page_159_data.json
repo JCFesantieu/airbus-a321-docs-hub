@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "Source Page": "159",
+    "Document Section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "TYPICAL JACK INSTALLATION SHOWN",
+      "headers": [
+        "CONFIGURATION",
+        "DESCRIPTION",
+        "DISTANCE BETWEEN JACKING/SAFETY POINTS AND THE GROUND - L (FORWARD JACK)",
+        "DISTANCE BETWEEN JACKING/SAFETY POINTS AND THE GROUND - M (WING JACK)",
+        "DISTANCE BETWEEN JACKING/SAFETY POINTS AND THE GROUND - N (SAFETY STAY)"
+      ],
+      "rows": [
+        [
+          "- AIRCRAFT ON WHEELS",
+          "- NLG SHOCK ABSORBER DEFLATED AND NLG TIRES FLAT\n- MLG STANDARD TIRES, WITH STANDARD SHOCK ABSORBERS",
+          "1 603 mm (63.11 in)",
+          "3 124 mm (122.99 in)",
+          "3 635 mm (143.11 in)"
+        ],
+        [
+          "- AIRCRAFT ON WHEELS",
+          "TIRES FLAT\nSHOCK ABSORBERS DEFLATED",
+          "1 654 mm (65.12 in)",
+          "2 761 mm (108.70 in)",
+          "2 889 mm (113.74 in)"
+        ],
+        [
+          "- AIRCRAFT ON WHEELS",
+          "STANDARD TIRES\nSTANDARD SHOCK ABSORBERS",
+          "1 924 mm (75.75 in)",
+          "3 125 mm (123.03 in)",
+          "3 341 mm (131.54 in)"
+        ],
+        [
+          "- AIRCRAFT ON JACKS (FORWARD JACK AND WING JACKS)\n- FUSELAGE DATUM LINE PARALLEL TO THE GROUND",
+          "STANDARD TIRES\nMLG SHOCK ABSORBERS EXTENDED WITH WHEEL CLEARANCE OF 120 mm (4.72 in) FOR MLG RETRACTION OR EXTENSION",
+          "2 605 mm (102.56 in)",
+          "3 706 mm (145.91 in)",
+          "3 830 mm (150.79 in)"
+        ],
+        [
+          "- AIRCRAFT ON JACKS (FORWARD JACK AND WING JACKS)\n- FUSELAGE DATUM LINE PARALLEL TO THE GROUND",
+          "STANDARD TIRES\nMLG SHOCK ABSORBERS EXTENDED WITH WHEEL CLEARANCE OF 770 mm (30.31 in) FOR REPLACEMENT OF THE MLG",
+          "3 255 mm (128.15 in)",
+          "4 356 mm (171.50 in)",
+          "4 480 mm (176.38 in)"
+        ],
+        [
+          "- AIRCRAFT ON FORWARD JACK\n- MLG WHEELS ON THE GROUND",
+          "STANDARD TIRES\nNLG SHOCK ABSORBERS EXTENDED WITH WHEEL CLEARANCE OF 60 mm (2.36 in) FOR NLG RETRACTION OR EXTENSION",
+          "2 371 mm (93.35 in)",
+          "NA",
+          "2 930 mm (115.35 in)"
+        ]
+      ]
+    }
+  ]
+}

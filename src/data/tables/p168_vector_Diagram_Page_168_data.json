@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "source_page": "168",
+    "document_section": "/docs/description/jacking"
+  },
+  "tables": [
+    {
+      "title": "A321-100/-200 WV011",
+      "headers": [
+        "Description",
+        "Value"
+      ],
+      "rows": [
+        [
+          "MAXIMUM DESIGN TAXI WEIGHT (MTW)",
+          "93 900 kg (207 014 lb)"
+        ],
+        [
+          "MAXIMUM DESIGN TAKE-OFF WEIGHT (MTOW)",
+          "93 500 kg (206 132 lb)"
+        ],
+        [
+          "MAXIMUM LOAD VALUE TO BE APPLIED ON NLG JACKING POINT",
+          "9 000 kg (19 842 lb)"
+        ],
+        [
+          "NUMBER OF JACKING POINTS ON ONE MLG",
+          "1"
+        ],
+        [
+          "MAXIMUM LOAD VALUE TO BE APPLIED ON MLG JACKING POINT (LEFT OR RIGHT)",
+          "44 500 kg (98 106 lb)"
+        ]
+      ]
+    }
+  ]
+}

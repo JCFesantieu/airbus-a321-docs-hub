@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "Source Page": "117",
+    "Document Section": "/docs/description/landing-gear"
+  },
+  "tables": [
+    {
+      "title": "Landing Gear Dimensions and Specifications",
+      "headers": [
+        "Parameter",
+        "Metric Value",
+        "Imperial Value"
+      ],
+      "rows": [
+        [
+          "Length (Pivot to Compressed Center)",
+          "2 214 mm",
+          "87.17 in"
+        ],
+        [
+          "Length (Pivot to Extended Center)",
+          "2 868.70 mm",
+          "112.94 in"
+        ],
+        [
+          "Vertical Travel (Compressed to Extended)",
+          "470.52 mm",
+          "18.52 in"
+        ],
+        [
+          "X-Coordinate",
+          "24 513.89 mm",
+          "965.11 in"
+        ],
+        [
+          "Y-Coordinate",
+          "3 795 mm",
+          "149.41 in"
+        ],
+        [
+          "Wheel Track (Center to Center)",
+          "927.10 mm",
+          "36.50 in"
+        ],
+        [
+          "Retraction Angle",
+          "80°30",
+          "N/A"
+        ],
+        [
+          "AMC Percentage",
+          "58.30 % AMC",
+          "N/A"
+        ]
+      ]
+    }
+  ]
+}

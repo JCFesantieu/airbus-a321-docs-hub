@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "Source Page": "53",
+    "Document Section": "/docs/description/dimensions"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Dimensions - Top View",
+      "headers": [
+        "Dimension Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Overall Length",
+          "44.51 m",
+          "146.03 ft"
+        ],
+        [
+          "Distance from Nose to Engine Front",
+          "15.40 m",
+          "50.52 ft"
+        ],
+        [
+          "Distance from Nose to Main Landing Gear",
+          "27.72 m",
+          "90.94 ft"
+        ],
+        [
+          "Distance from Centerline to Engine Outer Edge",
+          "5.75 m",
+          "18.86 ft"
+        ],
+        [
+          "Distance from Engine Front to Wing Leading Edge",
+          "6.07 m",
+          "19.91 ft"
+        ],
+        [
+          "Fuselage Width",
+          "3.95 m",
+          "12.96 ft"
+        ],
+        [
+          "Distance from Tail Tip to Horizontal Stabilizer Leading Edge",
+          "3.31 m",
+          "10.86 ft"
+        ],
+        [
+          "Distance from Tail Tip to Horizontal Stabilizer Trailing Edge",
+          "1.24 m",
+          "4.07 ft"
+        ],
+        [
+          "Distance from Centerline to Wing Trailing Edge Break",
+          "8.30 m",
+          "27.23 ft"
+        ],
+        [
+          "Distance from Centerline to Horizontal Stabilizer Tip",
+          "11.91 m",
+          "39.07 ft"
+        ],
+        [
+          "Distance from Centerline to Winglet Tip (Half Wingspan)",
+          "16.29 m",
+          "53.44 ft"
+        ],
+        [
+          "Distance from Centerline to Main Landing Gear",
+          "4.87 m",
+          "15.98 ft"
+        ],
+        [
+          "Distance from Main Landing Gear to Wing Trailing Edge",
+          "1.64 m",
+          "5.38 ft"
+        ],
+        [
+          "Longitudinal Distance from Main Landing Gear to Winglet Tip",
+          "3.22 m",
+          "10.56 ft"
+        ],
+        [
+          "Winglet Tip Width",
+          "1.61 m",
+          "5.28 ft"
+        ]
+      ]
+    }
+  ]
+}

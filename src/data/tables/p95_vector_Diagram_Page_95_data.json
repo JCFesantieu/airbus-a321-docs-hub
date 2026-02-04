@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "Source Page": "95",
+    "Document Section": "/docs/description/doors"
+  },
+  "tables": [
+    {
+      "title": "Aircraft Doors and Exits",
+      "headers": [
+        "Side",
+        "Door/Exit Name"
+      ],
+      "rows": [
+        [
+          "Left Side",
+          "DOOR 1L"
+        ],
+        [
+          "Left Side",
+          "FORWARD OVERWING EXIT L"
+        ],
+        [
+          "Left Side",
+          "AFT OVERWING EXIT L"
+        ],
+        [
+          "Left Side",
+          "DOOR 3L"
+        ],
+        [
+          "Left Side",
+          "DOOR 4L"
+        ],
+        [
+          "Right Side",
+          "DOOR 4R"
+        ],
+        [
+          "Right Side",
+          "DOOR 3R"
+        ],
+        [
+          "Right Side",
+          "AFT OVERWING EXIT R"
+        ],
+        [
+          "Right Side",
+          "FORWARD OVERWING EXIT R"
+        ],
+        [
+          "Right Side",
+          "DOOR 1R"
+        ],
+        [
+          "Right Side",
+          "BULK CARGO COMPARTMENT DOOR"
+        ],
+        [
+          "Right Side",
+          "AFT CARGO COMPARTMENT DOOR"
+        ],
+        [
+          "Right Side",
+          "FWD CARGO COMPARTMENT DOOR"
+        ]
+      ]
+    }
+  ]
+}

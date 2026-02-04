@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "Source Page": "172",
+    "Document Section": "/docs/performance/payload-range"
+  },
+  "tables": [
+    {
+      "title": "MTOW Variants",
+      "headers": [
+        "MTOW (kg)",
+        "MTOW (lb)",
+        "Configuration"
+      ],
+      "rows": [
+        [
+          "89 000 kg",
+          "196 211 lb",
+          null
+        ],
+        [
+          "93 500 kg",
+          "206 132 lb",
+          null
+        ],
+        [
+          "93 500 kg",
+          "206 132 lb",
+          "2 ACT"
+        ]
+      ]
+    }
+  ]
+}

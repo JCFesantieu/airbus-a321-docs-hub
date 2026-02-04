@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "Source Page": 76,
+    "Document Section": "/docs/description/interior"
+  },
+  "tables": [
+    {
+      "title": "PASSENGER SEATS (220 TOTAL)",
+      "headers": [
+        "Category",
+        "Description"
+      ],
+      "rows": [
+        [
+          "ECONOMY CLASS",
+          "220 SEATS (6 ABREAST - 28/29 in PITCH)"
+        ],
+        [
+          "ATTENDANT SEATS",
+          "7"
+        ],
+        [
+          "GALLEYS",
+          "2"
+        ],
+        [
+          "LAVATORIES",
+          "4"
+        ]
+      ]
+    }
+  ]
+}

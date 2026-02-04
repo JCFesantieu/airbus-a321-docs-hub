@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "Source Page": "85",
+    "Document Section": "/docs/description/cargo"
+  },
+  "tables": [
+    {
+      "title": "Cargo Compartment Specifications",
+      "headers": [
+        "Compartment",
+        "Frame Range",
+        "Length (m)",
+        "Length (in)",
+        "Capacity"
+      ],
+      "rows": [
+        [
+          "FWD CARGO COMPARTMENT",
+          "FR24A to FR35.5",
+          "8.15 m",
+          "320.87 in",
+          "5 CONTAINERS"
+        ],
+        [
+          "AFT CARGO COMPARTMENT",
+          "FR47.2 to FR59",
+          null,
+          null,
+          "5 CONTAINERS"
+        ],
+        [
+          "BULK CARGO COMPARTMENT",
+          "FR59 to FR65",
+          null,
+          null,
+          null
+        ],
+        [
+          "AFT & BULK CARGO COMPARTMENTS (Combined)",
+          "FR47.2 to FR65",
+          "11.4 m",
+          "448.82 in",
+          null
+        ]
+      ]
+    },
+    {
+      "title": "Cargo Door Widths",
+      "headers": [
+        "Door Location",
+        "Width (m)",
+        "Width (in)"
+      ],
+      "rows": [
+        [
+          "Forward Cargo Door",
+          "1.81 m",
+          "71.26 in"
+        ],
+        [
+          "Aft Cargo Door",
+          "1.81 m",
+          "71.26 in"
+        ],
+        [
+          "Bulk Cargo Door",
+          "0.86 m",
+          "33.86 in"
+        ]
+      ]
+    }
+  ]
+}

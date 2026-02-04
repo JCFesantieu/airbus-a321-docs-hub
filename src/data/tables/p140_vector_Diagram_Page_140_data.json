@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "Source Page": "140",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Engine Dimensions",
+      "headers": [
+        "Dimension",
+        "Metric (mm)",
+        "Imperial (in)"
+      ],
+      "rows": [
+        [
+          "Overall Length",
+          "3 101 mm",
+          "122.1 in"
+        ],
+        [
+          "Fan Inlet Diameter",
+          "1 715 mm",
+          "67.5 in"
+        ],
+        [
+          "Exhaust Outlet Diameter",
+          "1 067 mm",
+          "42.0 in"
+        ]
+      ]
+    }
+  ]
+}

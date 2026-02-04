@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "Source Page": "122",
+    "Document Section": "/docs/description/landing-gear"
+  },
+  "tables": [
+    {
+      "title": "Landing Gear and Jacking Point Dimensions",
+      "headers": [
+        "Description",
+        "Metric (m)",
+        "Imperial (ft)"
+      ],
+      "rows": [
+        [
+          "Distance from X0 to Main Jacking Point",
+          "24.37 m",
+          "79.95 ft"
+        ],
+        [
+          "Distance from X0 to Main Landing Gear Centerline",
+          "24.52 m",
+          "80.45 ft"
+        ],
+        [
+          "Distance from Main Landing Gear Centerline to Forward Jacking Point",
+          "6.49 m",
+          "21.29 ft"
+        ],
+        [
+          "Main Landing Gear Footprint Width",
+          "3.76 m",
+          "12.34 ft"
+        ],
+        [
+          "Main Landing Gear Tire Spacing",
+          "2.95 m",
+          "9.68 ft"
+        ],
+        [
+          "Distance from Main Landing Gear Centerline to Nose Landing Gear Centerline",
+          "3.79 m",
+          "12.43 ft"
+        ],
+        [
+          "Main Landing Gear Footprint Length",
+          "1.92 m",
+          "6.30 ft"
+        ],
+        [
+          "Distance between Main Landing Gear Centerlines",
+          "7.59 m",
+          "24.90 ft"
+        ],
+        [
+          "Distance from Nose Landing Gear Centerline to Forward Jacking Point",
+          "1.5 m",
+          "4.92 ft"
+        ],
+        [
+          "Nose Landing Gear Tire Spacing",
+          "1 m",
+          "3.28 ft"
+        ],
+        [
+          "Nose Landing Gear Footprint Width",
+          "2.5 m",
+          "8.20 ft"
+        ],
+        [
+          "Distance from X0 to Forward Jacking Point",
+          "5.28 m",
+          "17.32 ft"
+        ],
+        [
+          "Distance from X0 to Nose Landing Gear Centerline",
+          "7.61 m",
+          "24.97 ft"
+        ]
+      ]
+    }
+  ]
+}

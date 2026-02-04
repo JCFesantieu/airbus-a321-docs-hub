@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "Source Page": "136",
+    "Document Section": "/docs/description/power-plant"
+  },
+  "tables": [
+    {
+      "title": "Engine Dimensions",
+      "headers": [
+        "Description",
+        "Value (mm)",
+        "Value (in)"
+      ],
+      "rows": [
+        [
+          "Overall Length (Nose to LP Turbine Rear)",
+          "2 943 mm",
+          "115.87 in"
+        ],
+        [
+          "Length (Nose to TGB/AGB Rear)",
+          "2 600 mm",
+          "102.36 in"
+        ],
+        [
+          "Length (Nose to FWD Hoisting Point)",
+          "1 125 mm",
+          "44.28 in"
+        ],
+        [
+          "Fan Diameter",
+          "1 820 mm",
+          "71.65 in"
+        ],
+        [
+          "Overall Height",
+          "2 145 mm",
+          "84.45 in"
+        ],
+        [
+          "Height (Centerline to Bottom)",
+          "1 130 mm",
+          "44.49 in"
+        ],
+        [
+          "Width (Centerline to Left)",
+          "989 mm",
+          "38.94 in"
+        ],
+        [
+          "Total Width",
+          "1 978 mm",
+          "77.87 in"
+        ],
+        [
+          "Rear Section Diameter (DIA)",
+          "986 mm",
+          "38.82 in"
+        ]
+      ]
+    }
+  ]
+}

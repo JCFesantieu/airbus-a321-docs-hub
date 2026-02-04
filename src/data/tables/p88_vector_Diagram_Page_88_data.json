@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "Source Page": "88",
+    "Document Section": "/docs/description/cargo"
+  },
+  "tables": [
+    {
+      "title": "Loading Combinations for A321NEO-ACF with ACT Configuration",
+      "headers": [
+        "Configuration Description",
+        "Compartment",
+        "Standard Capacity",
+        "ACTs Installed",
+        "Cargo ULDs"
+      ],
+      "rows": [
+        [
+          "LOADING COMBINATIONS OF FWD CARGO COMPARTMENT WITH 1 ACT INSTALLED AND AFT CARGO COMPARTMENT WITH 1 ACT INSTALLED FOR A321NEO-ACF",
+          "FWD",
+          "4 ULDs",
+          "1",
+          "3"
+        ],
+        [
+          "LOADING COMBINATIONS OF FWD CARGO COMPARTMENT WITH 1 ACT INSTALLED AND AFT CARGO COMPARTMENT WITH 1 ACT INSTALLED FOR A321NEO-ACF",
+          "AFT",
+          "3 ULDs",
+          "1",
+          "2"
+        ],
+        [
+          "LOADING COMBINATIONS OF FWD CARGO COMPARTMENT WITH 1 ACT INSTALLED AND AFT CARGO COMPARTMENT WITH 2 ACT INSTALLED FOR A321NEO-ACF",
+          "FWD",
+          "3 ULDs",
+          "1",
+          "3"
+        ],
+        [
+          "LOADING COMBINATIONS OF FWD CARGO COMPARTMENT WITH 1 ACT INSTALLED AND AFT CARGO COMPARTMENT WITH 2 ACT INSTALLED FOR A321NEO-ACF",
+          "AFT",
+          "3 ULDs",
+          "2",
+          "1"
+        ]
+      ]
+    }
+  ]
+}
