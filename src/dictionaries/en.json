@@ -147,6 +147,7 @@
     "description": "These curves are given for information only. The approved values are stated in the 'Operating Manuals' specific to the airline operating the aircraft.",
     "chart_title": "Take-off Weight Chart",
     "card_title": "Operational Constraints",
+    "card_description": "Figure: Take-off Weight Limitation - ISA Conditions",
     "notice_title": "Information Only",
     "table_title": "Weight Limitation Data"
   },
@@ -156,6 +157,7 @@
     "description": "This section provides the landing field length required for various aircraft weights and airport altitudes under Standard Day (ISA) conditions. These values are essential for determining runway suitability at destination and alternate airports.",
     "chart_title": "Landing Field Length Chart",
     "card_title": "Required Distance",
+    "card_description": "Figure: Landing Field Length - ISA Conditions",
     "table_title": "Landing Performance Data"
   },
   "approach_speed": {

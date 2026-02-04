@@ -55,7 +55,7 @@
     "wingspan": "Envergadura",
     "length": "Longitud Total",
     "height": "Altura (Punta del Timón)",
-    "diameter": "Diámetro del Fuselaje",
+    "diameter": "Diámetro del Fuselage",
     "tech_note_title": "Nota Técnica",
     "tech_note_desc": "Diagramas detallados para las versiones con Wing Tip Fence y Sharklets están disponibles en la sección de Dibujos a Escala de este manual.",
     "table_title": "Especificaciones de Dimensiones"
@@ -109,7 +109,7 @@
   "escape_slides": {
     "title": "Toboganes de Escape",
     "subtitle": "Ubicación de las instalaciones de toboganes/balsas y claridades de despliegue relacionadas.",
-    "description": "Esta sección proporciona la ubicación de las instalaciones de toboganes y balsas y las claridades de despliegue relacionadas. Cubre las configuraciones estándar del A321 así como los modelos especializados A321neo-ACF y A321neo-XLR.",
+    "description": "Esta sección proporciona la ubicación de las instalaciones de toboganes y balsas y las claridades de despliegue relacionadas. Cubre las configuraciones estándar del A321 así como los modelos especializados A321neo-ACF et A321neo-XLR.",
     "loc_title": "Ubicaciones de Toboganes",
     "loc_intro": "Las instalaciones de toboganes/balsas se proporcionan en los siguientes lugares:",
     "loc_std": "Un tobogán de carril único o doble en cada puerta 1 y 4 (total 04)",
@@ -147,6 +147,7 @@
     "description": "Estas curvas se proporcionan solo a título informativo. Los valores aprobados se indican en los 'Manuales de Operación' específicos de la aerolínea que opera el avión.",
     "chart_title": "Gráfico de Peso al Despegue",
     "card_title": "Restricciones Operativas",
+    "card_description": "Figura: Limitación de Peso al Despegue - Condiciones ISA",
     "notice_title": "Solo Información",
     "table_title": "Datos de Limitación de Peso"
   },
@@ -156,6 +157,7 @@
     "description": "Esta sección proporciona la longitud de campo de aterrizaje requerida para varios pesos de avión y altitudes de aeropuerto bajo condiciones de día estándar (ISA). Estos valores son esenciales para determinar la idoneidad de la pista en los aeropuertos de destino y alternativos.",
     "chart_title": "Gráfico de Longitud de Campo de Aterrizaje",
     "card_title": "Distancia Requerida",
+    "card_description": "Figura: Longitud de Campo de Aterrizaje - Condiciones ISA",
     "table_title": "Datos de Rendimiento de Aterrizaje"
   },
   "approach_speed": {
@@ -264,7 +266,7 @@
     "subtitle": "Distribución estructural del peso y área de contacto de los neumáticos para el análisis del pavimento del aeropuerto.",
     "description": "Esta sección proporciona los datos necesarios para comprender la presión y la huella del tren de aterrizaje del A321 en varios tipos de pavimento, lo cual es crítico para la compatibilidad de la infraestructura aeroportuaria y la evaluación de la integridad estructural.",
     "diagram_title": "Diagrama de Huella",
-    "card_title": "Géometría de Contacto de Neumáticos",
+    "card_title": "Geometría de Contacto de Neumáticos",
     "card_description": "Figura: Especificaciones de la huella del tren de aterrizaje.",
     "table_title": "Tablas de Huella y Presión"
   },

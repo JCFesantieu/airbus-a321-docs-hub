@@ -147,6 +147,7 @@
     "description": "Diese Kurven dienen nur zur Information. Die genehmigten Werte sind in den für die jeweilige Fluggesellschaft spezifischen 'Betriebshandbüchern' aufgeführt.",
     "chart_title": "Startgewichts-Diagramm",
     "card_title": "Betriebliche Einschränkungen",
+    "card_description": "Abbildung: Startgewichtsbeschränkung - ISA-Bedingungen",
     "notice_title": "Nur zur Information",
     "table_title": "Gewichtsbeschränkungsdaten"
   },
@@ -156,6 +157,7 @@
     "description": "Dieser Abschnitt enthält die erforderliche Landefeldlänge für verschiedene Flugzeuggewichte und Flughafenhöhen unter Standard-Tagesbedingungen (ISA). Diese Werte sind wesentlich für die Bestimmung der Landebahneignung an Ziel- und Ausweichflughäfen.",
     "chart_title": "Landefeldlängen-Diagramm",
     "card_title": "Erforderliche Distanz",
+    "card_description": "Abbildung: Landefeldlänge - ISA-Bedingungen",
     "table_title": "Landeperformance-Daten"
   },
   "approach_speed": {
@@ -229,7 +231,7 @@
   },
   "towing": {
     "title": "Schleppen am Boden",
-    "subtitle": "Betriebliche Anforderungen und strukturelle Einschränkungen für das Schleppen und Zurücksetzen von Flugzeugen.",
+    "subtitle": "Betriebliche Anforderungen and strukturelle Einschränkungen für das Schleppen und Zurücksetzen von Flugzeugen.",
     "description": "Dieser Abschnitt definiert die Anforderungen für das Schleppen des Flugzeugs, einschließlich der maximalen Zug- und Druckkräfte der Schleppstange. Er spezifiziert auch die Trennung der Bugradlenkung, um Schäden während der Bodenabfertigung zu vermeiden.",
     "req_title": "Schleppanforderungen",
     "card_title": "Standard-Schleppkonfiguration",
@@ -280,7 +282,7 @@
   "acn_pcn": {
     "title": "ACN/PCN-Meldesystem",
     "subtitle": "Standardisierte ICAO-Methodik zur Meldung und Bewertung der Kompatibilität der Fahrbahnfestigkeit.",
-    "description": "Das ACN/PCN-System ist das Standard-ICAO-Verfahren zur Meldung der Fahrbahnfestigkeit. Die ACN (Aircraft Classification Number) drückt die Wirkung des Flugzeugs auf die Fahrbahn aus, während die PCN (Pavement Classification Number) die Festigkeit der Fahrbahn ausdrückt. Damit ein Flugzeug ohne Einschränkung operieren kann, muss seine ACN kleiner oder gleich der PCN sein.",
+    "description": "Das ACN/PCN-System ist das Standard-ICAO-Verfahren zur Meldung der Fahrbahnfestigkeit. Die ACN (Aircraft Classification Number) drückt die Wirkung des Flugzeugs auf die Fahrbahn aus, während die PCN (Pavement Classification Number) eine Festigkeit der Fahrbahn ausdrückt. Damit ein Flugzeug ohne Einschränkung operieren kann, muss seine ACN kleiner oder gleich der PCN sein.",
     "table_title": "ACN-Tabellen",
     "card_title": "Klassifizierungsdaten",
     "card_description": "Abbildung: ACN-Tabelle für A321-100 (flexible und starre Fahrbahnen)",

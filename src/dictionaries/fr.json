@@ -147,6 +147,7 @@
     "description": "Ces courbes sont fournies uniquement à titre indicatif. Les valeurs approuvées sont indiquées dans les « Manuels d'exploitation » spécifiques à la compagnie aérienne exploitant l'avion.",
     "chart_title": "Graphique du poids au décollage",
     "card_title": "Contraintes opérationnelles",
+    "card_description": "Figure : Limitation du poids au décollage - Conditions ISA",
     "notice_title": "Information uniquement",
     "table_title": "Données de limitation de poids"
   },
@@ -156,6 +157,7 @@
     "description": "Cette section fournit la longueur de piste nécessaire à l'atterrissage pour divers poids d'avion et altitudes d'aéroport dans des conditions de jour standard (ISA). Ces valeurs sont essentielles pour déterminer l'aptitude de la piste aux aéroports de destination et de dégagement.",
     "chart_title": "Graphique de la longueur de piste à l'atterrissage",
     "card_title": "Distance requise",
+    "card_description": "Figure : Longueur de piste à l'atterrissage - Conditions ISA",
     "table_title": "Données de performance à l'atterrissage"
   },
   "approach_speed": {
