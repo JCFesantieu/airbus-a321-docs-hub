@@ -36,8 +36,8 @@ export default async function ExhaustVelocitiesPage({
             {dict.exhaust_velocities.contours_title}
           </h2>
           <ContentCard 
-            title={dict.exhaust_velocities.contours_card_title}
-            description={dict.exhaust_velocities.contours_card_desc}
+            title={dict.exhaust_velocities.card_title}
+            description={dict.exhaust_velocities.card_description}
           >
             <DiagramViewer 
               src="/img/p324_vector_Diagram_Page_324.png" 

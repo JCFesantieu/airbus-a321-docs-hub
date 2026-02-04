@@ -36,8 +36,8 @@ export default async function TurnRoundPage({
             {dict.turn_round.chart_title}
           </h2>
           <ContentCard 
-            title={dict.turn_round.chart_card_title}
-            description={dict.turn_round.chart_card_desc}
+            title={dict.turn_round.card_title}
+            description={dict.turn_round.card_description}
           >
             <DiagramViewer 
               src="/img/p240_vector_Diagram_Page_240.png" 

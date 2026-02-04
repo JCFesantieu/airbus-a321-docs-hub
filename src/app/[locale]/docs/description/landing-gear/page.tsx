@@ -2,7 +2,6 @@ import { DocHero } from "@/components/layout/doc-hero";
 import { ContentCard } from "@/components/layout/content-card";
 import { DynamicTableSection } from "@/components/layout/dynamic-table-section";
 import { DiagramViewer } from "@/components/layout/diagram-viewer";
-
 import { getDictionary } from "@/lib/dictionary";
 
 export default async function LandingGearPage({
@@ -39,8 +38,8 @@ export default async function LandingGearPage({
             {dict.landing_gear.main_gear_title}
           </h2>
           <ContentCard 
-            title={dict.landing_gear.main_gear_card_title}
-            description={dict.landing_gear.main_gear_card_desc}
+            title={dict.landing_gear.card_title}
+            description={dict.landing_gear.card_description}
           >
             <DiagramViewer 
               src="/img/p115_vector_Diagram_Page_115.png" 

@@ -39,7 +39,7 @@ export default async function PavementLoadsPage({
           </h2>
           <ContentCard 
             title={dict.pavement_loads.card_title}
-            description={dict.pavement_loads.card_desc}
+            description={dict.pavement_loads.card_description}
           >
             <DiagramViewer 
               src="/img/p386_vector_Diagram_Page_386.png" 

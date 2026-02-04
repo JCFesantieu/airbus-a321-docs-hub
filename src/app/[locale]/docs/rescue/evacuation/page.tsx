@@ -37,7 +37,7 @@ export default async function EvacuationPage({
           </h2>
           <ContentCard 
             title={dict.evacuation.card_title}
-            description={dict.evacuation.card_desc}
+            description={dict.evacuation.card_description}
           >
             <DiagramViewer 
               src="/img/p415_vector_Diagram_Page_415.png" 

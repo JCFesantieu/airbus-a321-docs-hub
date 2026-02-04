@@ -38,8 +38,8 @@ export default async function FootprintPage({
             {dict.footprint.diagram_title}
           </h2>
           <ContentCard 
-            title={dict.footprint.diagram_card_title}
-            description={dict.footprint.diagram_card_desc}
+            title={dict.footprint.card_title}
+            description={dict.footprint.card_description}
           >
             <DiagramViewer 
               src="/img/p380_vector_Diagram_Page_380.png" 

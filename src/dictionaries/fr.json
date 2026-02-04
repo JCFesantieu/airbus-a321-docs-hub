@@ -35,8 +35,8 @@
     "subtitle": "Spécifications des moteurs et disposition technique de l'unité de puissance auxiliaire (APU).",
     "description": "La famille A321 est équipée de turboréacteurs à double flux à haut taux de dilution. Selon le modèle, elle est équipée des séries CFM56, IAE V2500, PW1100G ou CFM LEAP-1A. Chaque configuration est optimisée pour des exigences spécifiques de portée et d'efficacité.",
     "apu_title": "Unité de puissance auxiliaire (APU)",
-    "apu_card_title": "Disposition générale",
-    "apu_card_description": "Installation de l'APU dans la section du cône de queue du fuselage arrière.",
+    "card_title": "Disposition générale",
+    "card_description": "Installation de l'APU dans la section du cône de queue du fuselage arrière.",
     "engine_options": "Options de moteur"
   },
   "payload_range": {
@@ -73,20 +73,28 @@
     ],
     "note": "Les gardes au sol des portes passagers et cargo sont mesurées à partir du centre du seuil de porte et du niveau du plancher.",
     "diagram_title": "Schéma technique",
-    "diagram_card_title": "Profil de l'avion avec marqueurs de garde",
-    "diagram_card_desc": "Figure 2-3-0-991-005-A01 - Wing Tip Fence",
+    "card_title": "Profil de l'avion avec marqueurs de garde",
+    "card_description": "Figure 2-3-0-991-005-A01 - Wing Tip Fence",
     "table_title": "Tableaux de données de garde au sol"
+  },
+  "interior": {
+    "title": "Aménagements intérieurs",
+    "subtitle": "Vues en plan détaillées des configurations de cabine typiques pour les variantes de l'A321.",
+    "description": "Cette section fournit des vues en plan détaillées des aménagements intérieurs pour divers modèles d'A321. Les configurations présentées sont typiques et peuvent varier selon les spécifications de l'opérateur.",
+    "config_title": "Configuration typique",
+    "card_title": "Classe unique, haute densité",
+    "card_description": "Aménagement typique pour les modèles A321-100, A321-200 et A321neo."
   },
   "cargo": {
     "title": "Compartiments cargo",
     "subtitle": "Emplacements, dimensions et combinaisons de chargement pour les systèmes de fret.",
     "description": "Cette section fournit des informations détaillées sur les compartiments cargo de l'A321, y compris leurs emplacements physiques, leurs dimensions et diverses combinaisons de chargement pour les unités de chargement (ULD) et le fret en vrac.",
     "loc_dim_title": "Emplacements et dimensions",
-    "loc_dim_card_title": "Disposition générale",
-    "loc_dim_card_desc": "Configuration cargo typique pour les variantes de l'A321.",
+    "card_title": "Disposition générale",
+    "card_description": "Configuration cargo typique pour les variantes de l'A321.",
     "loading_title": "Combinaisons de chargement",
-    "loading_card_title": "Configurations d'unités de chargement (ULD)",
-    "loading_card_desc": "Modèles de chargement standard pour les compartiments avant et arrière.",
+    "card_title_2": "Configurations d'unités de chargement (ULD)",
+    "card_description_2": "Modèles de chargement standard pour les compartiments avant et arrière.",
     "table_title": "Données de capacité cargo"
   },
   "doors": {
@@ -94,8 +102,8 @@
     "subtitle": "Identification et exigences spatiales pour tous les points d'accès de l'avion.",
     "description": "Cette section fournit l'identification et l'emplacement des portes passagers/équipage, des issues de secours et des portes des compartiments cargo. Les gardes au sol sont approximatives et varient selon le poids et la configuration de l'avion.",
     "ident_title": "Identification des portes",
-    "ident_card_title": "Disposition des points d'accès",
-    "ident_card_desc": "Identification des portes passagers, équipage et cargo.",
+    "card_title": "Disposition des points d'accès",
+    "card_description": "Identification des portes passagers, équipage et cargo.",
     "table_title": "Tableaux des dimensions et gardes au sol des portes"
   },
   "escape_slides": {
@@ -110,19 +118,19 @@
     "loc_neo_1": "Un toboggan à une ou deux voies à chaque porte 1 et 4 (total 04)",
     "loc_neo_2": "Un toboggan à une voie à chaque porte 3 (total 02)",
     "loc_neo_3": "Un toboggan d'aile à deux voies à chaque aile (total 2)",
-    "loc_card_title": "Configuration standard",
-    "loc_card_desc": "Disposition de l'emplacement des toboggans d'évacuation.",
+    "card_title": "Configuration standard",
+    "card_description": "Disposition de l'emplacement des toboggans d'évacuation.",
     "dim_title": "Dimensions techniques",
-    "dim_card_title": "Gardes au sol de déploiement",
-    "dim_card_desc": "Figure : Toboggans d'évacuation - Dimensions"
+    "card_title_2": "Gardes au sol de déploiement",
+    "card_description_2": "Figure : Toboggans d'évacuation - Dimensions"
   },
   "landing_gear": {
     "title": "Train d'atterrissage",
     "subtitle": "Architecture technique et dimensions du système de train d'atterrissage tricycle rétractable de l'A321.",
     "description": "Le train d'atterrissage est de type tricycle rétractable classique comprenant deux trains principaux à roues jumelées et un train avant à roues jumelées. La direction est contrôlée via des volants dans le cockpit et peut être désactivée pour le remorquage.",
     "main_gear_title": "Train d'atterrissage principal",
-    "main_gear_card_title": "Système à roues jumelées",
-    "main_gear_card_desc": "Disposition structurelle de la ferrure principale, de l'amortisseur et de la contrefiche latérale.",
+    "card_title": "Système à roues jumelées",
+    "card_description": "Disposition structurelle de la ferrure principale, de l'amortisseur et de la contrefiche latérale.",
     "table_title": "Spécifications du train d'atterrissage"
   },
   "jacking": {
@@ -130,8 +138,8 @@
     "subtitle": "Emplacements critiques des points de levage et exigences de haubanage de sécurité pour la maintenance au sol.",
     "description": "Cette section définit les coordonnées précises pour le levage de l'avion. Un équipement spécialisé et le strict respect des protocoles de haubanage de sécurité sont obligatoires pour garantir l'intégrité structurelle et la sécurité du personnel pendant les opérations de levage.",
     "points_title": "Points de levage",
-    "points_card_title": "Points de levage structurels",
-    "points_card_desc": "Emplacements pour les opérations de levage du fuselage avant et des ailes."
+    "card_title": "Points de levage structurels",
+    "card_description": "Emplacements pour les opérations de levage du fuselage avant et des ailes."
   },
   "take_off_weight": {
     "title": "Limitation du poids au décollage",
@@ -166,7 +174,7 @@
     "description": "Les rayons de braquage sont calculés pour diverses conditions et sont essentiels pour la planification aéroportuaire et les opérations au sol. Ces schémas montrent l'espace minimal requis pour que l'avion effectue des virages.",
     "chart_title": "Schéma des rayons de braquage",
     "card_title": "Géométrie sans angle de dérapage",
-    "card_desc": "Calcul des arcs de virage pour la planification.",
+    "card_description": "Calcul des arcs de virage pour la planification.",
     "table_title": "Données de rayon de braquage"
   },
   "minimum_radii": {
@@ -175,7 +183,7 @@
     "description": "Les rayons de braquage minimaux sont déterminés par l'angle de braquage maximal de la roue de nez. Ces données sont critiques pour déterminer la largeur de piste minimale requise pour un virage à 180 degrés et pour la conception des intersections de voies de circulation.",
     "chart_title": "Schéma des rayons de braquage minimaux",
     "card_title": "Trajectoire d'angle de braquage max",
-    "card_desc": "Exigences d'espace minimal pour les manœuvres serrées.",
+    "card_description": "Exigences d'espace minimal pour les manœuvres serrées.",
     "table_title": "Spécifications de rayon minimal"
   },
   "turn_paths": {
@@ -184,7 +192,7 @@
     "description": "Les trajectoires de virage sont fournies pour les manœuvres aéroportuaires courantes, telles que les virages à 90°, 135° et 180°. Les schémas montrent la trajectoire du train avant et du train principal, garantissant que l'avion reste dans les limites de la chaussée en utilisant des techniques de braquage standard.",
     "chart_title": "Schéma de trajectoire de virage",
     "card_title": "Géométrie de virage à 135°",
-    "card_desc": "Figure : Virage à 135° - Piste vers voie de circulation (Méthode du cockpit sur l'axe)",
+    "card_description": "Figure : Virage à 135° - Piste vers voie de circulation (Méthode du cockpit sur l'axe)",
     "table_title": "Données de trajectoire de manœuvre"
   },
   "visibility": {
@@ -193,71 +201,71 @@
     "description": "Cette section fournit des informations sur la visibilité binoculaire à travers les fenêtres du cockpit depuis la position de l'œil du commandant de bord. Elle comprend les angles de vision verticaux et horizontaux et définit les zones au sol visibles par l'équipage de conduite.",
     "diagram_title": "Schéma de visibilité",
     "card_title": "Enveloppe de vision du cockpit",
-    "card_desc": "Figure : Visibilité depuis le cockpit en position statique"
+    "card_description": "Figure : Visibilité depuis le cockpit en position statique"
   },
   "ramp_layouts": {
     "title": "Dispositions typiques de rampe",
     "subtitle": "Positionnement de l'équipement de service au sol (GSE) et exigences en matière d'espace de travail.",
     "description": "Cette section montre le positionnement typique de l'équipement de service au sol (GSE) autour de l'A321 pendant les opérations de rotation. Elle comprend des schémas pour les positions en aire de stationnement ouverte et aux portes, identifiant l'espace requis pour les chargeurs, les camions et autres véhicules de service.",
     "layout_title": "Disposition de l'aire de stationnement ouverte",
-    "layout_card_title": "Positionnement des véhicules de service",
-    "layout_card_desc": "Disposition typique pour les opérations de chargement en vrac et d'ULD."
+    "card_title": "Positionnement des véhicules de service",
+    "card_description": "Disposition typique pour les opérations de chargement en vrac et d'ULD."
   },
   "connections": {
     "title": "Connexions de service au sol",
     "subtitle": "Emplacements et spécifications techniques des interfaces de service de l'avion.",
     "description": "Cette section montre l'emplacement des diverses connexions de service au sol, y compris l'avitaillement en carburant, l'alimentation électrique, l'air pneumatique et les services d'eau. Un positionnement précis est essentiel pour l'efficacité des opérations sur la rampe.",
     "layout_title": "Disposition des connexions",
-    "layout_card_title": "Points d'accès de l'interface",
-    "layout_card_desc": "Identification des points de connexion carburant, pneumatique et électrique."
+    "card_title": "Points d'accès de l'interface",
+    "card_description": "Identification des points de connexion carburant, pneumatique et électrique."
   },
   "turn_round": {
     "title": "Graphiques des temps de rotation",
     "subtitle": "Chronologies opérationnelles des activités sur la rampe pendant la rotation de l'avion.",
     "description": "Les graphiques des temps de rotation sont basés sur des charges typiques de passagers et de fret, en utilisant un équipement et des procédures standard. Des facteurs tels que les taux d'avitaillement, les taux d'embarquement des passagers et les volumes d'échange de fret sont pris en compte pour déterminer le chemin critique de la rotation.",
     "chart_title": "Graphique du temps de rotation",
-    "chart_card_title": "Chronologie du service complet",
-    "chart_card_desc": "Séquence typique d'événements pour une rotation standard."
+    "card_title": "Chronologie du service complet",
+    "card_description": "Séquence typique d'événements pour une rotation standard."
   },
   "towing": {
     "title": "Remorquage au sol",
     "subtitle": "Exigences opérationnelles et limitations structurelles pour le remorquage et le repoussage de l'avion.",
     "description": "Cette section définit les exigences pour le remorquage de l'avion, y compris les forces maximales de traction et de poussée de la barre de remorquage. Elle spécifie également la déconnexion de la direction de la roue de nez pour éviter tout dommage pendant les opérations de manutention au sol.",
     "req_title": "Exigences de remorquage",
-    "req_card_title": "Configuration de remorquage standard",
-    "req_card_desc": "Figure : Exigences et procédures de remorquage au sol."
+    "card_title": "Configuration de remorquage standard",
+    "card_description": "Figure : Exigences et procédures de remorquage au sol."
   },
   "exhaust_velocities": {
     "title": "Vitesses d'échappement des moteurs",
     "subtitle": "Contours de vitesse opérationnelle pour les zones de sécurité du personnel et de l'équipement.",
     "description": "Les contours de vitesse d'échappement définissent la zone derrière l'avion où des gaz à haute vitesse sont présents pendant le fonctionnement du moteur. Ces schémas sont utilisés pour établir des zones de sécurité pour le personnel et l'équipement au sol pendant les réglages de puissance de ralenti, de décollage et de décollage.",
     "contours_title": "Contours de vitesse d'échappement",
-    "contours_card_title": "Puissance de ralenti au sol",
-    "contours_card_desc": "Figure : Vitesses d'échappement des moteurs - Série de moteurs CFM56"
+    "card_title": "Puissance de ralenti au sol",
+    "card_description": "Figure : Vitesses d'échappement des moteurs - Série de moteurs CFM56"
   },
   "exhaust_temperatures": {
     "title": "Températures d'échappement des moteurs",
     "subtitle": "Zones d'impact thermique pour divers réglages de puissance du moteur.",
     "description": "Les contours de température d'échappement indiquent les zones thermiques derrière les moteurs de l'avion. Ces données sont essentielles pour protéger la chaussée de l'aéroport, les services publics souterrains et l'équipement au sol contre les dommages causés par la chaleur pendant les diverses opérations de puissance du moteur.",
     "contours_title": "Contours de température d'échappement",
-    "contours_card_title": "Puissance de ralenti au sol",
-    "contours_card_desc": "Cartographie thermique pour la sécurité des opérations au sol."
+    "card_title": "Puissance de ralenti au sol",
+    "card_description": "Cartographie thermique pour la sécurité des opérations au sol."
   },
   "danger_areas": {
     "title": "Zones dangereuses des moteurs",
     "subtitle": "Zones de sécurité critiques pour l'aspiration à l'admission et l'échappement pour le personnel au sol.",
     "description": "Cette section définit la zone dangereuse d'aspiration à l'admission du moteur et les zones dangereuses de vitesse/température d'échappement. Le strict respect de ces zones est requis pour assurer la sécurité du personnel au sol et de l'équipement pendant que les moteurs tournent.",
     "diagram_title": "Schéma de la zone dangereuse",
-    "diagram_card_title": "Zones de danger opérationnel",
-    "diagram_card_desc": "Figure : Zones dangereuses des moteurs - Puissance de ralenti au sol"
+    "card_title": "Zones de danger opérationnel",
+    "card_description": "Figure : Zones dangereuses des moteurs - Puissance de ralenti au sol"
   },
   "footprint": {
     "title": "Empreinte du train d'atterrissage",
     "subtitle": "Répartition structurelle du poids et de la zone de contact des pneus pour l'analyse de la chaussée de l'aéroport.",
     "description": "Cette section fournit les données nécessaires pour comprendre la pression et l'empreinte du train d'atterrissage de l'A321 sur divers types de chaussées, ce qui est critique pour la compatibilité des infrastructures aéroportuaires et l'évaluation de l'intégrité structurelle.",
     "diagram_title": "Schéma de l'empreinte",
-    "diagram_card_title": "Géométrie de contact des pneus",
-    "diagram_card_desc": "Figure : Spécifications de l'empreinte du train d'atterrissage.",
+    "card_title": "Géométrie de contact des pneus",
+    "card_description": "Figure : Spécifications de l'empreinte du train d'atterrissage.",
     "table_title": "Tableaux d'empreinte et de pression"
   },
   "pavement_loads": {
@@ -266,7 +274,7 @@
     "description": "Cette section fournit les charges maximales transmises à la chaussée de l'aéroport par le train d'atterrissage. Ces valeurs sont calculées pour diverses positions du centre de gravité et des poids maximaux sur rampe, permettant aux ingénieurs aéroportuaires d'évaluer la capacité structurelle des pistes et des voies de circulation.",
     "chart_title": "Graphique des charges de chaussée",
     "card_title": "Données d'impact structurel",
-    "card_desc": "Figure : Charges maximales sur la chaussée pour la série A321-100.",
+    "card_description": "Figure : Charges maximales sur la chaussée pour la série A321-100.",
     "table_title": "Tableaux des charges maximales"
   },
   "acn_pcn": {
@@ -275,7 +283,7 @@
     "description": "Le système ACN/PCN est la méthode standard de l'OACI pour signaler la résistance des chaussées. L'ACN (Aircraft Classification Number) exprime l'effet de l'avion sur la chaussée, tandis que le PCN (Pavement Classification Number) exprime la résistance de la chaussée. Pour qu'un avion puisse opérer sans restriction, son ACN doit être inférieur ou égal au PCN.",
     "table_title": "Tableaux ACN",
     "card_title": "Données de classification",
-    "card_desc": "Figure : Tableau ACN pour l'A321-100 (Chaussées souples et rigides)",
+    "card_description": "Figure : Tableau ACN pour l'A321-100 (Chaussées souples et rigides)",
     "dynamic_table_title": "Données de classification de l'avion"
   },
   "rescue_general": {
@@ -284,7 +292,7 @@
     "description": "Cette section fournit des données essentielles pour le personnel de sauvetage et de lutte contre l'incendie, y compris les points d'accès d'urgence, l'emplacement des réservoirs de carburant et les zones de stockage de matières dangereuses.",
     "chart_title": "Carte de sauvetage",
     "card_title": "Aperçu SSLIA",
-    "card_desc": "Figure : Carte de sauvetage et de lutte contre l'incendie de l'avion (ARFF)"
+    "card_description": "Figure : Carte de sauvetage et de lutte contre l'incendie de l'avion (ARFF)"
   },
   "evacuation": {
     "title": "Évacuation d'urgence",
@@ -292,7 +300,7 @@
     "description": "Cette section détaille l'emplacement et le fonctionnement des dispositifs d'évacuation d'urgence, y compris les toboggans, les radeaux et les issues de secours. Elle fournit également des informations sur les points de pénétration structurels de l'avion pour le personnel de sauvetage.",
     "devices_title": "Dispositifs d'évacuation",
     "card_title": "Déploiement des toboggans et des issues",
-    "card_desc": "Identification des toboggans, des radeaux et des voies d'accès d'urgence."
+    "card_description": "Identification des toboggans, des radeaux et des voies d'accès d'urgence."
   },
   "glossary_page": {
     "title": "Glossaire",

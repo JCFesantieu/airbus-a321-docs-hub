@@ -35,8 +35,8 @@
     "subtitle": "Engine specifications and Auxiliary Power Unit (APU) technical layout.",
     "description": "The A321 family is equipped with high-bypass turbofan engines. Depending on the model, it features either the CFM56, IAE V2500, PW1100G, or CFM LEAP-1A series. Each configuration is optimized for specific range and efficiency requirements.",
     "apu_title": "Auxiliary Power Unit (APU)",
-    "apu_card_title": "General Layout",
-    "apu_card_description": "APU installation in the rear fuselage tail cone section.",
+    "card_title": "General Layout",
+    "card_description": "APU installation in the rear fuselage tail cone section.",
     "engine_options": "Engine Options"
   },
   "payload_range": {
@@ -73,20 +73,28 @@
     ],
     "note": "Passenger and cargo door ground clearances are measured from the center of the door sill and from floor level.",
     "diagram_title": "Technical Diagram",
-    "diagram_card_title": "Aircraft Profile with Clearance Markers",
-    "diagram_card_desc": "Figure 2-3-0-991-005-A01 - Wing Tip Fence",
+    "card_title": "Aircraft Profile with Clearance Markers",
+    "card_description": "Figure 2-3-0-991-005-A01 - Wing Tip Fence",
     "table_title": "Clearance Data Tables"
+  },
+  "interior": {
+    "title": "Interior Arrangements",
+    "subtitle": "Detailed plan views of typical cabin configurations for the A321 variants.",
+    "description": "This section provides detailed plan views of the interior arrangements for various A321 models. The configurations shown are typical and may vary according to operator specifications.",
+    "config_title": "Typical Configuration",
+    "card_title": "Single-Class, High Density",
+    "card_description": "Typical layout for A321-100, A321-200 and A321neo models."
   },
   "cargo": {
     "title": "Cargo Compartments",
     "subtitle": "Locations, dimensions, and loading combinations for cargo systems.",
     "description": "This section provides detailed information on the cargo compartments of the A321, including their physical locations, dimensions, and various loading combinations for Unit Load Devices (ULDs) and bulk cargo.",
     "loc_dim_title": "Locations and Dimensions",
-    "loc_dim_card_title": "General Layout",
-    "loc_dim_card_desc": "Typical cargo configuration for A321 variants.",
+    "card_title": "General Layout",
+    "card_description": "Typical cargo configuration for A321 variants.",
     "loading_title": "Loading Combinations",
-    "loading_card_title": "Unit Load Device (ULD) Configurations",
-    "loading_card_desc": "Standard loading patterns for forward and aft compartments.",
+    "card_title_2": "Unit Load Device (ULD) Configurations",
+    "card_description_2": "Standard loading patterns for forward and aft compartments.",
     "table_title": "Cargo Capacity Data"
   },
   "doors": {
@@ -94,8 +102,8 @@
     "subtitle": "Identification and spatial requirements for all aircraft access points.",
     "description": "This section provides the identification and locations of passenger/crew doors, emergency exits, and cargo compartment doors. Ground clearances are approximate and vary with aircraft weight and configuration.",
     "ident_title": "Door Identification",
-    "ident_card_title": "Access Point Layout",
-    "ident_card_desc": "Identification of passenger, crew, and cargo doors.",
+    "card_title": "Access Point Layout",
+    "card_description": "Identification of passenger, crew, and cargo doors.",
     "table_title": "Door Dimension & Clearance Tables"
   },
   "escape_slides": {
@@ -110,19 +118,19 @@
     "loc_neo_1": "One single or dual lane slide at each door 1 and 4 (total 04)",
     "loc_neo_2": "One single lane slide at each door 3 (total 02)",
     "loc_neo_3": "One dual lane overwing slide at each wing (total 2)",
-    "loc_card_title": "Standard Configuration",
-    "loc_card_desc": "Evacuation slide placement layout.",
+    "card_title": "Standard Configuration",
+    "card_description": "Evacuation slide placement layout.",
     "dim_title": "Technical Dimensions",
-    "dim_card_title": "Deployment Clearances",
-    "dim_card_desc": "Figure: Escape Slides - Dimensions"
+    "card_title_2": "Deployment Clearances",
+    "card_description_2": "Figure: Escape Slides - Dimensions"
   },
   "landing_gear": {
     "title": "Landing Gear",
     "subtitle": "Technical architecture and dimensions of the A321 retractable tricycle landing gear system.",
     "description": "The landing gear is of the conventional retractable tricycle type comprising two main gears with twin-wheels and a twin-wheel nose gear. Steering is controlled via hand wheels in the cockpit and can be deactivated for towing.",
     "main_gear_title": "Main Landing Gear",
-    "main_gear_card_title": "Twin-Wheel System",
-    "main_gear_card_desc": "Structural layout of the main fitting, shock absorber, and side stay.",
+    "card_title": "Twin-Wheel System",
+    "card_description": "Structural layout of the main fitting, shock absorber, and side stay.",
     "table_title": "Landing Gear Specifications"
   },
   "jacking": {
@@ -130,8 +138,8 @@
     "subtitle": "Critical jacking point locations and safety stay requirements for ground maintenance.",
     "description": "This section defines the precise coordinates for jacking the aircraft. Specialized equipment and strict adherence to safety stay protocols are mandatory to ensure structural integrity and personnel safety during lifting operations.",
     "points_title": "Jacking Points",
-    "points_card_title": "Structural Lifting Points",
-    "points_card_desc": "Locations for forward fuselage and wing jacking operations."
+    "card_title": "Structural Lifting Points",
+    "card_description": "Locations for forward fuselage and wing jacking operations."
   },
   "take_off_weight": {
     "title": "Take-off Weight Limitation",
@@ -166,7 +174,7 @@
     "description": "The turning radii are calculated for various conditions and are essential for airport planning and ground operations. These diagrams show the minimum space required for the aircraft to complete turns.",
     "chart_title": "Turning Radii Diagram",
     "card_title": "Geometry without Slip Angle",
-    "card_desc": "Calculation of turning arcs for planning.",
+    "card_description": "Calculation of turning arcs for planning.",
     "table_title": "Turning Radius Data"
   },
   "minimum_radii": {
@@ -175,7 +183,7 @@
     "description": "The minimum turning radii are determined by the maximum nose wheel steering angle. This data is critical for determining the minimum runway width required for a 180-degree turn and for designing taxiway intersections.",
     "chart_title": "Minimum Turning Radii Diagram",
     "card_title": "Max Steering Angle Path",
-    "card_desc": "Minimum space requirements for tight maneuvers.",
+    "card_description": "Minimum space requirements for tight maneuvers.",
     "table_title": "Minimum Radius Specifications"
   },
   "turn_paths": {
@@ -184,7 +192,7 @@
     "description": "Turn paths are provided for common airport maneuvers, such as 90°, 135°, and 180° turns. The diagrams show the path of the nose gear and the main gear, ensuring that the aircraft remains within the pavement boundaries using standard steering techniques.",
     "chart_title": "Turn Path Diagram",
     "card_title": "135° Turn Geometry",
-    "card_desc": "Figure: 135° Turn - Runway to Taxiway (Cockpit Over Centerline Method)",
+    "card_description": "Figure: 135° Turn - Runway to Taxiway (Cockpit Over Centerline Method)",
     "table_title": "Maneuvering Path Data"
   },
   "visibility": {
@@ -193,71 +201,71 @@
     "description": "This section provides information on the binocular visibility through the cockpit windows from the Captain's eye position. It includes vertical and horizontal visual angles and defines the areas of the ground visible to the flight crew.",
     "diagram_title": "Visibility Diagram",
     "card_title": "Cockpit Vision Envelope",
-    "card_desc": "Figure: Visibility from Cockpit in Static Position"
+    "card_description": "Figure: Visibility from Cockpit in Static Position"
   },
   "ramp_layouts": {
     "title": "Typical Ramp Layouts",
     "subtitle": "Ground Service Equipment (GSE) positioning and workspace requirements.",
     "description": "This section shows the typical positioning of ground service equipment (GSE) around the A321 during turnaround operations. It includes layouts for both open apron and gate positions, identifying the space required for loaders, trucks, and other service vehicles.",
     "layout_title": "Open Apron Layout",
-    "layout_card_title": "Service Vehicle Positioning",
-    "layout_card_desc": "Typical arrangement for bulk and ULD loading operations."
+    "card_title": "Service Vehicle Positioning",
+    "card_description": "Typical arrangement for bulk and ULD loading operations."
   },
   "connections": {
     "title": "Ground Service Connections",
     "subtitle": "Locations and technical specifications for aircraft service interfaces.",
     "description": "This section shows the locations of various ground service connections, including refueling, electrical power, pneumatic air, and water services. Precise positioning is essential for efficient ramp operations.",
     "layout_title": "Connections Layout",
-    "layout_card_title": "Interface Access Points",
-    "layout_card_desc": "Identification of refueling, pneumatic, and electrical connection points."
+    "card_title": "Interface Access Points",
+    "card_description": "Identification of refueling, pneumatic, and electrical connection points."
   },
   "turn_round": {
     "title": "Turn Round Time Charts",
     "subtitle": "Operational timelines for ramp activities during aircraft turnaround.",
     "description": "The turnaround time charts are based on typical passenger and cargo loads, using standard equipment and procedures. Factors such as refueling rates, passenger boarding rates, and cargo exchange volumes are considered to determine the critical path for the turnaround.",
     "chart_title": "Turn Round Time Chart",
-    "chart_card_title": "Full Servicing Timeline",
-    "chart_card_desc": "Typical sequence of events for a standard turnaround."
+    "card_title": "Full Servicing Timeline",
+    "card_description": "Typical sequence of events for a standard turnaround."
   },
   "towing": {
     "title": "Ground Towing",
     "subtitle": "Operational requirements and structural limitations for aircraft towing and pushback.",
     "description": "This section defines the requirements for towing the aircraft, including the maximum towbar pull and push forces. It also specifies the disconnection of the nose wheel steering to prevent damage during ground handling operations.",
     "req_title": "Towing Requirements",
-    "req_card_title": "Standard Towing Configuration",
-    "req_card_desc": "Figure: Ground Towing Requirements and procedures."
+    "card_title": "Standard Towing Configuration",
+    "card_description": "Figure: Ground Towing Requirements and procedures."
   },
   "exhaust_velocities": {
     "title": "Engine Exhaust Velocities",
     "subtitle": "Operational velocity contours for personnel and equipment safety zones.",
     "description": "Exhaust velocity contours define the area behind the aircraft where high-speed gases are present during engine operation. These diagrams are used to establish safety zones for personnel and ground equipment during idle, breakaway, and takeoff power settings.",
     "contours_title": "Exhaust Velocity Contours",
-    "contours_card_title": "Ground Idle Power",
-    "contours_card_desc": "Figure: Engine Exhaust Velocities - CFM56 Series Engine"
+    "card_title": "Ground Idle Power",
+    "card_description": "Figure: Engine Exhaust Velocities - CFM56 Series Engine"
   },
   "exhaust_temperatures": {
     "title": "Engine Exhaust Temperatures",
     "subtitle": "Thermal impact zones for various engine power settings.",
     "description": "Exhaust temperature contours indicate the thermal zones behind the aircraft engines. This data is essential for protecting airport pavement, underground utilities, and ground equipment from heat damage during various engine power operations.",
     "contours_title": "Exhaust Temperature Contours",
-    "contours_card_title": "Ground Idle Power",
-    "contours_card_desc": "Thermal mapping for ground operations safety."
+    "card_title": "Ground Idle Power",
+    "card_description": "Thermal mapping for ground operations safety."
   },
   "danger_areas": {
     "title": "Danger Areas of Engines",
     "subtitle": "Critical intake suction and exhaust safety zones for ground personnel.",
     "description": "This section defines the engine intake suction danger area and the exhaust velocity/temperature danger zones. Strict adherence to these zones is required to ensure the safety of ground personnel and equipment while engines are running.",
     "diagram_title": "Danger Area Diagram",
-    "diagram_card_title": "Operational Hazard Zones",
-    "diagram_card_desc": "Figure: Danger Areas of the Engines - Ground Idle Power"
+    "card_title": "Operational Hazard Zones",
+    "card_description": "Figure: Danger Areas of the Engines - Ground Idle Power"
   },
   "footprint": {
     "title": "Landing Gear Footprint",
     "subtitle": "Structural distribution of weight and tire contact area for airport pavement analysis.",
     "description": "This section provides the necessary data to understand the pressure and footprint of the A321 landing gear on various pavement types, which is critical for airport infrastructure compatibility and structural integrity assessment.",
     "diagram_title": "Footprint Diagram",
-    "diagram_card_title": "Tire Contact Geometry",
-    "diagram_card_desc": "Figure: Landing Gear Footprint specifications.",
+    "card_title": "Tire Contact Geometry",
+    "card_description": "Figure: Landing Gear Footprint specifications.",
     "table_title": "Footprint & Pressure Tables"
   },
   "pavement_loads": {
@@ -266,7 +274,7 @@
     "description": "This section provides the maximum loads transmitted to the airport pavement through the landing gear. These values are calculated for various center of gravity positions and maximum ramp weights, ensuring airport engineers can assess the structural capacity of runways and taxiways.",
     "chart_title": "Pavement Loads Chart",
     "card_title": "Structural Impact Data",
-    "card_desc": "Figure: Maximum Pavement Loads for A321-100 series.",
+    "card_description": "Figure: Maximum Pavement Loads for A321-100 series.",
     "table_title": "Maximum Load Tables"
   },
   "acn_pcn": {
@@ -275,7 +283,7 @@
     "description": "The ACN/PCN system is the standard ICAO method for reporting pavement strength. The ACN (Aircraft Classification Number) expresses the effect of the aircraft on the pavement, while the PCN (Pavement Classification Number) expresses the strength of the pavement. For an aircraft to operate without restriction, its ACN must be less than or equal to the PCN.",
     "table_title": "ACN Tables",
     "card_title": "Classification Data",
-    "card_desc": "Figure: ACN Table for A321-100 (Flexible and Rigid Pavements)",
+    "card_description": "Figure: ACN Table for A321-100 (Flexible and Rigid Pavements)",
     "dynamic_table_title": "Aircraft Classification Data"
   },
   "rescue_general": {
@@ -284,7 +292,7 @@
     "description": "This section provides essential data for rescue and fire fighting personnel, including emergency access points, fuel tank locations, and hazardous material storage areas.",
     "chart_title": "Rescue Chart",
     "card_title": "ARFF Overview",
-    "card_desc": "Figure: Aircraft Rescue and Fire Fighting (ARFF) Chart"
+    "card_description": "Figure: Aircraft Rescue and Fire Fighting (ARFF) Chart"
   },
   "evacuation": {
     "title": "Emergency Evacuation",
@@ -292,7 +300,7 @@
     "description": "This section details the location and operation of emergency evacuation devices, including slides, rafts, and emergency exits. It also provides information on the aircraft's structural break-in points for rescue personnel.",
     "devices_title": "Evacuation Devices",
     "card_title": "Slide and Exit Deployment",
-    "card_desc": "Identification of slides, rafts, and emergency access pathways."
+    "card_description": "Identification of slides, rafts, and emergency access pathways."
   },
   "glossary_page": {
     "title": "Glossary",

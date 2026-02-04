@@ -36,8 +36,8 @@ export default async function TowingPage({
             {dict.towing.req_title}
           </h2>
           <ContentCard 
-            title={dict.towing.req_card_title}
-            description={dict.towing.req_card_desc}
+            title={dict.towing.card_title}
+            description={dict.towing.card_description}
           >
             <DiagramViewer 
               src="/img/p316_vector_Diagram_Page_316.png" 

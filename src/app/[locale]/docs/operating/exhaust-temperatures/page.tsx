@@ -36,8 +36,8 @@ export default async function ExhaustTemperaturesPage({
             {dict.exhaust_temperatures.contours_title}
           </h2>
           <ContentCard 
-            title={dict.exhaust_temperatures.contours_card_title}
-            description={dict.exhaust_temperatures.contours_card_desc}
+            title={dict.exhaust_temperatures.card_title}
+            description={dict.exhaust_temperatures.card_description}
           >
             <DiagramViewer 
               src="/img/p334_vector_Diagram_Page_334.png" 

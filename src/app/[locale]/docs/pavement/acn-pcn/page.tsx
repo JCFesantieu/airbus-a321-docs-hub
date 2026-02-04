@@ -39,7 +39,7 @@ export default async function AcnPcnPage({
           </h2>
           <ContentCard 
             title={dict.acn_pcn.card_title}
-            description={dict.acn_pcn.card_desc}
+            description={dict.acn_pcn.card_description}
           >
             <DiagramViewer 
               src="/img/p399_vector_Diagram_Page_399.png" 

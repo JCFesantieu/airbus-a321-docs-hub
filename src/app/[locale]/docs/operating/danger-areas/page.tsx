@@ -37,7 +37,7 @@ export default async function DangerAreasPage({
           </h2>
           <ContentCard 
             title={dict.danger_areas.card_title}
-            description={dict.danger_areas.card_desc}
+            description={dict.danger_areas.card_description}
           >
             <DiagramViewer 
               src="/img/p359_vector_Diagram_Page_359.png" 

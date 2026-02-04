@@ -1,31 +1,43 @@
 import { DocHero } from "@/components/layout/doc-hero";
 import { ContentCard } from "@/components/layout/content-card";
 import { DiagramViewer } from "@/components/layout/diagram-viewer";
+import { getDictionary } from "@/lib/dictionary";
 
-export default function InteriorPage() {
+export default async function InteriorPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const dict = await getDictionary(locale);
+
   return (
     <div className="space-y-8">
       <DocHero 
-        title="Interior Arrangements" 
-        subtitle="Detailed plan views of typical cabin configurations for the A321 variants."
-        category="Chapter 2: Aircraft Description"
+        title={dict.interior.title} 
+        subtitle={dict.interior.subtitle}
+        category={dict.nav.description}
       />
       
       <div className="mx-auto max-w-5xl space-y-12">
         <section className="space-y-6">
-          <h2 className="text-3xl font-black uppercase italic tracking-tighter text-primary border-b pb-2">Description</h2>
+          <h2 className="text-3xl font-black uppercase italic tracking-tighter text-primary border-b pb-2">
+            {dict.common.description}
+          </h2>
           <div className="prose prose-slate max-w-none dark:prose-invert">
             <p className="text-lg leading-relaxed text-slate-600">
-              This section provides detailed plan views of the interior arrangements for various A321 models. The configurations shown are typical and may vary according to operator specifications.
+              {dict.interior.description}
             </p>
           </div>
         </section>
 
         <section className="space-y-6">
-          <h2 className="text-3xl font-black uppercase italic tracking-tighter text-primary border-b pb-2">Typical Configuration</h2>
+          <h2 className="text-3xl font-black uppercase italic tracking-tighter text-primary border-b pb-2">
+            {dict.interior.config_title}
+          </h2>
           <ContentCard 
-            title="Single-Class, High Density"
-            description="Typical layout for A321-100, A321-200 and A321neo models."
+            title={dict.interior.card_title}
+            description={dict.interior.card_description}
           >
             <DiagramViewer 
               src="/img/p76_vector_Diagram_Page_76.png" 

@@ -1,7 +1,6 @@
 import { DocHero } from "@/components/layout/doc-hero";
 import { ContentCard } from "@/components/layout/content-card";
 import { DiagramViewer } from "@/components/layout/diagram-viewer";
-
 import { getDictionary } from "@/lib/dictionary";
 
 export default async function EscapeSlidesPage({
@@ -71,7 +70,7 @@ export default async function EscapeSlidesPage({
               </ul>
             </div>
             
-            <ContentCard title={dict.escape_slides.loc_card_title} description={dict.escape_slides.loc_card_desc}>
+            <ContentCard title={dict.escape_slides.card_title} description={dict.escape_slides.card_description}>
               <DiagramViewer 
                 src="/img/p110_vector_Diagram_Page_110.png" 
                 alt="Escape Slides Location"
@@ -85,8 +84,8 @@ export default async function EscapeSlidesPage({
             {dict.escape_slides.dim_title}
           </h2>
           <ContentCard 
-            title={dict.escape_slides.dim_card_title}
-            description={dict.escape_slides.dim_card_desc}
+            title={dict.escape_slides.card_title_2}
+            description={dict.escape_slides.card_description_2}
           >
             <DiagramViewer 
               src="/img/p111_vector_Diagram_Page_111.png" 

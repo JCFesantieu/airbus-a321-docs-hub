@@ -37,7 +37,7 @@ export default async function RescueGeneralPage({
           </h2>
           <ContentCard 
             title={dict.rescue_general.card_title}
-            description={dict.rescue_general.card_desc}
+            description={dict.rescue_general.card_description}
           >
             <DiagramViewer 
               src="/img/p414_vector_Diagram_Page_414.png" 

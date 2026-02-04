@@ -36,8 +36,8 @@ export default async function RampLayoutsPage({
             {dict.ramp_layouts.layout_title}
           </h2>
           <ContentCard 
-            title={dict.ramp_layouts.layout_card_title}
-            description={dict.ramp_layouts.layout_card_desc}
+            title={dict.ramp_layouts.card_title}
+            description={dict.ramp_layouts.card_description}
           >
             <DiagramViewer 
               src="/img/p228_vector_Diagram_Page_228.png" 

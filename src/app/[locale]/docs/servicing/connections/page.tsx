@@ -36,8 +36,8 @@ export default async function ConnectionsPage({
             {dict.connections.layout_title}
           </h2>
           <ContentCard 
-            title={dict.connections.layout_card_title}
-            description={dict.connections.layout_card_desc}
+            title={dict.connections.card_title}
+            description={dict.connections.card_description}
           >
             <DiagramViewer 
               src="/img/p252_vector_Diagram_Page_252.png" 
