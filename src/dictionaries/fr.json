@@ -163,7 +163,7 @@
     "subtitle": "Vitesse indiquée au seuil en configuration d'atterrissage.",
     "description": "La vitesse finale d'approche est la vitesse indiquée au seuil en configuration d'atterrissage au réglage de volets maximal certifié et à la masse maximale à l'atterrissage (MLW) dans des conditions atmosphériques standard.",
     "card_title": "Catégorie d'approche de l'avion",
-    "card_desc": "Mesures de certification.",
+    "card_description": "Mesures de certification.",
     "category_prefix": "Classe l'avion dans la",
     "category_name": "Catégorie d'approche d'avion C",
     "note": "Note : Cette valeur est donnée à titre indicatif."

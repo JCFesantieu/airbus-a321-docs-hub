@@ -39,7 +39,7 @@ export default async function MinimumRadiiPage({
           </h2>
           <ContentCard 
             title={dict.minimum_radii.card_title}
-            description={dict.minimum_radii.card_desc}
+            description={dict.minimum_radii.card_description}
           >
             <DiagramViewer 
               src="/img/p197_vector_Diagram_Page_197.png" 

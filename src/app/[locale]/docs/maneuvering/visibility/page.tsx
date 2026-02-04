@@ -37,7 +37,7 @@ export default async function VisibilityPage({
           </h2>
           <ContentCard 
             title={dict.visibility.card_title}
-            description={dict.visibility.card_desc}
+            description={dict.visibility.card_description}
           >
             <DiagramViewer 
               src="/img/p199_vector_Diagram_Page_199.png" 

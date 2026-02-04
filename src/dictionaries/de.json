@@ -163,7 +163,7 @@
     "subtitle": "Angezeigte Fluggeschwindigkeit an der Schwelle in Landekonfiguration.",
     "description": "Die Endanfluggeschwindigkeit ist die angezeigte Fluggeschwindigkeit an der Schwelle in der Landekonfiguration bei der zertifizierten maximalen Klappenstellung und dem maximalen Landegewicht (MLW) unter Standard-Atmosphärenbedingungen.",
     "card_title": "Flugzeug-Anflugkategorie",
-    "card_desc": "Zertifizierungskennzahlen.",
+    "card_description": "Zertifizierungskennzahlen.",
     "category_prefix": "Klassifiziert das Flugzeug in die",
     "category_name": "Flugzeug-Anflugkategorie C",
     "note": "Hinweis: Dieser Wert dient nur zur Information."

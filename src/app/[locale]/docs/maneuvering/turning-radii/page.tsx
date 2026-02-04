@@ -39,7 +39,7 @@ export default async function TurningRadiiPage({
           </h2>
           <ContentCard 
             title={dict.turning_radii.card_title}
-            description={dict.turning_radii.card_desc}
+            description={dict.turning_radii.card_description}
           >
             <DiagramViewer 
               src="/img/p194_vector_Diagram_Page_194.png" 

@@ -39,7 +39,7 @@ export default async function TurnPathsPage({
           </h2>
           <ContentCard 
             title={dict.turn_paths.card_title}
-            description={dict.turn_paths.card_desc}
+            description={dict.turn_paths.card_description}
           >
             <DiagramViewer 
               src="/img/p203_vector_Diagram_Page_203.png" 

@@ -23,7 +23,7 @@ export default async function ApproachSpeedPage({
           <h2 className="text-3xl font-black uppercase italic tracking-tighter text-primary border-b pb-2">
             {dict.approach_speed.card_title}
           </h2>
-          <ContentCard title={dict.approach_speed.card_title} description={dict.approach_speed.card_desc}>
+          <ContentCard title={dict.approach_speed.card_title} description={dict.approach_speed.card_description}>
             <div className="prose prose-slate max-w-none dark:prose-invert">
               <p className="text-lg leading-relaxed text-slate-600">
                 {dict.approach_speed.description}

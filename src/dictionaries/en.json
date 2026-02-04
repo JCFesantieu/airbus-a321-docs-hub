@@ -163,7 +163,7 @@
     "subtitle": "Indicated airspeed at threshold in the landing configuration.",
     "description": "The final approach speed is the indicated airspeed at threshold in the landing configuration at the certificated maximum flap setting and Maximum Landing Weight (MLW) at standard atmospheric conditions.",
     "card_title": "Aircraft Approach Category",
-    "card_desc": "Certification metrics.",
+    "card_description": "Certification metrics.",
     "category_prefix": "Classifies the aircraft into",
     "category_name": "Aircraft Approach Category C",
     "note": "Note: This value is given for information only."
