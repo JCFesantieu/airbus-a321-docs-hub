@@ -1,0 +1,15 @@
+.gcloudignore
+.git
+.gitignore
+node_modules
+.next
+.venv
+.env
+lang_export
+input
+content.md
+extract_lang.py
+extract_pdf.py
+extract_tables_vision.py
+*.jsonl
+.DS_Store
