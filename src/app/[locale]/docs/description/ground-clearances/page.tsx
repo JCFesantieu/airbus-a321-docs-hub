@@ -53,8 +53,8 @@ export default async function GroundClearancesPage({
             {dict.ground_clearances.diagram_title}
           </h2>
           <ContentCard 
-            title={dict.ground_clearances.diagram_card_title}
-            description={dict.ground_clearances.diagram_card_desc}
+            title={dict.ground_clearances.card_title}
+            description={dict.ground_clearances.card_description}
           >
             <DiagramViewer 
               src="/img/p57_vector_Diagram_Page_57.png" 
