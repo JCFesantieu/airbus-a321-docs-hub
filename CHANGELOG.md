@@ -2,9 +2,22 @@
 
 All notable changes to the Airbus A321 Technical Documentation Hub will be documented in this file.
 
-## [Unreleased] - 2026-01-30
+## [0.2.0] - 2026-02-06
 
 ### Added
+- **Production Deployment:** Successfully deployed to Google Cloud Run (`europe-west1`) with automated build pipelines.
+- **Node.js Environment Lock:** Injected `engines` field in `package.json` to enforce `node >= 20.0.0`, ensuring build stability across environments.
+
+### Changed
+- **Dictionary Synchronization:** Achieved 100% key parity across `en.json`, `fr.json`, `de.json`, and `es.json` to satisfy TypeScript strict typing in the App Router.
+- **Unified Component Schema:** Standardized all documentation cards to use a consistent `card_title` and `card_description` structure.
+- **Cloud Run Optimization:** Configured the service to listen on port `3000` to match Next.js standalone output and updated `artifactregistry.createOnPushWriter` permissions for seamless deployment.
+
+### Fixed
+- **TypeScript Build Failures:** Resolved "Property does not exist" errors in technical pages (`landing_length`, `take_off_weight`) caused by missing dictionary keys.
+- **Deployment Blockers:** Fixed `denied: gcr.io repo does not exist` by migrating to Artifact Registry and correcting IAM policy bindings.
+
+## [0.1.0] - 2026-01-30
 - **Multi-language Support (i18n):**
     - Implemented native Next.js routing with `[locale]` segments.
     - Added comprehensive translation dictionaries for English, French, German, and Spanish.

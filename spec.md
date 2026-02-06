@@ -10,14 +10,15 @@ The goal is to create a modern, high-performance static website to host the "A32
 - Maintenance Engineers and Planners
 
 ## 3. Technology Stack
-- **Framework:** Next.js (Static Site Generation - SSG)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS (for modern, utility-first styling)
-- **UI Components:** Shadcn UI (Radix UI based)
-- **Content Format:** MDX (Markdown with JSX) for flexible documentation pages
-- **Icons:** Lucide React
-- **Search:** Fuse.js (local client-side search) or Algolia DocSearch
-- **Deployment:** Vercel, Netlify, or Google Cloud Run (Containerized)
+- **Framework:** Next.js 16.1.6 (App Router with Turbopack)
+- **Runtime:** Node.js 20+
+- **Language:** TypeScript (Strict Mode)
+- **Styling:** Tailwind CSS 4
+- **UI Components:** Shadcn UI (React 19 compatible)
+- **Animations:** Framer Motion
+- **i18n:** Custom Dictionary System (EN, FR, DE, ES)
+- **Search:** Fuse.js (local client-side search)
+- **Deployment:** Google Cloud Run (Standalone output)
 
 ## 4. Information Architecture
 The site will mirror the structure of the PDF manual:
@@ -61,26 +62,24 @@ The site will mirror the structure of the PDF manual:
 - **Phase 5:** Final Build & Verification.
 
 ## 9. Google Cloud Run Deployment
-To deploy the application to Google Cloud Run, follow these steps:
 
-### 9.1 Containerization (Dockerfile)
-Create a `Dockerfile` in the root directory using the official Next.js deployment template. Ensure `output: 'standalone'` is set in `next.config.ts` to minimize image size.
+### 9.1 Containerization
+Utilizing Next.js `output: 'standalone'` in `next.config.ts` to generate a minimal production server. The container listens on port `3000`.
 
-### 9.2 Build and Push to Artifact Registry
-1.  **Enable APIs:** `gcloud services enable artifactregistry.googleapis.com run.googleapis.com`
-2.  **Create Repository:** `gcloud artifacts repositories create airbus-docs --repository-format=docker --location=us-central1`
-3.  **Build Image:** `docker build -t us-central1-docker.pkg.dev/[PROJECT_ID]/airbus-docs/app:latest .`
-4.  **Push Image:** `docker push us-central1-docker.pkg.dev/[PROJECT_ID]/airbus-docs/app:latest`
+### 9.2 Infrastructure
+1.  **Registry:** Google Artifact Registry (Docker format).
+2.  **Region:** `europe-west1` (Belgium).
+3.  **Permissions:** Cloud Build service account requires `roles/artifactregistry.createOnPushWriter`.
 
 ### 9.3 Deploy to Cloud Run
-Execute the following command to deploy:
+Execute the following command to deploy directly from source:
 ```bash
-gcloud run deploy airbus-docs-hub \
-  --image us-central1-docker.pkg.dev/[PROJECT_ID]/airbus-docs/app:latest \
-  --platform managed \
-  --region us-central1 \
+gcloud run deploy jcf-a321 \
+  --source . \
+  --region europe-west1 \
+  --port 3000 \
   --allow-unauthenticated
 ```
 
 ### 9.4 Continuous Deployment
-Integrate with Cloud Build or GitHub Actions to trigger automatic deployments on every push to the `main` branch.
+Integrate with Cloud Build triggers to automatically build and deploy the standalone image on every push to the `main` branch.
