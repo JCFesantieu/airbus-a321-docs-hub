@@ -40,7 +40,7 @@ This plan outlines the steps to implement the core documentation search function
 - [x] Task: Optimize search performance and responsiveness [a16396f]
     - [ ] Write tests for search performance (if applicable, e.g., debouncing)
     - [ ] Implement performance optimizations (e.g., debouncing search input)
-- [ ] Task: Ensure accessibility (ARIA roles, contrast)
+- [x] Task: Ensure accessibility (ARIA roles, contrast) [6f355d1]
     - [ ] Write tests for accessibility (manual checks primarily, but can check for attributes)
     - [ ] Implement ARIA roles and contrast improvements for search UI
 - [ ] Task: Conductor - User Manual Verification 'Phase 3: Refinement and Accessibility' (Protocol in workflow.md)
