@@ -16,7 +16,7 @@ This plan outlines the steps to implement the core documentation search function
     - [ ] Prepare extracted content for Fuse.js DocItem format
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup and Indexing' (Protocol in workflow.md)
 
-## Phase 2: UI Integration
+## Phase 2: UI Integration [checkpoint: 9ea87a3]
 
 - [x] Task: Design and implement search input component [91f4126]
     - [ ] Write tests for search input component
