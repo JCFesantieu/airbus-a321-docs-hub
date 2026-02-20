@@ -24,7 +24,7 @@ This plan outlines the steps to implement the core documentation search function
 - [x] Task: Implement search results display component [c520bd2]
     - [ ] Write tests for search results display component
     - [ ] Implement search results display component to show title, snippet, and link
-- [ ] Task: Connect search input to Fuse.js
+- [x] Task: Connect search input to Fuse.js [aa1d0ce]
     - [ ] Write tests for search input to Fuse.js connection
     - [ ] Implement logic to trigger Fuse.js search on input
 - [ ] Task: Display Fuse.js results in UI
