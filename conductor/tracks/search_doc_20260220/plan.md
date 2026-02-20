@@ -21,7 +21,7 @@ This plan outlines the steps to implement the core documentation search function
 - [x] Task: Design and implement search input component [91f4126]
     - [ ] Write tests for search input component
     - [ ] Implement search input component using Shadcn UI
-- [b] Task: Implement search results display component
+- [x] Task: Implement search results display component [c520bd2]
     - [ ] Write tests for search results display component
     - [ ] Implement search results display component to show title, snippet, and link
 - [ ] Task: Connect search input to Fuse.js
