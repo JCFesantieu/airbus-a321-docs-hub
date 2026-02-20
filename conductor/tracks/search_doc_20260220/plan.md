@@ -32,7 +32,7 @@ This plan outlines the steps to implement the core documentation search function
     - [ ] Implement logic to render Fuse.js results in the display component
 - [ ] Task: Conductor - User Manual Verification 'Phase 2: UI Integration' (Protocol in workflow.md)
 
-## Phase 3: Refinement and Accessibility
+## Phase 3: Refinement and Accessibility [checkpoint: e62ac34]
 
 - [x] Task: Implement keyboard navigation for search results [790199a]
     - [ ] Write tests for keyboard navigation
