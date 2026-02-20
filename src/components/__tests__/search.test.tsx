@@ -3,8 +3,9 @@ import React from 'react';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { Search } from '../search';
 import { useRouter, usePathname } from 'next/navigation';
-import { docsConfig } from '@/config/docs';
+// import { docsConfig } from '@/config/docs'; // No longer needed directly here
 import Fuse from 'fuse.js';
+import { DocItem } from '@/lib/content-extractor'; // Import DocItem
 
 // Mock next/navigation
 jest.mock('next/navigation', () => ({
@@ -12,7 +13,7 @@ jest.mock('next/navigation', () => ({
   usePathname: jest.fn(),
 }));
 
-// Mock docsConfig
+// Mock docsConfig (still needed for Sidebar generation, but not directly used by Search component anymore for its items)
 jest.mock('@/config/docs', () => ({
   docsConfig: {
     sidebarNav: [
@@ -33,28 +34,42 @@ jest.mock('@/config/docs', () => ({
   },
 }));
 
+
 // Mock Fuse.js
 jest.mock('fuse.js', () => {
-  return jest.fn().mockImplementation((list, options) => {
+  return jest.fn().mockImplementation((list: DocItem[], options) => {
+    // The list will now be DocItem[]
+    // The options will now include 'content' key
     const mockSearch = jest.fn((pattern) => {
       if (pattern === 'Doc') {
         return [
-          { item: { title: 'Doc A', section: 'Section 1', href: '/doc-a' } },
-          { item: { title: 'Doc C', section: 'Section 2', href: '/doc-c' } },
+          {
+            item: { title: 'Doc A', section: 'Section 1', href: '/doc-a', page: 1, content: 'This is a snippet for Doc A with keyword.' },
+            matches: [{ indices: [[23, 27]], key: 'content', value: 'This is a snippet for Doc A with keyword.' }],
+          },
+          {
+            item: { title: 'Doc C', section: 'Section 2', href: '/doc-c', page: 3, content: 'Doc C content with keyword in it.' },
+            matches: [{ indices: [[19, 23]], key: 'content', value: 'Doc C content with keyword in it.' }],
+          },
         ];
       }
       return [];
     });
     return {
       search: mockSearch,
-      list, // To allow inspecting the list Fuse was initialized with
-      options, // To allow inspecting the options Fuse was initialized with
+      list,
+      options,
     };
   });
 });
 
 describe('Search Component', () => {
   const mockPush = jest.fn();
+  const mockSearchableDocs: DocItem[] = [ // Define a mock for searchableDocs prop
+    { title: 'Doc A', section: 'Section 1', href: '/doc-a', page: 1, content: 'This is a snippet for Doc A with keyword.' },
+    { title: 'Doc B', section: 'Section 1', href: '/doc-b', page: 2, content: 'Doc B content without keyword.' },
+    { title: 'Doc C', section: 'Section 2', href: '/doc-c', page: 3, content: 'Doc C content with keyword in it.' },
+  ];
 
   beforeEach(() => {
     (useRouter as jest.Mock).mockReturnValue({ push: mockPush });
@@ -63,20 +78,20 @@ describe('Search Component', () => {
   });
 
   it('renders search input correctly', () => {
-    render(<Search />);
+    render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
     expect(screen.getByPlaceholderText('Search documentation...')).toBeInTheDocument();
-    expect(screen.getByRole('searchbox')).toBeInTheDocument(); // Changed from 'textbox' to 'searchbox'
+    expect(screen.getByRole('searchbox')).toBeInTheDocument();
   });
 
   it('updates query state on input change', () => {
-    render(<Search />);
+    render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
     const input = screen.getByPlaceholderText('Search documentation...');
     fireEvent.change(input, { target: { value: 'test query' } });
     expect(input).toHaveValue('test query');
   });
 
   it('displays search results when query matches', async () => {
-    render(<Search />);
+    render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
     const input = screen.getByPlaceholderText('Search documentation...');
     fireEvent.change(input, { target: { value: 'Doc' } });
 
@@ -89,7 +104,7 @@ describe('Search Component', () => {
   });
 
   it('does not display search results when query is too short', async () => {
-    render(<Search />);
+    render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
     const input = screen.getByPlaceholderText('Search documentation...');
     fireEvent.change(input, { target: { value: 'D' } }); // Query length < 2
 
@@ -97,7 +112,7 @@ describe('Search Component', () => {
   });
 
   it('navigates to selected document on result click', async () => {
-    render(<Search />);
+    render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
     const input = screen.getByPlaceholderText('Search documentation...');
     fireEvent.change(input, { target: { value: 'Doc' } });
 
@@ -106,6 +121,19 @@ describe('Search Component', () => {
     });
 
     expect(mockPush).toHaveBeenCalledTimes(1);
-    expect(mockPush).toHaveBeenCalledWith('/en/doc-a'); // Changed expectation to '/en/doc-a'
+    expect(mockPush).toHaveBeenCalledWith('/en/doc-a');
+  });
+
+  // New test case for displaying search results with snippet
+  it('displays search results with snippet when query matches', async () => {
+    render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
+    const input = screen.getByPlaceholderText('Search documentation...');
+    fireEvent.change(input, { target: { value: 'Doc' } });
+
+    await waitFor(() => {
+      // Expect the full content from the mock data, as getSnippet doesn't truncate much for short content
+      expect(screen.getByText('This is a snippet for Doc A with keyword.')).toBeInTheDocument();
+      expect(screen.getByText('Doc C content with keyword in it.')).toBeInTheDocument();
+    });
   });
 });

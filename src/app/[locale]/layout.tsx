@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/layout/header";
 import { Sidebar } from "@/components/layout/sidebar";
+import mapping from "@/data/mapping.json"; // Import mapping.json
+import { extractDocumentationContent } from "@/lib/content-extractor"; // Import content extractor
+import { docsConfig } from "@/config/docs"; // Import docsConfig
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,9 +27,12 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: { locale: string };
 }>) {
-  const { locale } = await params;
+  const { locale } = params;
+
+  // Extract content server-side
+  const searchableDocs = extractDocumentationContent(mapping.docs, docsConfig.sidebarNav); // Pass sidebarNav
 
   return (
     <html lang={locale}>
@@ -34,7 +40,7 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background`}
       >
         <div className="relative flex min-h-screen flex-col">
-          <Header />
+          <Header searchableDocs={searchableDocs} />
           <div className="flex-1 items-start md:grid md:grid-cols-[240px_minmax(0,1fr)] lg:grid-cols-[280px_minmax(0,1fr)]">
             <Sidebar />
             <main className="relative min-h-[calc(100vh-4rem)] p-4 md:p-8 lg:p-12">

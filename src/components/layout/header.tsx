@@ -4,8 +4,9 @@ import Link from "next/link";
 import { Search } from "@/components/search";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { DocItem } from "@/lib/content-extractor"; // Import DocItem
 
-export function Header() {
+export function Header({ searchableDocs }: { searchableDocs: DocItem[] }) { // Accept searchableDocs prop
   const pathname = usePathname();
   const currentLocale = pathname.split("/")[1] || "en";
 
@@ -68,7 +69,7 @@ export function Header() {
             ))}
           </div>
           <div className="w-full max-w-sm md:w-auto">
-            <Search />
+            <Search searchableDocs={searchableDocs} /> {/* Pass searchableDocs to Search */}
           </div>
         </div>
       </div>
