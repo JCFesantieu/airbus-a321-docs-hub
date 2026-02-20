@@ -3,11 +3,10 @@
 import * as React from "react";
 import { Search as SearchIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";
-// import { docsConfig } from "@/config/docs"; // This is now likely unnecessary for populating search items, content comes via props
 import { useRouter, usePathname } from "next/navigation";
 import Fuse from "fuse.js";
-import { DocItem } from "@/lib/content-extractor"; // Import DocItem
-import { cn } from "@/lib/utils"; // Import cn for class merging
+import { DocItem } from "@/lib/content-extractor";
+import { cn } from "@/lib/utils";
 
 // Helper function to extract a snippet from Fuse.js match
 function getSnippet(matches: Fuse.FuseResultMatch[] | undefined, key: string, maxLength: number = 100): string | null {
@@ -43,41 +42,50 @@ function getSnippet(matches: Fuse.FuseResultMatch[] | undefined, key: string, ma
 }
 
 
-export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // Accept searchableDocs prop
+export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) {
   const [query, setQuery] = React.useState("");
   const [results, setResults] = React.useState<any[]>([]);
-  const [activeIndex, setActiveIndex] = React.useState(-1); // New state for active item
+  const [activeIndex, setActiveIndex] = React.useState(-1);
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = pathname.split("/")[1] || "en";
 
-  // Use the passed searchableDocs directly for Fuse initialization
   const fuse = React.useMemo(() => {
     return new Fuse(searchableDocs, {
       keys: [
-        { name: 'title', weight: 0.5 }, // Now available in DocItem
-        { name: 'section', weight: 0.2 }, // Now available in DocItem
+        { name: 'title', weight: 0.5 },
+        { name: 'section', weight: 0.2 },
         { name: 'href', weight: 0.3 },
-        { name: 'content', weight: 0.7 }, // Add content key for search
+        { name: 'content', weight: 0.7 },
       ],
       includeScore: true,
-      includeMatches: true, // Include match data for snippets
+      includeMatches: true,
       threshold: 0.3,
       ignoreLocation: true,
       distance: 100,
       minMatchCharLength: 3,
     });
-  }, [searchableDocs]); // Re-initialize Fuse if searchableDocs changes
+  }, [searchableDocs]);
 
-  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setQuery(value);
-    setActiveIndex(-1); // Reset active index on new search
-    if (value.length > 1) {
-      setResults(fuse.search(value));
+  // Debounce the search logic
+  React.useEffect(() => {
+    if (query.length > 1) {
+      const handler = setTimeout(() => {
+        setResults(fuse.search(query));
+        setActiveIndex(-1); // Reset active index on new search results
+      }, 300); // 300ms debounce delay
+
+      return () => {
+        clearTimeout(handler);
+      };
     } else {
       setResults([]);
+      setActiveIndex(-1);
     }
+  }, [query, fuse]);
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setQuery(e.target.value);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -103,7 +111,7 @@ export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // A
     router.push(`/${currentLocale}${href}`);
     setQuery("");
     setResults([]);
-    setActiveIndex(-1); // Reset active index after selection
+    setActiveIndex(-1);
   };
 
   return (
@@ -115,7 +123,7 @@ export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // A
           placeholder="Search documentation..."
           className="pl-8 bg-white/10 border-white/20 text-white placeholder:text-white/50 focus-visible:ring-white/30 md:w-[250px] lg:w-[350px]"
           value={query}
-          onChange={handleSearch}
+          onChange={handleInputChange}
           onKeyDown={handleKeyDown}
         />
       </div>
@@ -127,7 +135,7 @@ export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // A
               return (
                 <button
                   key={result.item.href}
-                  className={cn( // Use cn to conditionally apply focused-result class
+                  className={cn(
                     "relative flex w-full cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-accent hover:text-accent-foreground",
                     { "focused-result bg-accent text-accent-foreground": index === activeIndex }
                   )}
