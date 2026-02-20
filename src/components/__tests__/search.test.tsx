@@ -124,7 +124,6 @@ describe('Search Component', () => {
     expect(mockPush).toHaveBeenCalledWith('/en/doc-a');
   });
 
-  // New test case for displaying search results with snippet
   it('displays search results with snippet when query matches', async () => {
     render(<Search searchableDocs={mockSearchableDocs} />); // Pass prop
     const input = screen.getByPlaceholderText('Search documentation...');
@@ -135,5 +134,48 @@ describe('Search Component', () => {
       expect(screen.getByText('This is a snippet for Doc A with keyword.')).toBeInTheDocument();
       expect(screen.getByText('Doc C content with keyword in it.')).toBeInTheDocument();
     });
+  });
+
+  it('navigates results with Up/Down arrow keys', async () => {
+    render(<Search searchableDocs={mockSearchableDocs} />);
+    const input = screen.getByPlaceholderText('Search documentation...');
+    fireEvent.change(input, { target: { value: 'Doc' } });
+
+    await waitFor(() => {
+      expect(screen.getByText('Doc A')).toBeInTheDocument();
+      expect(screen.getByText('Doc C')).toBeInTheDocument();
+    });
+
+    const docAButton = screen.getByText('Doc A').closest('button');
+    const docCButton = screen.getByText('Doc C').closest('button');
+
+    // Simulate pressing Down arrow - initially nothing is active, or first item
+    fireEvent.keyDown(input, { key: 'ArrowDown' });
+    expect(docAButton).toHaveClass('focused-result'); // Expect custom class for focused item
+
+    fireEvent.keyDown(input, { key: 'ArrowDown' }); // Move to next item
+    expect(docCButton).toHaveClass('focused-result');
+
+    fireEvent.keyDown(input, { key: 'ArrowUp' }); // Move back up
+    expect(docAButton).toHaveClass('focused-result');
+  });
+
+  it('selects result with Enter key', async () => {
+    render(<Search searchableDocs={mockSearchableDocs} />);
+    const input = screen.getByPlaceholderText('Search documentation...');
+    fireEvent.change(input, { target: { value: 'Doc' } });
+
+    await waitFor(() => {
+      expect(screen.getByText('Doc A')).toBeInTheDocument();
+    });
+
+    // Press Down to select the first item
+    fireEvent.keyDown(input, { key: 'ArrowDown' });
+
+    // Press Enter to select the active item
+    fireEvent.keyDown(input, { key: 'Enter' });
+
+    expect(mockPush).toHaveBeenCalledTimes(1);
+    expect(mockPush).toHaveBeenCalledWith('/en/doc-a'); // Expect navigation
   });
 });

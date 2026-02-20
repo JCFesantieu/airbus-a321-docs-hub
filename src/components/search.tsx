@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { useRouter, usePathname } from "next/navigation";
 import Fuse from "fuse.js";
 import { DocItem } from "@/lib/content-extractor"; // Import DocItem
+import { cn } from "@/lib/utils"; // Import cn for class merging
 
 // Helper function to extract a snippet from Fuse.js match
 function getSnippet(matches: Fuse.FuseResultMatch[] | undefined, key: string, maxLength: number = 100): string | null {
@@ -45,6 +46,7 @@ function getSnippet(matches: Fuse.FuseResultMatch[] | undefined, key: string, ma
 export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // Accept searchableDocs prop
   const [query, setQuery] = React.useState("");
   const [results, setResults] = React.useState<any[]>([]);
+  const [activeIndex, setActiveIndex] = React.useState(-1); // New state for active item
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = pathname.split("/")[1] || "en";
@@ -70,6 +72,7 @@ export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // A
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setQuery(value);
+    setActiveIndex(-1); // Reset active index on new search
     if (value.length > 1) {
       setResults(fuse.search(value));
     } else {
@@ -77,10 +80,30 @@ export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // A
     }
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (results.length === 0) return;
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setActiveIndex((prevIndex) =>
+        prevIndex < results.length - 1 ? prevIndex + 1 : prevIndex
+      );
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setActiveIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : 0));
+    } else if (e.key === "Enter") {
+      e.preventDefault();
+      if (activeIndex !== -1 && results[activeIndex]) {
+        onSelect(results[activeIndex].item.href);
+      }
+    }
+  };
+
   const onSelect = (href: string) => {
     router.push(`/${currentLocale}${href}`);
     setQuery("");
     setResults([]);
+    setActiveIndex(-1); // Reset active index after selection
   };
 
   return (
@@ -93,23 +116,27 @@ export function Search({ searchableDocs }: { searchableDocs: DocItem[] }) { // A
           className="pl-8 bg-white/10 border-white/20 text-white placeholder:text-white/50 focus-visible:ring-white/30 md:w-[250px] lg:w-[350px]"
           value={query}
           onChange={handleSearch}
+          onKeyDown={handleKeyDown}
         />
       </div>
       {results.length > 0 && (
         <div className="absolute top-full z-50 mt-2 w-full rounded-md border bg-popover text-popover-foreground shadow-md outline-none animate-in fade-in-0 zoom-in-95">
           <div className="p-1">
-            {results.slice(0, 5).map((result) => {
+            {results.slice(0, 5).map((result, index) => {
               const snippet = getSnippet(result.matches, 'content');
               return (
                 <button
                   key={result.item.href}
-                  className="relative flex w-full cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-accent hover:text-accent-foreground"
+                  className={cn( // Use cn to conditionally apply focused-result class
+                    "relative flex w-full cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none hover:bg-accent hover:text-accent-foreground",
+                    { "focused-result bg-accent text-accent-foreground": index === activeIndex }
+                  )}
                   onClick={() => onSelect(result.item.href)}
                 >
                   <div className="flex flex-col text-left">
-                    <span className="font-medium">{result.item.title}</span> {/* title is now in DocItem */}
+                    <span className="font-medium">{result.item.title}</span>
                     {snippet && <span className="text-xs text-muted-foreground">{snippet}</span>}
-                    {result.item.section && <span className="text-xs text-muted-foreground">{result.item.section}</span>} {/* section is now in DocItem */}
+                    {result.item.section && <span className="text-xs text-muted-foreground">{result.item.section}</span>}
                   </div>
                 </button>
               );
