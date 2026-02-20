@@ -57,7 +57,7 @@ jest.mock('fuse.js', () => {
   const MockFuse = jest.fn().mockImplementation((list: DocItem[], options) => {
     // This constructor mock is called when new Fuse() is used
     return {
-      search: mockFuseSearch, // Always return the SAME mockFuseSearch
+      search: mockFuseSearch, // Always return the SAME mockSearch
       list,
       options,
     };
