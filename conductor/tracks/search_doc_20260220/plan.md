@@ -10,6 +10,10 @@ This plan outlines the steps to implement the core documentation search function
 - [x] Task: Integrate Fuse.js library [ffed35b]
     - [ ] Write tests for Fuse.js integration
     - [ ] Implement Fuse.js initialization with the created index
+- [ ] Task: Extract and prepare documentation content for search indexing
+    - [ ] Write tests for content extraction and preparation
+    - [ ] Implement content extraction from documentation files
+    - [ ] Prepare extracted content for Fuse.js DocItem format
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Setup and Indexing' (Protocol in workflow.md)
 
 ## Phase 2: UI Integration
@@ -17,7 +21,7 @@ This plan outlines the steps to implement the core documentation search function
 - [x] Task: Design and implement search input component [91f4126]
     - [ ] Write tests for search input component
     - [ ] Implement search input component using Shadcn UI
-- [ ] Task: Implement search results display component
+- [b] Task: Implement search results display component
     - [ ] Write tests for search results display component
     - [ ] Implement search results display component to show title, snippet, and link
 - [ ] Task: Connect search input to Fuse.js
