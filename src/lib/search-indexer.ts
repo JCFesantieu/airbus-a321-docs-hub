@@ -4,21 +4,25 @@ import Fuse from 'fuse.js';
 interface DocItem {
   href: string;
   page: number;
-  content?: string; // Assuming content might be present for indexing
+  title: string; // Add title
+  section?: string; // Add section (optional)
+  content: string; // Content is now mandatory
 }
 
 export function createSearchIndex(docs: DocItem[]): Fuse<DocItem> {
   const options: Fuse.IFuseOptions<DocItem> = {
     keys: [
-      { name: 'href', weight: 0.3 }, // Give href a lower weight
-      { name: 'content', weight: 0.7 }, // Give content a higher weight
+      { name: 'title', weight: 0.5 },
+      { name: 'section', weight: 0.2 },
+      { name: 'href', weight: 0.3 },
+      { name: 'content', weight: 0.7 },
     ],
     includeScore: true,
-    // includeMatches: true, // For debugging purposes
+    includeMatches: true, // IMPORTANT: Include match data for snippets
     threshold: 0.3,
-    ignoreLocation: true, // Search throughout the entire string
-    distance: 100, // Distance for fuzzy matching. A higher value means more fuzziness.
-    minMatchCharLength: 3, // Minimum number of characters to be a match
+    ignoreLocation: true,
+    distance: 100,
+    minMatchCharLength: 3,
   };
 
   const fuse = new Fuse(docs, options);
