@@ -9,7 +9,9 @@ module.exports = {
     '!src/**/*.d.ts',
     '!src/app/**', // Exclude Next.js app directory for now
     '!src/lib/__tests__/**',
+    '!src/components/__tests__/**', // Exclude component tests from coverage calculation
   ],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
