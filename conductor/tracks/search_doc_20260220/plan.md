@@ -2,7 +2,7 @@
 
 This plan outlines the steps to implement the core documentation search functionality.
 
-## Phase 1: Setup and Indexing [checkpoint: caabde4]
+## Phase 1: Setup and Indexing [checkpoint: b35e236]
 
 - [x] Task: Create search index structure [6a8c2f7]
     - [ ] Write tests for search index creation
