@@ -77,3 +77,4 @@ gcloud run deploy airbus-a321-docs \
 
 ## 📄 License
 This project is licensed under the terms provided in the documentation sources (Airbus Technical Data).
+\n<!-- Triggering a new deployment to verify IAM permissions -->
