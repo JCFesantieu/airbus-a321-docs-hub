@@ -27,9 +27,9 @@ export default async function RootLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }>) {
-  const { locale } = params;
+  const { locale } = await params;
 
   // Extract content server-side
   const searchableDocs = extractDocumentationContent(mapping.docs, docsConfig.sidebarNav); // Pass sidebarNav

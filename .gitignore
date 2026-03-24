@@ -50,3 +50,6 @@ __pycache__/
 /input/
 /content.md
 /lang_export/
+
+.gemini/
+gha-creds-*.json

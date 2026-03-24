@@ -1,5 +1,6 @@
 // src/lib/search-indexer.ts
 import Fuse from 'fuse.js';
+import type { IFuseOptions } from 'fuse.js';
 
 interface DocItem {
   href: string;
@@ -10,7 +11,7 @@ interface DocItem {
 }
 
 export function createSearchIndex(docs: DocItem[]): Fuse<DocItem> {
-  const options: Fuse.IFuseOptions<DocItem> = {
+  const options: IFuseOptions<DocItem> = {
     keys: [
       { name: 'title', weight: 0.5 },
       { name: 'section', weight: 0.2 },

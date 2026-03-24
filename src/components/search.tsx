@@ -5,11 +5,12 @@ import { Search as SearchIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { useRouter, usePathname } from "next/navigation";
 import Fuse from "fuse.js";
+import type { FuseResultMatch } from "fuse.js";
 import { DocItem } from "@/lib/content-extractor";
 import { cn } from "@/lib/utils";
 
 // Helper function to extract a snippet from Fuse.js match
-function getSnippet(matches: Fuse.FuseResultMatch[] | undefined, key: string, maxLength: number = 100): string | null {
+function getSnippet(matches: readonly FuseResultMatch[] | undefined, key: string, maxLength: number = 100): string | null {
   if (!matches) return null;
   const contentMatch = matches.find(m => m.key === key);
   if (!contentMatch || !contentMatch.value || !contentMatch.indices) return null;
