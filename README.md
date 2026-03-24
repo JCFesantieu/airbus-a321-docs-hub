@@ -1,5 +1,7 @@
 # Airbus A321 Technical Documentation Hub
 
+![Deploy to Cloud Run](https://github.com/JCFesantieu/airbus-a321-docs-hub/actions/workflows/deploy.yml/badge.badge.svg)
+
 A modern, high-performance technical documentation portal for the **Airbus A321 Aircraft Characteristics - Airport and Maintenance Planning** manual. This project transforms raw PDF data into a searchable, responsive, and interactive web experience.
 
 ## 🚀 Live Demo
